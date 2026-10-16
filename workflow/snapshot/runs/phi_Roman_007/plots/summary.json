@@ -1,0 +1,391 @@
+{
+  "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/phi_Roman_007.root",
+  "tree": "h10",
+  "before": 1000,
+  "after": 549,
+  "cut": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "branches": [
+    "Em",
+    "MM2",
+    "Mhadron",
+    "PMsigned",
+    "Pm",
+    "Q2",
+    "Q2i",
+    "W",
+    "Weight",
+    "Wi",
+    "decdist",
+    "epsilon",
+    "epsiloni",
+    "factor",
+    "fry",
+    "hsdelta",
+    "hsdeltai",
+    "hsxfp",
+    "hsxpfp",
+    "hsxptar",
+    "hsxptari",
+    "hsyfp",
+    "hsypfp",
+    "hsyptar",
+    "hsyptari",
+    "hsytar",
+    "hsytari",
+    "minus_u",
+    "missmass",
+    "mmnuc",
+    "nu",
+    "pfermi",
+    "phad",
+    "phicmi",
+    "phimq",
+    "phipq",
+    "phipqi",
+    "pmoop",
+    "pmpar",
+    "pmper",
+    "q",
+    "radphot",
+    "sigcm",
+    "siglab",
+    "ssdelta",
+    "ssdeltai",
+    "ssxfp",
+    "ssxpfp",
+    "ssxptar",
+    "ssxptari",
+    "ssyfp",
+    "ssypfp",
+    "ssyptar",
+    "ssyptari",
+    "ssytar",
+    "ssytari",
+    "t",
+    "thetacm",
+    "thetacmi",
+    "thetamq",
+    "thetapq",
+    "thetapqi",
+    "ti",
+    "tprimei",
+    "ui",
+    "wcmi"
+  ],
+  "has_weight": true,
+  "weight_stats": {
+    "negative": 963,
+    "zero": 0,
+    "nonfinite": 0,
+    "sum": -1.113753663140038e-05,
+    "min": -2.0993867977381342e-08,
+    "max": 1.4063671338604422e-09
+  },
+  "missing_requested_columns": [
+    "hsxtar",
+    "ssxtar"
+  ],
+  "normalization": "None. Signed weights retained verbatim; raw counts are not yields.",
+  "histogram_flows": {
+    "Q2_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "Q2_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "W_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "W_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "t_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "t_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "missmass_raw": [
+      {
+        "underflow": 1.0,
+        "overflow": 0.0,
+        "in_range": 999.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "missmass_weighted": [
+      {
+        "underflow": 3.961269645635923e-10,
+        "overflow": 0.0,
+        "in_range": -1.1137932758364943e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "hsdelta_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "hsdelta_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "ssdelta_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "ssdelta_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "hsxptar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 10.0,
+        "in_range": 990.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "hsxptar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 6.296445920206395e-09,
+        "in_range": -1.1143833077320586e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "ssxptar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "ssxptar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "hsyptar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "hsyptar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "ssyptar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "ssyptar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "hsytar_raw": [
+      {
+        "underflow": 2.0,
+        "overflow": 4.0,
+        "in_range": 994.0
+      },
+      {
+        "underflow": 2.0,
+        "overflow": 1.0,
+        "in_range": 546.0
+      }
+    ],
+    "hsytar_weighted": [
+      {
+        "underflow": 2.3285301464781583e-09,
+        "overflow": 2.567091039740177e-09,
+        "in_range": -1.1142432252586598e-05
+      },
+      {
+        "underflow": 2.3285301464781583e-09,
+        "overflow": 9.365090924973174e-10,
+        "in_range": -6.166521645478706e-06
+      }
+    ],
+    "ssytar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ],
+    "ssytar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.113753663140038e-05
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -6.163256606239731e-06
+      }
+    ],
+    "Weight_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 549.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+******************************************************************************
+*Tree    :h10       : h10                                                    *
+*Entries :     1000 : Total =          306632 bytes  File  Size =          0 *
+*        :          : Tree compression factor =   1.00                       *
+******************************************************************************
+*Br    0 :hsdelta   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    1 :hsyptar   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    2 :hsxptar   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    3 :hsytar    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    4 :hsxfp     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    5 :hsxpfp    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    6 :hsyfp     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    7 :hsypfp    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    8 :hsdeltai  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    9 :hsyptari  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   10 :hsxptari  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   11 :hsytari   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   12 :ssdelta   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   13 :ssyptar   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   14 :ssxptar   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   15 :ssytar    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   16 :ssxfp     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   17 :ssxpfp    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   18 :ssyfp     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   19 :ssypfp    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   20 :ssdeltai  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   21 :ssyptari  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   22 :ssxptari  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   23 :ssytari   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   24 :q         : Float_t                                                *
+*Entries :     1000 : Total  Size=       4617 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   25 :nu        : Float_t                                                *
+*Entries :     1000 : Total  Size=       4623 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   26 :Q2        : Float_t                                                *
+*Entries :     1000 : Total  Size=       4623 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   27 :W         : Float_t                                                *
+*Entries :     1000 : Total  Size=       4617 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   28 :epsilon   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   29 :Em        : Float_t                                                *
+*Entries :     1000 : Total  Size=       4623 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   30 :Pm        : Float_t                                                *
+*Entries :     1000 : Total  Size=       4623 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   31 :thetapq   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   32 :phipq     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   33 :thetacm   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   34 :missmass  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   35 :mmnuc     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   36 :phad      : Float_t                                                *
+*Entries :     1000 : Total  Size=       4635 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   37 :t         : Float_t                                                *
+*Entries :     1000 : Total  Size=       4617 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   38 :pmpar     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   39 :pmper     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   40 :pmoop     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   41 :fry       : Float_t                                                *
+*Entries :     1000 : Total  Size=       4629 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   42 :radphot   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   43 :pfermi    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   44 :siglab    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   45 :sigcm     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   46 :Weight    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   47 :decdist   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   48 :Mhadron   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   49 :MM2       : Float_t                                                *
+*Entries :     1000 : Total  Size=       4629 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   50 :Q2i       : Float_t                                                *
+*Entries :     1000 : Total  Size=       4629 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   51 :Wi        : Float_t                                                *
+*Entries :     1000 : Total  Size=       4623 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   52 :ti        : Float_t                                                *
+*Entries :     1000 : Total  Size=       4623 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   53 :thetapqi  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   54 :phipqi    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   55 :thetacmi  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   56 :PMsigned  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   57 :thetamq   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   58 :factor    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   59 :phimq     : Float_t                                                *
+*Entries :     1000 : Total  Size=       4641 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   60 :minus_u   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   61 :phicmi    : Float_t                                                *
+*Entries :     1000 : Total  Size=       4647 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   62 :tprimei   : Float_t                                                *
+*Entries :     1000 : Total  Size=       4653 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   63 :wcmi      : Float_t                                                *
+*Entries :     1000 : Total  Size=       4635 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   64 :epsiloni  : Float_t                                                *
+*Entries :     1000 : Total  Size=       4659 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   65 :ui        : Float_t                                                *
+*Entries :     1000 : Total  Size=       4623 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+ Enter filename to convert (without .bin extesntion)
+ opening file: ../../worksim/omega_Roman_007.bin                                               
+ Variables in output file:

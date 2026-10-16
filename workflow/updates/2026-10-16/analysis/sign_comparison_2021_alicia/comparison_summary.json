@@ -1,0 +1,213 @@
+{
+  "versions": {
+    "2021": "8b43f9d0dd3be977df93b35abc528a389ca70d5c",
+    "Alicia_Acpostuma": "b6025c462ef33eeb620bdf4b399cd602c92e89bf"
+  },
+  "selection": "All 1000 stored events per run; no additional analysis cuts.",
+  "values": "Signed native ntuple values; no event weighting, normalization, absolute value, or unit conversion.",
+  "inputs": {
+    "test_eep_h_root.inp": {
+      "byte_identical": true,
+      "sha256": "af9a29af288eedf880f54297c9ffe197ae2801e802d201ffde8e4e5d2dbe84b0"
+    },
+    "extra_hydrogen_root.inp": {
+      "byte_identical": true,
+      "sha256": "bc739b7391cdbda0a06aeaa4cdb8af9948bc563c68407fbcf9247744997423f3"
+    },
+    "test_pion_h_sign.inp": {
+      "byte_identical": true,
+      "sha256": "9be9cfa0a2c17e6e95c89dd28af41e8e59e7f81b1c4caa43be235f82e11c6ac2"
+    },
+    "extra_nucpi_sign.inp": {
+      "byte_identical": true,
+      "sha256": "0674baed8d12882c5ac3a86770f7fb0edab9fe0eac356978f40c4e968c8e6b26"
+    }
+  },
+  "tests": {
+    "test_eep_h_root": {
+      "reaction": "Elastic H(e,e'p)",
+      "runs": {
+        "2021": {
+          "stored_events": 1000,
+          "generation_attempts": 3874,
+          "signs": {
+            "sigcc": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 3.163961411498508e-05,
+              "max": 0.00010893848977630884,
+              "mean": 4.016161217466076e-05
+            },
+            "Weight": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 2.496122642707434e-05,
+              "max": 0.00010385029971236337,
+              "mean": 3.525242284264847e-05
+            }
+          },
+          "binary_sha256": "19b4abdf8896e547893255ff9dc52a7d5a18f2009845af0ab8d5fcd029c5a427",
+          "initial_random_state_sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+        },
+        "Alicia": {
+          "stored_events": 1000,
+          "generation_attempts": 3892,
+          "signs": {
+            "sigcc": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 3.163961411498508e-05,
+              "max": 0.00010893848977630884,
+              "mean": 4.023788164235929e-05
+            },
+            "Weight": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 2.496122642707434e-05,
+              "max": 0.00010385029971236337,
+              "mean": 3.532002398345907e-05
+            }
+          },
+          "binary_sha256": "0a6cc002f3b3607f7e0ab8fb37be4c78c7bb81c6fda3e7930be10e0372355075",
+          "initial_random_state_sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+        }
+      },
+      "alicia_native_branch_mapping": {
+        "sigcc": "siglab",
+        "Weight": "Weight"
+      },
+      "mean_ratios_alicia_over_2021": {
+        "sigcc": 1.0018990638963108,
+        "Weight": 1.0019176310551008
+      },
+      "initial_random_states_byte_identical": true,
+      "same_index_exactly_equal_branches": []
+    },
+    "test_pion_h_sign": {
+      "reaction": "Pion H(e,e'$\\pi^+$)n",
+      "runs": {
+        "2021": {
+          "stored_events": 1000,
+          "generation_attempts": 278783,
+          "signs": {
+            "sigcm": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 3.496224619310706e-06,
+              "max": 0.00011268570342321018,
+              "mean": 3.490898842293695e-05
+            },
+            "siglab": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 2.5278086301993784e-06,
+              "max": 0.00016834850787464346,
+              "mean": 3.9208183801511325e-05
+            },
+            "Weight": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 2.0387989542961842e-06,
+              "max": 0.00015371625692368228,
+              "mean": 3.095099939073204e-05
+            }
+          },
+          "binary_sha256": "0925db5ae6ff4d1acb794b332cdbe29202d775739c4a874834b7cb55ecc3e56b",
+          "initial_random_state_sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+        },
+        "Alicia": {
+          "stored_events": 1000,
+          "generation_attempts": 278806,
+          "signs": {
+            "sigcm": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 3.496224619310706e-06,
+              "max": 0.00011268570342321018,
+              "mean": 3.490898842293695e-05
+            },
+            "siglab": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 2.5278086301993784e-06,
+              "max": 0.00016834850787464346,
+              "mean": 3.9208183801511325e-05
+            },
+            "Weight": {
+              "negative": 0,
+              "zero": 0,
+              "positive": 1000,
+              "nonfinite": 0,
+              "min": 2.0387989542961842e-06,
+              "max": 0.00015371625692368228,
+              "mean": 3.095099939073204e-05
+            }
+          },
+          "binary_sha256": "14be18e5d7b54084d86bdfcd37c82ae6d963039fadc40e412e53bd8baf248764",
+          "initial_random_state_sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+        }
+      },
+      "alicia_native_branch_mapping": {
+        "sigcm": "sigcm",
+        "siglab": "siglab",
+        "Weight": "Weight"
+      },
+      "mean_ratios_alicia_over_2021": {
+        "sigcm": 1.0,
+        "siglab": 1.0,
+        "Weight": 1.0
+      },
+      "initial_random_states_byte_identical": true,
+      "same_index_exactly_equal_branches": [
+        "Q2i",
+        "Weight",
+        "Wi",
+        "decdist",
+        "fry",
+        "hsdeltai",
+        "hsxfp",
+        "hsxpfp",
+        "hsxptari",
+        "hsyfp",
+        "hsypfp",
+        "hsyptari",
+        "hsytari",
+        "pfermi",
+        "phipqi",
+        "radphot",
+        "sigcm",
+        "siglab",
+        "ssdeltai",
+        "ssxptari",
+        "ssyptari",
+        "ssytari",
+        "ti"
+      ]
+    }
+  },
+  "source_audit": {
+    "checked_fortran_and_include_files": 179,
+    "differences_from_archive": [],
+    "source_archive_sha256": "98898bfba245098246d6e8a35c2297d2a8da24d30c8dba04830751018119b215",
+    "executable_sha256": "833c9e86096236f46e77ba27efe705aa9746b6228448abe9c32437eb19870c2c"
+  },
+  "scope": "Elastic and pion comparisons only. These tests do not validate the omega model or identify the reported omega sign bug."
+}

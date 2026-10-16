@@ -1,0 +1,1550 @@
+{
+  "README_UK.md": {
+    "bytes": 12886,
+    "sha256": "64ebf646b69bad9a9b18a1e82addb5f32d9825e3370d39dfc1838797fda594cf"
+  },
+  "analysis_summary.json": {
+    "bytes": 49657,
+    "sha256": "eabd0a05e503ff9c627a4a9c764f9e85f7dd0503a4dee96d69c9fd4a956adbe7"
+  },
+  "analyze.sh": {
+    "bytes": 107,
+    "sha256": "5e222c34d67e83bca24165d50290a4f0893f58844c9427f76adcf60a00ee530f"
+  },
+  "analyze_henry_check.py": {
+    "bytes": 588,
+    "sha256": "5886c0c68235d28399eaa73325b33c36525c10caae62a4578069414a74ed1e6c"
+  },
+  "analyze_root.py": {
+    "bytes": 8787,
+    "sha256": "1e08f5911810526c4fedaea955168cd89b1314b9970ca71174b337017ddcdfe4"
+  },
+  "build.ps1": {
+    "bytes": 389,
+    "sha256": "c7a08b2ed15627f5a4763e89cf9f1a26b36599ba168b7682f7072606c346261d"
+  },
+  "build.sh": {
+    "bytes": 192,
+    "sha256": "d7ef17d8292bb217530073eedeb0cde93d51a213efa6f7558955c880d745bf7d"
+  },
+  "check_weights.py": {
+    "bytes": 930,
+    "sha256": "c8e7b70c6e1cb1d699c90040c4123b11a354dfa8f6ed372bde31e96078e0e2fe"
+  },
+  "check_weights.sh": {
+    "bytes": 108,
+    "sha256": "9b69c233886f045c228bd4751aba560a45032118b4b1aa12b6a8fc8960efe3c1"
+  },
+  "converter_build.log": {
+    "bytes": 253,
+    "sha256": "e2fa4b3a861ea87c88e2a5e66f41a3b57fd5891709d99be41f168d8c60bfba41"
+  },
+  "infiles/eta_Roman_007.inp": {
+    "bytes": 5381,
+    "sha256": "76c69104e6c6720a097a49cb4355f8ac976224ce27aebb7120a482cc820f398d"
+  },
+  "infiles/etap_Roman_007.inp": {
+    "bytes": 5380,
+    "sha256": "9cd9455be3360f4398ed81fed6da32868b6936e8053a1b6dd4c0eabf489981e0"
+  },
+  "infiles/omega_Roman_007.inp": {
+    "bytes": 5535,
+    "sha256": "def61cb007eddd4bd7b86583596b25d8bcf9d53af9a99d8e2f30587d43d52759"
+  },
+  "infiles/phi_Roman_007.inp": {
+    "bytes": 5383,
+    "sha256": "ea0bb93b614ebdd7940b94dd8fd92e49b2fb19ef7f6d3780106751ede5cbb8b6"
+  },
+  "infiles/rho_Roman_007.inp": {
+    "bytes": 5395,
+    "sha256": "cfb9d43b3d6a3a26811f7b3e0935e87c0e8b75ad89263d8e718c74c6829291fa"
+  },
+  "infiles/xphsp_Roman_007.inp": {
+    "bytes": 5542,
+    "sha256": "05c91ed65d733549545840eefb06a0f3698bd5bf9f5df551addfe91c0607286f"
+  },
+  "input_audit.json": {
+    "bytes": 2304,
+    "sha256": "5588f9ead4481d33d6419ca04557e2d6c6f877d2678170d32004927a9436bce1"
+  },
+  "prepare_inputs.py": {
+    "bytes": 2243,
+    "sha256": "debf5add20349ea0f8313f2938925bcba75966a8dfbcb732b29a8bed0087931d"
+  },
+  "run.ps1": {
+    "bytes": 363,
+    "sha256": "10fdb29563bc7a354cc1f80cc235cccc485cf103eaceeaaf5df87795a33e133b"
+  },
+  "run_tests.sh": {
+    "bytes": 1525,
+    "sha256": "85b5b34b6f5ec73ec0887c27b39dd896823af85b0532e1c4a16c8d101dda7d0c"
+  },
+  "runs/eta_Roman_007/conversion.log": {
+    "bytes": 21427,
+    "sha256": "a81537f347dc6bc745cd49ea3fe80598fab56b7485e97dfeeda4314101dd1ad3"
+  },
+  "runs/eta_Roman_007/eta_Roman_007.gen": {
+    "bytes": 25690,
+    "sha256": "26b0197b082689f721657c17bd9ea59d35ffefef18e6627bcdd891c73b181040"
+  },
+  "runs/eta_Roman_007/eta_Roman_007.geni": {
+    "bytes": 1421,
+    "sha256": "ad25def2329e8f90d8ac279c295d9cdc4716c1fe77daaef793670b4414869703"
+  },
+  "runs/eta_Roman_007/eta_Roman_007.hist": {
+    "bytes": 9616,
+    "sha256": "2fcdb216f7f4182da00d92859c5b80429edbbdbf17b44bdbb91799742b874380"
+  },
+  "runs/eta_Roman_007/eta_Roman_007.inp": {
+    "bytes": 5381,
+    "sha256": "76c69104e6c6720a097a49cb4355f8ac976224ce27aebb7120a482cc820f398d"
+  },
+  "runs/eta_Roman_007/eta_Roman_007.root": {
+    "bytes": 255871,
+    "sha256": "a1aaf4ce5fe8759ea01f011213ccbb9b161bde15a7c0339f4af9d58e29c28ce7"
+  },
+  "runs/eta_Roman_007/eta_Roman_007_start_random_state.dat": {
+    "bytes": 325,
+    "sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+  },
+  "runs/eta_Roman_007/exit_code.txt": {
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  "runs/eta_Roman_007/plots/Q2_raw.pdf": {
+    "bytes": 14563,
+    "sha256": "d290ef994720435a71553e01b9bf227ab6ecfc3764141d166178437a6bb28c03"
+  },
+  "runs/eta_Roman_007/plots/Q2_raw.png": {
+    "bytes": 17046,
+    "sha256": "72b079e4ba6ad7060b165e8b75f2b4ad9db02235747a0cf91fafafc1783958a4"
+  },
+  "runs/eta_Roman_007/plots/Q2_weighted.pdf": {
+    "bytes": 14610,
+    "sha256": "f73e5d9944734212369cc41e5e4217c9eb920d6b186f730ab087a89f13c87711"
+  },
+  "runs/eta_Roman_007/plots/Q2_weighted.png": {
+    "bytes": 18093,
+    "sha256": "f59d9cf660ebeb0d5a12079c34429af3dccc5c5cf570142431a6840028ede5f0"
+  },
+  "runs/eta_Roman_007/plots/W_raw.pdf": {
+    "bytes": 14417,
+    "sha256": "595da478aeec5ba4c317d544c0e8a9d358e9b2c048e60904b7ddd2fe359f397e"
+  },
+  "runs/eta_Roman_007/plots/W_raw.png": {
+    "bytes": 15821,
+    "sha256": "39b46c409ea306782aa914c4f77dfd2400c1f7f586ca8bb8515e19a3146e6eb0"
+  },
+  "runs/eta_Roman_007/plots/W_weighted.pdf": {
+    "bytes": 14472,
+    "sha256": "817408fd9fbc823b51b8853b4a86120573e29c8907178049c9826c913fac6ff8"
+  },
+  "runs/eta_Roman_007/plots/W_weighted.png": {
+    "bytes": 17700,
+    "sha256": "e04ba0ec62b742b210fb1f26bff6c61132d0f2ed719f4458ef99b9c711b802eb"
+  },
+  "runs/eta_Roman_007/plots/Weight_raw.pdf": {
+    "bytes": 14199,
+    "sha256": "7a52b160f7364922f7b67cbfe1d1dce3d387202f55a9031f5f20f60e22a093e4"
+  },
+  "runs/eta_Roman_007/plots/Weight_raw.png": {
+    "bytes": 16029,
+    "sha256": "2b3ac43a55c6496409cee9823031a4e38c2831b52e1fd12b910edec742eb146c"
+  },
+  "runs/eta_Roman_007/plots/histograms.root": {
+    "bytes": 41402,
+    "sha256": "e18d3aca26e6fd356b84e219bd3c61cb33e7403637f4444f14628e5b25ceddbd"
+  },
+  "runs/eta_Roman_007/plots/hsdelta_raw.pdf": {
+    "bytes": 14603,
+    "sha256": "dd6323df25ccc3e823d079b0871cfbaea836a1bd77c6a685918238a39fb29d06"
+  },
+  "runs/eta_Roman_007/plots/hsdelta_raw.png": {
+    "bytes": 16616,
+    "sha256": "50d5fa517c7f785a56e7012162eef9fb31b6e8d675e5dd1915b5559c9dc86c08"
+  },
+  "runs/eta_Roman_007/plots/hsdelta_weighted.pdf": {
+    "bytes": 14724,
+    "sha256": "d079b42ec8d5c745b0e5d4bf5ea0e9e0e947b4ce35efdc382028bacb35c856ec"
+  },
+  "runs/eta_Roman_007/plots/hsdelta_weighted.png": {
+    "bytes": 17513,
+    "sha256": "b0e439687f7974f62cbf9290099ed20763cc3d484b54f07ed72ccb5f9ce93db7"
+  },
+  "runs/eta_Roman_007/plots/hsxptar_raw.pdf": {
+    "bytes": 14616,
+    "sha256": "a5fd56be07dc1ed1a2876bdd53c6dc7d40b59d009afcb89af826676a587a94ce"
+  },
+  "runs/eta_Roman_007/plots/hsxptar_raw.png": {
+    "bytes": 16671,
+    "sha256": "4c865b02e9bec9c69ff018a3a6d45934c1577ddd17d0314373e357803534a0b5"
+  },
+  "runs/eta_Roman_007/plots/hsxptar_weighted.pdf": {
+    "bytes": 14694,
+    "sha256": "f2cad4108872e244dccb2c8a0ac6f7a6c6485a5854f8b0b0279604be2256798b"
+  },
+  "runs/eta_Roman_007/plots/hsxptar_weighted.png": {
+    "bytes": 17161,
+    "sha256": "de0790862ce47c4d9b74da514472c26055caca1b96b016ee09e82d6dc46fd80f"
+  },
+  "runs/eta_Roman_007/plots/hsyptar_raw.pdf": {
+    "bytes": 14502,
+    "sha256": "b8c870bd072393f298e373821484d35775b1b2ba970b2dbb276c4c83c8728d23"
+  },
+  "runs/eta_Roman_007/plots/hsyptar_raw.png": {
+    "bytes": 16088,
+    "sha256": "fd09bd8bcf3b44d63591f8a7f4b8ab1394e92b4f4efee6bb4317a97c42be9607"
+  },
+  "runs/eta_Roman_007/plots/hsyptar_weighted.pdf": {
+    "bytes": 14928,
+    "sha256": "d860e1d3dde35e7389f729818a44cc8347d6ea956b4d5199ba496d041e8974ec"
+  },
+  "runs/eta_Roman_007/plots/hsyptar_weighted.png": {
+    "bytes": 18678,
+    "sha256": "36f14acb7e969ebb454720e37952316dd30774213be4505093e43e065f8d81c4"
+  },
+  "runs/eta_Roman_007/plots/hsytar_raw.pdf": {
+    "bytes": 14514,
+    "sha256": "01ac60db5567841f2a77c9a5861dbb3d8f72ec9e4d9ce6c63f49187765ae38f0"
+  },
+  "runs/eta_Roman_007/plots/hsytar_raw.png": {
+    "bytes": 15657,
+    "sha256": "f242d19fa32f824e6cc4d48f60d512101876ea681d61a2d6ec9e2e0812060e56"
+  },
+  "runs/eta_Roman_007/plots/hsytar_weighted.pdf": {
+    "bytes": 14825,
+    "sha256": "33da6cd77c876b39882f7a230cc87b5a741c9df70f39bb0816c11d0e7cafeec4"
+  },
+  "runs/eta_Roman_007/plots/hsytar_weighted.png": {
+    "bytes": 18046,
+    "sha256": "394f83078917fcfe5dab25473a2062c6fbfec7c00d1cefe7bc3dbc16f2d7ab7a"
+  },
+  "runs/eta_Roman_007/plots/missmass_raw.pdf": {
+    "bytes": 14173,
+    "sha256": "34da569366ae5a60c62ec2522f7be2e83bacdef3e1e352cce1d883fe07a615f5"
+  },
+  "runs/eta_Roman_007/plots/missmass_raw.png": {
+    "bytes": 16960,
+    "sha256": "bf1e580f0fe3b6a1f8073d22182e09b415fc22d0a3bcb22ff30e50795ffa947c"
+  },
+  "runs/eta_Roman_007/plots/missmass_weighted.pdf": {
+    "bytes": 14294,
+    "sha256": "1e261f4ef82328a4313a99f46b68ec3fc05392bbc76bdaba2ab968a224cd7bfc"
+  },
+  "runs/eta_Roman_007/plots/missmass_weighted.png": {
+    "bytes": 18822,
+    "sha256": "0ad7b7f1a7da4ee231870b37e5fd1763198978b6acfb4691bba14504bae1b0a8"
+  },
+  "runs/eta_Roman_007/plots/ssdelta_raw.pdf": {
+    "bytes": 14377,
+    "sha256": "e30abbcfa402ad84f529d131cef34d7d7c991202eb8fcd3c3812d2077a70385e"
+  },
+  "runs/eta_Roman_007/plots/ssdelta_raw.png": {
+    "bytes": 15706,
+    "sha256": "9320f663fcc89e0193cec10b5e8d490e12001cf9d30fe3932b5b00611b553de2"
+  },
+  "runs/eta_Roman_007/plots/ssdelta_weighted.pdf": {
+    "bytes": 14388,
+    "sha256": "80d80d3d638c6bdcbf7a203a22e23195a63dfe39a8392eca07be8c1844e49c4a"
+  },
+  "runs/eta_Roman_007/plots/ssdelta_weighted.png": {
+    "bytes": 16977,
+    "sha256": "de2e294c477d762031c85376dc1580ee6b38d4d7dadb853f6c556c19a6dfb3ce"
+  },
+  "runs/eta_Roman_007/plots/ssxptar_raw.pdf": {
+    "bytes": 14580,
+    "sha256": "04a43a68ff917af677a82c666a6d2b616c96ab9f05f33668c8b6bf4071988bbb"
+  },
+  "runs/eta_Roman_007/plots/ssxptar_raw.png": {
+    "bytes": 16594,
+    "sha256": "e7cbaf25e51d3ee371bcbca92b89bd7db46553ef85147d3fea7f50ee9019ce0f"
+  },
+  "runs/eta_Roman_007/plots/ssxptar_weighted.pdf": {
+    "bytes": 14635,
+    "sha256": "39756342a822b4ca102da591e240ddc4106814b1653c0948f48ce0c9e93d5a13"
+  },
+  "runs/eta_Roman_007/plots/ssxptar_weighted.png": {
+    "bytes": 17305,
+    "sha256": "b8fe956e87bd70e96aa8341a7a2061e2af274c88f8329b3db2fd3270df76f406"
+  },
+  "runs/eta_Roman_007/plots/ssyptar_raw.pdf": {
+    "bytes": 14492,
+    "sha256": "bae47a684e70ff33a36fecc3aad560fdf60e7ce404a5eeddf12a0bbf2dd93b6a"
+  },
+  "runs/eta_Roman_007/plots/ssyptar_raw.png": {
+    "bytes": 16346,
+    "sha256": "a92495401e1fddc5ed6cc0546701b56ab94d6ee4147b83f963e82a88862a2f61"
+  },
+  "runs/eta_Roman_007/plots/ssyptar_weighted.pdf": {
+    "bytes": 14775,
+    "sha256": "5feba3efff0693173c1ea28caa39e2efc783a20347ec0d4a9aaba40cb585ce5f"
+  },
+  "runs/eta_Roman_007/plots/ssyptar_weighted.png": {
+    "bytes": 18319,
+    "sha256": "f22c2ae58c46e88cb08e633d5a1b6646a2f5a4e77e85a4ce88055b40e760bc71"
+  },
+  "runs/eta_Roman_007/plots/ssytar_raw.pdf": {
+    "bytes": 14348,
+    "sha256": "df9586d76264d32ef624127bc5778209856fb13dc81a5ff848ed5a7573193f4e"
+  },
+  "runs/eta_Roman_007/plots/ssytar_raw.png": {
+    "bytes": 15995,
+    "sha256": "3c33200ddf1a2da2f57b9e9848f5627ddadb6f8b47cd27c3cd1134b5fcbe2958"
+  },
+  "runs/eta_Roman_007/plots/ssytar_weighted.pdf": {
+    "bytes": 14543,
+    "sha256": "0383ea2066b894e10ac35a919312157cf30b88e0997b9b6f8d4381310497e4a9"
+  },
+  "runs/eta_Roman_007/plots/ssytar_weighted.png": {
+    "bytes": 17790,
+    "sha256": "81f43ebe618fd8773b132957468aeba94daa3dfc9eace107110d9ea5fc6f855b"
+  },
+  "runs/eta_Roman_007/plots/summary.json": {
+    "bytes": 7482,
+    "sha256": "bea66a32f6179268a58ab62ad2cfe4e54f3602d6261a6d4148439906501c047d"
+  },
+  "runs/eta_Roman_007/plots/t_raw.pdf": {
+    "bytes": 14348,
+    "sha256": "c1085edd57d8f0367c095176cf56b7d71c10c35aaa373a6b5aeaf131bfb83784"
+  },
+  "runs/eta_Roman_007/plots/t_raw.png": {
+    "bytes": 16459,
+    "sha256": "3161acb6897f74b8f8217b054d98f3ff4d8c509e7472da478c26ac332a9d6351"
+  },
+  "runs/eta_Roman_007/plots/t_weighted.pdf": {
+    "bytes": 14357,
+    "sha256": "4c9577786a6e1c16a04bd29ac91b065aeabdad1798566d47397f4e0c6c6bd3d1"
+  },
+  "runs/eta_Roman_007/plots/t_weighted.png": {
+    "bytes": 17869,
+    "sha256": "305d67a0df90dd8ba8ed56578f56b012301b3284af0d02722f8be5146924cb4e"
+  },
+  "runs/eta_Roman_007/simc.log": {
+    "bytes": 2529,
+    "sha256": "e815cde9d1ce7f879df9e79ab6f59eb6bccd3b62f89b3466794af2474fbe4103"
+  },
+  "runs/etap_Roman_007/conversion.log": {
+    "bytes": 21427,
+    "sha256": "c035a3d98bf2a46a45bd2e452463b2ce74abb0709129e377cb3eadcdf9865ce3"
+  },
+  "runs/etap_Roman_007/etap_Roman_007.gen": {
+    "bytes": 25690,
+    "sha256": "862f8f726a3a7abc88e2691b6a45a7416823ac02cad7463e27e32115be33ce3e"
+  },
+  "runs/etap_Roman_007/etap_Roman_007.geni": {
+    "bytes": 1421,
+    "sha256": "42d67e47ba147bad9bbf2e654c1faee4ae8ad05c769a53cf63429b6f20351537"
+  },
+  "runs/etap_Roman_007/etap_Roman_007.hist": {
+    "bytes": 9622,
+    "sha256": "7aa144b9756f97fab15700a5c7aed05d2f669b7a8f76f5f172e7713baca1b4d2"
+  },
+  "runs/etap_Roman_007/etap_Roman_007.inp": {
+    "bytes": 5380,
+    "sha256": "9cd9455be3360f4398ed81fed6da32868b6936e8053a1b6dd4c0eabf489981e0"
+  },
+  "runs/etap_Roman_007/etap_Roman_007.root": {
+    "bytes": 255999,
+    "sha256": "9855a186f64a702c2fdde8c348bde925e1908546e774f43171cc354b93056818"
+  },
+  "runs/etap_Roman_007/etap_Roman_007_start_random_state.dat": {
+    "bytes": 325,
+    "sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+  },
+  "runs/etap_Roman_007/exit_code.txt": {
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  "runs/etap_Roman_007/plots/Q2_raw.pdf": {
+    "bytes": 14493,
+    "sha256": "9b07528b1db30dee4bfad184965d08887abae18ff2185ed894f223805d4471ab"
+  },
+  "runs/etap_Roman_007/plots/Q2_raw.png": {
+    "bytes": 17320,
+    "sha256": "10f2bdb4504bc3bbaa86be5730bd52c4a1b8f3a11bbae03167b5e0611505d29e"
+  },
+  "runs/etap_Roman_007/plots/Q2_weighted.pdf": {
+    "bytes": 14714,
+    "sha256": "4a1b585bd01ccc3fbc7f9d117bcc92db8028a3859956f096f7f6f514269710ee"
+  },
+  "runs/etap_Roman_007/plots/Q2_weighted.png": {
+    "bytes": 19545,
+    "sha256": "351554e245ea871a8834d3d3d5860c6954beef22468d4324a94bb37383e31530"
+  },
+  "runs/etap_Roman_007/plots/W_raw.pdf": {
+    "bytes": 14459,
+    "sha256": "bce8abc3f3f00b45e9ddbb8b2a3500fbe659781f4c406c3653d4f1e794246a74"
+  },
+  "runs/etap_Roman_007/plots/W_raw.png": {
+    "bytes": 16594,
+    "sha256": "c152bd2a91182b8338c90bd6c216627268a81b8ed931d169f3f0a7df27ed1757"
+  },
+  "runs/etap_Roman_007/plots/W_weighted.pdf": {
+    "bytes": 14427,
+    "sha256": "aea354813545c04d4af773251ed468a7c4b60df11dfa5a500c0ffbfe9cd42867"
+  },
+  "runs/etap_Roman_007/plots/W_weighted.png": {
+    "bytes": 18362,
+    "sha256": "b85194eab2613345d18005f8289e87f0e4e406d50851e1bae8d3233fcbd730b3"
+  },
+  "runs/etap_Roman_007/plots/Weight_raw.pdf": {
+    "bytes": 14710,
+    "sha256": "6ef29ef161111037beb810feaaa65bed279b673a370613933f086fb32daf917b"
+  },
+  "runs/etap_Roman_007/plots/Weight_raw.png": {
+    "bytes": 18420,
+    "sha256": "1b2104cd0a73d68d27444d1d51c646da32ad57e77dd1b1b23683495c2f08790f"
+  },
+  "runs/etap_Roman_007/plots/histograms.root": {
+    "bytes": 42652,
+    "sha256": "3d3947bf0acdd443a1edf757a62f1cfa52278a22c2c01bb8b8c8ef6e0e9d7252"
+  },
+  "runs/etap_Roman_007/plots/hsdelta_raw.pdf": {
+    "bytes": 14676,
+    "sha256": "2766a565c358479103ae79a20792083eb40c957cdb38c6666c15904aa1365179"
+  },
+  "runs/etap_Roman_007/plots/hsdelta_raw.png": {
+    "bytes": 17254,
+    "sha256": "010a09041ff9671c0d07dbf4cdc5336364053880ccd3858f7822e11f70685bf0"
+  },
+  "runs/etap_Roman_007/plots/hsdelta_weighted.pdf": {
+    "bytes": 14651,
+    "sha256": "a1c3b1175fe6537a3961e86d36d29dccceab4bd060eb23ae8424914952f165b8"
+  },
+  "runs/etap_Roman_007/plots/hsdelta_weighted.png": {
+    "bytes": 17647,
+    "sha256": "fc433b0813214ff8b7185ed1234177afd9f1e78107e34ae00b6e12ec7414f45a"
+  },
+  "runs/etap_Roman_007/plots/hsxptar_raw.pdf": {
+    "bytes": 14674,
+    "sha256": "b8de55900f11972c3565babfe50cf2928bfc168933541a3f47ab878c9f6d1b07"
+  },
+  "runs/etap_Roman_007/plots/hsxptar_raw.png": {
+    "bytes": 16969,
+    "sha256": "3cb5151512f6fba1bc0fb1f4eb8d53b7c0f75dfbfc20c66bab2050c7d6f6bc0b"
+  },
+  "runs/etap_Roman_007/plots/hsxptar_weighted.pdf": {
+    "bytes": 14922,
+    "sha256": "6ca865712db9ef16d68fbd0eaab9a6070fafe02fe6420c845b6fc01564e5a822"
+  },
+  "runs/etap_Roman_007/plots/hsxptar_weighted.png": {
+    "bytes": 18562,
+    "sha256": "9cc1e79847d3462e6744463bc0794d582d0a98e5c32afbf8d7b3de6b27726009"
+  },
+  "runs/etap_Roman_007/plots/hsyptar_raw.pdf": {
+    "bytes": 14527,
+    "sha256": "949051deb131e61e8d76c68a11e481e010c04dcc01dcd9457e51694c2b54f080"
+  },
+  "runs/etap_Roman_007/plots/hsyptar_raw.png": {
+    "bytes": 16360,
+    "sha256": "05e29536b0233c5eb735d50c135ea0ca0c30cf4a3681742c1b72a21cdec9be08"
+  },
+  "runs/etap_Roman_007/plots/hsyptar_weighted.pdf": {
+    "bytes": 14901,
+    "sha256": "b3b7c94e6108bc54b8e644d81ec5fa774a0d53cfe8d2d1d3dc730c10ee33fad6"
+  },
+  "runs/etap_Roman_007/plots/hsyptar_weighted.png": {
+    "bytes": 19428,
+    "sha256": "98c167060dca50b27ccbbf02d0e8117ffebaaba979a7d4bb37262bf5de54e4fb"
+  },
+  "runs/etap_Roman_007/plots/hsytar_raw.pdf": {
+    "bytes": 14640,
+    "sha256": "d05433322c0c9d1a1c23b1ad53c08a3006e8ec5e5048d7f667b92cc7224375f1"
+  },
+  "runs/etap_Roman_007/plots/hsytar_raw.png": {
+    "bytes": 16427,
+    "sha256": "d0dc0e11ad345d9d1ebb4b4462831a7aea839d76cde246bf201467b6f7ca3321"
+  },
+  "runs/etap_Roman_007/plots/hsytar_weighted.pdf": {
+    "bytes": 14730,
+    "sha256": "23ea0479456265f6fe560bf958ce5adf65c9d299ef77b31b679f52be31b85e44"
+  },
+  "runs/etap_Roman_007/plots/hsytar_weighted.png": {
+    "bytes": 17935,
+    "sha256": "9910d5f56da6d267f809ea93184117f4031d37d534293195b15c17fb3dcd2e13"
+  },
+  "runs/etap_Roman_007/plots/missmass_raw.pdf": {
+    "bytes": 14270,
+    "sha256": "63b0a06d93bedba4f13dc1fcecf3b39c439bff2f4a686b5c6c097b257a7ab7e6"
+  },
+  "runs/etap_Roman_007/plots/missmass_raw.png": {
+    "bytes": 17367,
+    "sha256": "0517cc59ff36bcaf6e7758bf4c19e730dc97d52e0c77e0007524fefe0e4bc7da"
+  },
+  "runs/etap_Roman_007/plots/missmass_weighted.pdf": {
+    "bytes": 14576,
+    "sha256": "d0831cb9bbefae1e50a9e3d4859f36ffaa6b10a517f6662da7ed201e9cd96700"
+  },
+  "runs/etap_Roman_007/plots/missmass_weighted.png": {
+    "bytes": 20345,
+    "sha256": "221b241fc0621d9d33ebffb8d252e23acd27507357a7ba8fdae05d57876df1b9"
+  },
+  "runs/etap_Roman_007/plots/ssdelta_raw.pdf": {
+    "bytes": 14435,
+    "sha256": "31deda8ca1a082feffe5dcf555548acb1196715a06ecf9302f2fe0faeec99734"
+  },
+  "runs/etap_Roman_007/plots/ssdelta_raw.png": {
+    "bytes": 16199,
+    "sha256": "9542d54d55693fb9c4da291b788f43cf9c819d8a647b892237c2271a85292856"
+  },
+  "runs/etap_Roman_007/plots/ssdelta_weighted.pdf": {
+    "bytes": 14513,
+    "sha256": "04864252707d54a01afd9ee77778bdf9987a0d1a6fbf2d5e478ba71ab6fc2751"
+  },
+  "runs/etap_Roman_007/plots/ssdelta_weighted.png": {
+    "bytes": 17516,
+    "sha256": "1873ebd640fe29f83468109fce9fd59a3ac095aa4acdcc5f641dc59f8338c373"
+  },
+  "runs/etap_Roman_007/plots/ssxptar_raw.pdf": {
+    "bytes": 14600,
+    "sha256": "21fb2f5e0cce5e54b86f276ab770b1421c2744c93befffb27ddb60bc265e6feb"
+  },
+  "runs/etap_Roman_007/plots/ssxptar_raw.png": {
+    "bytes": 16992,
+    "sha256": "cfa90d768e3f5c4fb60234f129c7e98326ecd1ee99110c90026a33077d2d3722"
+  },
+  "runs/etap_Roman_007/plots/ssxptar_weighted.pdf": {
+    "bytes": 14763,
+    "sha256": "4a6c68e90fcf1ca2a4bd6ea82ccd06d8a78132c2a32c5a7059352add7f4e9a48"
+  },
+  "runs/etap_Roman_007/plots/ssxptar_weighted.png": {
+    "bytes": 18320,
+    "sha256": "e047573f2f218100bdb8133073dc8b813cead1aee2ece94539b4dfe8f0b81d27"
+  },
+  "runs/etap_Roman_007/plots/ssyptar_raw.pdf": {
+    "bytes": 14508,
+    "sha256": "9d865eec53e7e348c60c2672a61d5f73ec05bb95b455d190e95533f5dc43e186"
+  },
+  "runs/etap_Roman_007/plots/ssyptar_raw.png": {
+    "bytes": 16610,
+    "sha256": "6293d5dd8392560a865b5eaa162f4c023031a35dfbcf26a3e3c656f8ebf75d12"
+  },
+  "runs/etap_Roman_007/plots/ssyptar_weighted.pdf": {
+    "bytes": 14788,
+    "sha256": "a32f539976476451c555d9f5e17e5f8d534990af81f33281a0e3e3b567589671"
+  },
+  "runs/etap_Roman_007/plots/ssyptar_weighted.png": {
+    "bytes": 19098,
+    "sha256": "a61931c84d26cd33b171dcaeabf4a6cf1ac26def148e2826cbc977ddabbb68f2"
+  },
+  "runs/etap_Roman_007/plots/ssytar_raw.pdf": {
+    "bytes": 14356,
+    "sha256": "fcf1e79e90dc0b780309ff4ef56e9a7b496ad6bb30bc3d481e0199456e3a345c"
+  },
+  "runs/etap_Roman_007/plots/ssytar_raw.png": {
+    "bytes": 16246,
+    "sha256": "8f640e0442c40494172dd132a68cac2aaa79f565fe7e92d545cac382ac5f2303"
+  },
+  "runs/etap_Roman_007/plots/ssytar_weighted.pdf": {
+    "bytes": 14577,
+    "sha256": "6f42cfcf41f51c5c20377ee53d7e6456418f42a4c8343bd550062499e4746766"
+  },
+  "runs/etap_Roman_007/plots/ssytar_weighted.png": {
+    "bytes": 18727,
+    "sha256": "80a2cb26365f4d27dc048b04f2a7e2cbe72df79409e044fc1c6990a6cd47ad0e"
+  },
+  "runs/etap_Roman_007/plots/summary.json": {
+    "bytes": 7525,
+    "sha256": "e05b7c62eeb2f0bb9ddf7fb1f6f8a31678cfc43cd3bab2d277ec2fe6f9c83ac9"
+  },
+  "runs/etap_Roman_007/plots/t_raw.pdf": {
+    "bytes": 14327,
+    "sha256": "58c29e98234666e32ac7e3d82f9613066fa165e0fd823f7cb2ac08ad326a0b02"
+  },
+  "runs/etap_Roman_007/plots/t_raw.png": {
+    "bytes": 16769,
+    "sha256": "3665317d6a970a16d4cd8ad7e5849402d4e3462d47e76e2b38850a91ee7a0069"
+  },
+  "runs/etap_Roman_007/plots/t_weighted.pdf": {
+    "bytes": 14409,
+    "sha256": "83da47f756306fc5e0f22debb940d018cabcb20ca43e09ee0539b2b4f431845c"
+  },
+  "runs/etap_Roman_007/plots/t_weighted.png": {
+    "bytes": 18763,
+    "sha256": "33b2dd04f2b26364340854a3e001a741a054c08452a999bd050f4af399740abd"
+  },
+  "runs/etap_Roman_007/simc.log": {
+    "bytes": 2409,
+    "sha256": "c25b3d98acc64cbe7d3bfee52202e7434342667ad0ea78a98050e0d43ba7a3d9"
+  },
+  "runs/omega_Roman_007/conversion.log": {
+    "bytes": 21427,
+    "sha256": "4821a9fc23308b7e78ba683869b854e1447e0b4e5b8005ba5f8ad12dda3e99b7"
+  },
+  "runs/omega_Roman_007/exit_code.txt": {
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  "runs/omega_Roman_007/omega_Roman_007.gen": {
+    "bytes": 25690,
+    "sha256": "2ceddf61df91b36c28e19cdd793671bd2760b2d45489e9f6dc1c6a944cc10f3a"
+  },
+  "runs/omega_Roman_007/omega_Roman_007.geni": {
+    "bytes": 1421,
+    "sha256": "200b61d11c3a3f794f3d2a65d5659c0a791402bc3526df04526908220164496e"
+  },
+  "runs/omega_Roman_007/omega_Roman_007.hist": {
+    "bytes": 9618,
+    "sha256": "83ce8adff0388937f15f39f12c1173f6d6bfdcb1a07226bd1c0f6832f100056b"
+  },
+  "runs/omega_Roman_007/omega_Roman_007.inp": {
+    "bytes": 5535,
+    "sha256": "def61cb007eddd4bd7b86583596b25d8bcf9d53af9a99d8e2f30587d43d52759"
+  },
+  "runs/omega_Roman_007/omega_Roman_007.root": {
+    "bytes": 257957,
+    "sha256": "c475d81da2fc5f02077afbb9e67184360866966fc60474d83f1af87d81fa107d"
+  },
+  "runs/omega_Roman_007/omega_Roman_007_start_random_state.dat": {
+    "bytes": 325,
+    "sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+  },
+  "runs/omega_Roman_007/plots/Q2_raw.pdf": {
+    "bytes": 14460,
+    "sha256": "4a55da9c13813b3250390d28ba5729e1c1058fbfe74f1f45135f85c5f727743c"
+  },
+  "runs/omega_Roman_007/plots/Q2_raw.png": {
+    "bytes": 16876,
+    "sha256": "550217751bf267fa1baa7c62f31f22f22126507934b1d26d35a74f25174c5a3b"
+  },
+  "runs/omega_Roman_007/plots/Q2_weighted.pdf": {
+    "bytes": 14579,
+    "sha256": "17001e640d0ca132e8971e6fba757fd5745e41fd18141aab209b1f3dd04382b6"
+  },
+  "runs/omega_Roman_007/plots/Q2_weighted.png": {
+    "bytes": 18382,
+    "sha256": "1f55adb6ecf396e444db0d20cb9df04187d93d8ee7a7532e64ec0b3573e76598"
+  },
+  "runs/omega_Roman_007/plots/W_raw.pdf": {
+    "bytes": 14367,
+    "sha256": "de949892afa460f3846d44f5f89786768931822ec3d50d5814773ae2489fc4d8"
+  },
+  "runs/omega_Roman_007/plots/W_raw.png": {
+    "bytes": 16695,
+    "sha256": "7a7428163a73d57bdfa58c74ba9c89ef6e5227065512f84205bc52c1b1a0d585"
+  },
+  "runs/omega_Roman_007/plots/W_weighted.pdf": {
+    "bytes": 14440,
+    "sha256": "cee2bb34cc155891b0f26ee8bf327bec92b612702a0db0fed8bf42f6eed26168"
+  },
+  "runs/omega_Roman_007/plots/W_weighted.png": {
+    "bytes": 17741,
+    "sha256": "4768d5b5e95ca3f912b9843c87adda3a499dfb7dfc1540c94cb549038fa05204"
+  },
+  "runs/omega_Roman_007/plots/Weight_raw.pdf": {
+    "bytes": 14313,
+    "sha256": "84d102ec7b0f927d136dff068c108bb4254c953ce9f58dfc03daf998f3157bbe"
+  },
+  "runs/omega_Roman_007/plots/Weight_raw.png": {
+    "bytes": 16896,
+    "sha256": "f3a7edf9c427a70dd491bdd23f52f165cd4c7795ec58c3752767379d2b00bbb6"
+  },
+  "runs/omega_Roman_007/plots/histograms.root": {
+    "bytes": 43176,
+    "sha256": "977246ad1a05e9ad77612965c60d1d132a1bcb8bf252d3838166d07b52153d6a"
+  },
+  "runs/omega_Roman_007/plots/hsdelta_raw.pdf": {
+    "bytes": 14661,
+    "sha256": "1af097ad31ff8e567d03550f001053763f1e6f1d23b1d188a735cba35220efa4"
+  },
+  "runs/omega_Roman_007/plots/hsdelta_raw.png": {
+    "bytes": 17061,
+    "sha256": "ffd1370e6dfc6504eb6043ed8024f50926f5fe253e190be34bad0e5d230c47e1"
+  },
+  "runs/omega_Roman_007/plots/hsdelta_weighted.pdf": {
+    "bytes": 14762,
+    "sha256": "77392328ebd634a7322dd2ac4e3c2e253da705c61561378dd8eef7a901bc2d39"
+  },
+  "runs/omega_Roman_007/plots/hsdelta_weighted.png": {
+    "bytes": 17891,
+    "sha256": "8c2aa3d18f9f0ee04344ada183c96080010b2b2f68a13a721ac59b4a3c02427d"
+  },
+  "runs/omega_Roman_007/plots/hsxptar_raw.pdf": {
+    "bytes": 14624,
+    "sha256": "5797cec7fc4f1bf0db1afbf70361f4a37d1facc8c73ce2f8bfd37e7e9f0da0b3"
+  },
+  "runs/omega_Roman_007/plots/hsxptar_raw.png": {
+    "bytes": 16871,
+    "sha256": "cb7b0bb799326bab196d86747f4debd56ba3965a57a980b8815e722def169e5c"
+  },
+  "runs/omega_Roman_007/plots/hsxptar_weighted.pdf": {
+    "bytes": 14737,
+    "sha256": "e0bf53057b66b44f3096cd57f3ba606fba21739632df9304b3f81f850ebb90ef"
+  },
+  "runs/omega_Roman_007/plots/hsxptar_weighted.png": {
+    "bytes": 17606,
+    "sha256": "6275479cf87c3f43740eb4800b9dee9355ba835577c1ef7b090ada127b732b5a"
+  },
+  "runs/omega_Roman_007/plots/hsyptar_raw.pdf": {
+    "bytes": 14513,
+    "sha256": "1762e8214b53a72c328b2ff8fe2babdb368264bf62ea136a6514c81127b4314c"
+  },
+  "runs/omega_Roman_007/plots/hsyptar_raw.png": {
+    "bytes": 16453,
+    "sha256": "a108f560b0a755aaa0ce618046aa6732be7635ba08373ee27af471e1e3d649c1"
+  },
+  "runs/omega_Roman_007/plots/hsyptar_weighted.pdf": {
+    "bytes": 14803,
+    "sha256": "93fef9b6069e4f44e44de95a564713a0d77daa4625e50b2d2d7d1701cae9467b"
+  },
+  "runs/omega_Roman_007/plots/hsyptar_weighted.png": {
+    "bytes": 18522,
+    "sha256": "bfe2076489d04b000dbc236583e8d1b3a2ce73036f49b511d330f111aa4bb24f"
+  },
+  "runs/omega_Roman_007/plots/hsytar_raw.pdf": {
+    "bytes": 14606,
+    "sha256": "a9a42bdfd6a20bfb319e0bb9df7bb27ba98683881cb5a0542782c46a0eaaa488"
+  },
+  "runs/omega_Roman_007/plots/hsytar_raw.png": {
+    "bytes": 16517,
+    "sha256": "af8180e3f67078c37cfe58084baa2773444b593bafd55580187482bb6a6956f2"
+  },
+  "runs/omega_Roman_007/plots/hsytar_weighted.pdf": {
+    "bytes": 14721,
+    "sha256": "4547cf985468fdd457bf365f38273577f35e7da02e16b6a52a66e3d64e53f000"
+  },
+  "runs/omega_Roman_007/plots/hsytar_weighted.png": {
+    "bytes": 17856,
+    "sha256": "ec5f4dd081943517af5d0defa51e9ad951f2fa5138e8e7365c52dddab4308d34"
+  },
+  "runs/omega_Roman_007/plots/missmass_raw.pdf": {
+    "bytes": 14483,
+    "sha256": "58e4434a0fdfa307878241c6b3ab9fd6ce9ecb71154e0b12862e7ee32327227c"
+  },
+  "runs/omega_Roman_007/plots/missmass_raw.png": {
+    "bytes": 18096,
+    "sha256": "2435547487e34cdb58ed8ad02a6739dfcc32f6ebe652aa3fbcbf616da7276d91"
+  },
+  "runs/omega_Roman_007/plots/missmass_weighted.pdf": {
+    "bytes": 14566,
+    "sha256": "9c32c4c16d411df42068aedd1fb564dd4ec216292c71d09624be8ec076e62286"
+  },
+  "runs/omega_Roman_007/plots/missmass_weighted.png": {
+    "bytes": 19506,
+    "sha256": "d1e1265349af27892bdc533c6f7acf9498d92545ced98cbea5a1a80e7a3b6cfb"
+  },
+  "runs/omega_Roman_007/plots/ssdelta_raw.pdf": {
+    "bytes": 14420,
+    "sha256": "e7485d9975299669b89d5ab1a24cd0e467ac4c9cc6d4294bfdd5bb69bee4b733"
+  },
+  "runs/omega_Roman_007/plots/ssdelta_raw.png": {
+    "bytes": 16120,
+    "sha256": "488b38f900d88ac4793ae8d17fda587d216547bc0e51fa68bd75ceb0302662a1"
+  },
+  "runs/omega_Roman_007/plots/ssdelta_weighted.pdf": {
+    "bytes": 14636,
+    "sha256": "e3eb22cdebb12997e9157df4a1843d2dfb782e334da8ad28a1ab5dc6228e1a6b"
+  },
+  "runs/omega_Roman_007/plots/ssdelta_weighted.png": {
+    "bytes": 17792,
+    "sha256": "a2c58404d0a961021be8afc92ed2894e530e2522ff6354a0be0aa25db2154ebb"
+  },
+  "runs/omega_Roman_007/plots/ssxptar_raw.pdf": {
+    "bytes": 14400,
+    "sha256": "805a50e0ae651fab54dd5ce5f477d3aeb8de5aee29e8f3446f5bc3630a83a118"
+  },
+  "runs/omega_Roman_007/plots/ssxptar_raw.png": {
+    "bytes": 15630,
+    "sha256": "d641abc8e49fd62400e48d1d14b91b074be37ff7e4755b5ebfd922a2345d11c0"
+  },
+  "runs/omega_Roman_007/plots/ssxptar_weighted.pdf": {
+    "bytes": 14680,
+    "sha256": "f349e449c1c5e50c013059b114b13c3a3e71ce13385c668e1deaf449b1d87e12"
+  },
+  "runs/omega_Roman_007/plots/ssxptar_weighted.png": {
+    "bytes": 17804,
+    "sha256": "63afa973faca319bd8c54667dbb5686a892458357d18024eaed253a23b18de91"
+  },
+  "runs/omega_Roman_007/plots/ssyptar_raw.pdf": {
+    "bytes": 14456,
+    "sha256": "265b6620253968d1a98e8198d424b47b985c9d6989d0e00686f99f360da6a4fa"
+  },
+  "runs/omega_Roman_007/plots/ssyptar_raw.png": {
+    "bytes": 16194,
+    "sha256": "b3038ce09aa64375b1e2eebd486258cc74787dc79deea6a504b4ebd2c74d342c"
+  },
+  "runs/omega_Roman_007/plots/ssyptar_weighted.pdf": {
+    "bytes": 14521,
+    "sha256": "606036c10d5a99cbea60eb86732d433a936cf463498fe4d256532123c539b221"
+  },
+  "runs/omega_Roman_007/plots/ssyptar_weighted.png": {
+    "bytes": 18055,
+    "sha256": "49b239ce68a58e83f30aa046390ab18b183dfbaa7e4e9a98f313c6cde4181060"
+  },
+  "runs/omega_Roman_007/plots/ssytar_raw.pdf": {
+    "bytes": 14334,
+    "sha256": "4549df802389c0ba57b8893d6f09cb477d0ca1b6abd3c34ace442e18cfbeae05"
+  },
+  "runs/omega_Roman_007/plots/ssytar_raw.png": {
+    "bytes": 16315,
+    "sha256": "d0b21297a33d2958f1bfaf358087abf71e47330b6594bb9f8e49fd63caf91518"
+  },
+  "runs/omega_Roman_007/plots/ssytar_weighted.pdf": {
+    "bytes": 14542,
+    "sha256": "f10c2d2528f92159dfeaa8f59cd8c9967e7555ae90641596fe1bb7d25374f1f4"
+  },
+  "runs/omega_Roman_007/plots/ssytar_weighted.png": {
+    "bytes": 18387,
+    "sha256": "65ae08a33d710458b9169a965a346a26603fe96754289026ec18b0037b81f1cd"
+  },
+  "runs/omega_Roman_007/plots/summary.json": {
+    "bytes": 7468,
+    "sha256": "c23fdb9a1c526720e1b2f1d3473a344bb7a77dd073c2c08cbd6b63b9df5a2b5d"
+  },
+  "runs/omega_Roman_007/plots/t_raw.pdf": {
+    "bytes": 14271,
+    "sha256": "2d62cfb6da8f6ff532cbef0738da7a88006d811c5efba4d805a30cd1cad198bd"
+  },
+  "runs/omega_Roman_007/plots/t_raw.png": {
+    "bytes": 16849,
+    "sha256": "cbf8631ba4dac421c8446fc7d8582db63b87b2eb6ba7984accd9040860e509b4"
+  },
+  "runs/omega_Roman_007/plots/t_weighted.pdf": {
+    "bytes": 14352,
+    "sha256": "ca24482ada6082ca4815559735e574b2d4b5ea4f29c60d21d7b4686f5e87a518"
+  },
+  "runs/omega_Roman_007/plots/t_weighted.png": {
+    "bytes": 18015,
+    "sha256": "f34fd4d36e9513c783bb924551bc8691641bd383adda0102dab3677926a841c2"
+  },
+  "runs/omega_Roman_007/simc.log": {
+    "bytes": 2371,
+    "sha256": "ad7eddfd77816533a7d54418ea021eaeb073f74c2e6c3d4eb6886cb589661fe4"
+  },
+  "runs/phi_Roman_007/conversion.log": {
+    "bytes": 21427,
+    "sha256": "fc1f8dcddce097c602eaf157f85c589766fa603bd435c0eaa3d0f750d5173dc9"
+  },
+  "runs/phi_Roman_007/exit_code.txt": {
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  "runs/phi_Roman_007/phi_Roman_007.gen": {
+    "bytes": 25690,
+    "sha256": "c92ab10ee8219bdbe76144c8d2798e68fa7ae57c4ff2d7cbf36b3022a0b75ab5"
+  },
+  "runs/phi_Roman_007/phi_Roman_007.geni": {
+    "bytes": 1421,
+    "sha256": "6c2bbe7434aa32586f7fd114dc271c1ec1984a6e91d391f049df9ca1298d2e65"
+  },
+  "runs/phi_Roman_007/phi_Roman_007.hist": {
+    "bytes": 9616,
+    "sha256": "913480c4819fa69e5fc57c2669a3a82e05af359150a114385b5180105b71fc14"
+  },
+  "runs/phi_Roman_007/phi_Roman_007.inp": {
+    "bytes": 5383,
+    "sha256": "ea0bb93b614ebdd7940b94dd8fd92e49b2fb19ef7f6d3780106751ede5cbb8b6"
+  },
+  "runs/phi_Roman_007/phi_Roman_007.root": {
+    "bytes": 257948,
+    "sha256": "26db9183a2c04f55727c3b111bb0c118f1dd8b671cb97f9eb56ee9f2902eb141"
+  },
+  "runs/phi_Roman_007/phi_Roman_007_start_random_state.dat": {
+    "bytes": 325,
+    "sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+  },
+  "runs/phi_Roman_007/plots/Q2_raw.pdf": {
+    "bytes": 14563,
+    "sha256": "a52eb1c28ec766d3d590f285642cb821d831790565a4a29af27252d1d247eab7"
+  },
+  "runs/phi_Roman_007/plots/Q2_raw.png": {
+    "bytes": 16785,
+    "sha256": "298e409a36df93378cfd052dbbd3f96ab045617bffb109992dc9941fd18fe5fa"
+  },
+  "runs/phi_Roman_007/plots/Q2_weighted.pdf": {
+    "bytes": 14669,
+    "sha256": "6972b23e53575769db422c6b366a3e11ae76f1c477d6fbb65945c91e03a00344"
+  },
+  "runs/phi_Roman_007/plots/Q2_weighted.png": {
+    "bytes": 18827,
+    "sha256": "c36f34eadd127084ee2f43cbb6f2621d6d5a8f5c0e4e4a3acce17b3c5ba8f9aa"
+  },
+  "runs/phi_Roman_007/plots/W_raw.pdf": {
+    "bytes": 14440,
+    "sha256": "96d2053de6face320502f3d652aac37fdd10b6c11f9312a32b327002572c3d4d"
+  },
+  "runs/phi_Roman_007/plots/W_raw.png": {
+    "bytes": 16034,
+    "sha256": "ba3e239d03c5b0cec194d779f774a463319bc0980b43d74040cbfb3599e12741"
+  },
+  "runs/phi_Roman_007/plots/W_weighted.pdf": {
+    "bytes": 14510,
+    "sha256": "254df3e92dddd6590155d24a5d6ca55e7a3588207da974f2bea8de6762fc3065"
+  },
+  "runs/phi_Roman_007/plots/W_weighted.png": {
+    "bytes": 17841,
+    "sha256": "5b209b6629275202eb011e6b76c75bc5f03c6704a99c8771d7544fcb5ce4771f"
+  },
+  "runs/phi_Roman_007/plots/Weight_raw.pdf": {
+    "bytes": 14622,
+    "sha256": "624bce550ede8439393ecb3a453dff45bc06c2521dc0f00f5258cff1491f842d"
+  },
+  "runs/phi_Roman_007/plots/Weight_raw.png": {
+    "bytes": 17077,
+    "sha256": "b2c7fbf613b867810771002f96d687c7e87e13bcafd2b08d1c9025cbf93de2f4"
+  },
+  "runs/phi_Roman_007/plots/histograms.root": {
+    "bytes": 43478,
+    "sha256": "b6207cb7170d2731bb1f305958885a6046a9fed1ca8df3c9ca77b4bc266c6331"
+  },
+  "runs/phi_Roman_007/plots/hsdelta_raw.pdf": {
+    "bytes": 14606,
+    "sha256": "f326b41323f1dfbb60daeb52fb23591039d6edcdf1750b2b9ada37f4e5316b55"
+  },
+  "runs/phi_Roman_007/plots/hsdelta_raw.png": {
+    "bytes": 16325,
+    "sha256": "89a2ed614ae1580e11322de4abaee132da1891983c3debb69df988c91819cb20"
+  },
+  "runs/phi_Roman_007/plots/hsdelta_weighted.pdf": {
+    "bytes": 14904,
+    "sha256": "61281004136b39a69c2af489730aeaf4447bebd209e1ac4e1487a8a61ead4c49"
+  },
+  "runs/phi_Roman_007/plots/hsdelta_weighted.png": {
+    "bytes": 19769,
+    "sha256": "48ebaf48f297f9352433c40b08a9877b1a93a97c6ee673343280ff0cd1a824a8"
+  },
+  "runs/phi_Roman_007/plots/hsxptar_raw.pdf": {
+    "bytes": 14591,
+    "sha256": "5c0793ca6198d17b523aba3f7f13842627af905df45ac9b3b92ea663c8b6a4c8"
+  },
+  "runs/phi_Roman_007/plots/hsxptar_raw.png": {
+    "bytes": 15805,
+    "sha256": "8a037a68f7f5bdef7201f647655a8dd93cc262f99086e653449dd76b2f7bf2ba"
+  },
+  "runs/phi_Roman_007/plots/hsxptar_weighted.pdf": {
+    "bytes": 15009,
+    "sha256": "73c152962dd8bcf6502d25dd0939f795965305e3b68cb494ea58da26102f3de3"
+  },
+  "runs/phi_Roman_007/plots/hsxptar_weighted.png": {
+    "bytes": 19497,
+    "sha256": "991a860873decc3529f45e34f2acd3c4b1193a0e49f950ed16190e6498da80d3"
+  },
+  "runs/phi_Roman_007/plots/hsyptar_raw.pdf": {
+    "bytes": 14520,
+    "sha256": "a3af4aceb5804bc28ff757199e9faac3907bb93bf650c0cb991c04dfe7167eb5"
+  },
+  "runs/phi_Roman_007/plots/hsyptar_raw.png": {
+    "bytes": 15850,
+    "sha256": "2fb560ec03919f11596c2486e1f2ac65b8d586d447458fafcac24a0c19326c27"
+  },
+  "runs/phi_Roman_007/plots/hsyptar_weighted.pdf": {
+    "bytes": 14783,
+    "sha256": "d8142e94389d3091935f6f9fec7f1b2ce142948f457f61967382ec46ea507758"
+  },
+  "runs/phi_Roman_007/plots/hsyptar_weighted.png": {
+    "bytes": 18565,
+    "sha256": "1264ca722bc0817db47c1f2354de56bce5410fced3f21d4791f91b10a6d24fd5"
+  },
+  "runs/phi_Roman_007/plots/hsytar_raw.pdf": {
+    "bytes": 14694,
+    "sha256": "c47427b1c4a110cfcf3ba0cf828b648fb2ae45804c106e6d91cd596b98ad030a"
+  },
+  "runs/phi_Roman_007/plots/hsytar_raw.png": {
+    "bytes": 16076,
+    "sha256": "ab05600b36543f2c6b8b34198d74f26849710108a7cff35db18966c3e02ad67f"
+  },
+  "runs/phi_Roman_007/plots/hsytar_weighted.pdf": {
+    "bytes": 14992,
+    "sha256": "4bcbd1dd645f30f0c679a07fc30f010848f112eaca8c3a5747115e1c8da077c2"
+  },
+  "runs/phi_Roman_007/plots/hsytar_weighted.png": {
+    "bytes": 19059,
+    "sha256": "0c1fe71b05637c6ae9aa2327099607b0a6f211898db1cf6f0be1654e54efd78d"
+  },
+  "runs/phi_Roman_007/plots/missmass_raw.pdf": {
+    "bytes": 14447,
+    "sha256": "7832617525067bfe36385b8bd43c2224265409a3c649d6ea20f08491ced68b5d"
+  },
+  "runs/phi_Roman_007/plots/missmass_raw.png": {
+    "bytes": 17467,
+    "sha256": "56342e20e99faf61b84d1c45cc6b925f621487fc9c9c0db8bf0b492574649e1e"
+  },
+  "runs/phi_Roman_007/plots/missmass_weighted.pdf": {
+    "bytes": 14621,
+    "sha256": "e8468ad53c6da3ea8352a2abd9b6bcaa275819e537c3cc8063de5266149aa6a4"
+  },
+  "runs/phi_Roman_007/plots/missmass_weighted.png": {
+    "bytes": 18409,
+    "sha256": "1e006d51d08da2ca5774aa9717b6bb905200bc322317ee22b87616679b9eeb02"
+  },
+  "runs/phi_Roman_007/plots/ssdelta_raw.pdf": {
+    "bytes": 14469,
+    "sha256": "ed848a372689aeeea000c06d45855d4d34dbae5387459549dfbf16653631e95a"
+  },
+  "runs/phi_Roman_007/plots/ssdelta_raw.png": {
+    "bytes": 16114,
+    "sha256": "2edbd6fd0c0c41e5d9c9554234950fd4db75e9347c40ee3292158205b1eb05b0"
+  },
+  "runs/phi_Roman_007/plots/ssdelta_weighted.pdf": {
+    "bytes": 14733,
+    "sha256": "25609e5ae0b15c45d48045dd1f413986506172078b8076fe2d0a02f3d650673a"
+  },
+  "runs/phi_Roman_007/plots/ssdelta_weighted.png": {
+    "bytes": 19194,
+    "sha256": "c8fd94d679db93ff86dcfc99e85266623d6345ed22a653cbd15854fd6e98e8e7"
+  },
+  "runs/phi_Roman_007/plots/ssxptar_raw.pdf": {
+    "bytes": 14538,
+    "sha256": "b464554c895777e0bbe9abb38bfe03b723d88f789e48e25e685dfb239fffce05"
+  },
+  "runs/phi_Roman_007/plots/ssxptar_raw.png": {
+    "bytes": 16163,
+    "sha256": "2d011bcbdcf03d88f29eab0239bfdbbae973b29c0ff11a25b3370808eebe52df"
+  },
+  "runs/phi_Roman_007/plots/ssxptar_weighted.pdf": {
+    "bytes": 14847,
+    "sha256": "d1fc002dfed9140e47390d5719a52c4028024cbea42cdce6ceca0912e89383ad"
+  },
+  "runs/phi_Roman_007/plots/ssxptar_weighted.png": {
+    "bytes": 19687,
+    "sha256": "f20820eb8ea6fb79f833a1f41ee99663184c13d2242ff5d3dbecd547fd7d6ed1"
+  },
+  "runs/phi_Roman_007/plots/ssyptar_raw.pdf": {
+    "bytes": 14522,
+    "sha256": "c1149f2f55e86784dca81cebf61126627273680b83f522aa0236551fef323e81"
+  },
+  "runs/phi_Roman_007/plots/ssyptar_raw.png": {
+    "bytes": 16249,
+    "sha256": "a81f05f5b09917c5d14b7fe5d9ee1a20e4ffeaf2295bf4d4f0da8a65371512d8"
+  },
+  "runs/phi_Roman_007/plots/ssyptar_weighted.pdf": {
+    "bytes": 14795,
+    "sha256": "1d438afb5569494c980f99068331acd79ce8e8806b1b18885010bd1586a2d686"
+  },
+  "runs/phi_Roman_007/plots/ssyptar_weighted.png": {
+    "bytes": 19318,
+    "sha256": "2e8a1015d12f256656190c60fb11d5fae2030ab45602e26341072dc889e2e9f9"
+  },
+  "runs/phi_Roman_007/plots/ssytar_raw.pdf": {
+    "bytes": 14347,
+    "sha256": "ff41f442927bbf1e826d331df88ba610ca94ae5e8601855261e5cb726ff3c37a"
+  },
+  "runs/phi_Roman_007/plots/ssytar_raw.png": {
+    "bytes": 15794,
+    "sha256": "e3abaa5166106c6fe6bad417d821364e688a883d8c86c396a1c9c16dc3d9f90b"
+  },
+  "runs/phi_Roman_007/plots/ssytar_weighted.pdf": {
+    "bytes": 14513,
+    "sha256": "4efde63493fad1840d9442762c27d5819235f8299488ce21b324b55ed9fb514d"
+  },
+  "runs/phi_Roman_007/plots/ssytar_weighted.png": {
+    "bytes": 18056,
+    "sha256": "3c05974034649b9e4d34c97febf0e22279ecb69a5a3d9cc418ac4d807e12a93b"
+  },
+  "runs/phi_Roman_007/plots/summary.json": {
+    "bytes": 7535,
+    "sha256": "12d83952a887ef95ccf44670039260d40485d225951765049827b6703cf80c39"
+  },
+  "runs/phi_Roman_007/plots/t_raw.pdf": {
+    "bytes": 14317,
+    "sha256": "1b32eef5e76ba2c70512dd2ad5dae6b0edc9c1a6a0d612eebd78423e5db54671"
+  },
+  "runs/phi_Roman_007/plots/t_raw.png": {
+    "bytes": 16150,
+    "sha256": "b1241cb43da1914443d850c3aedab6970efc82458192707cbf92c20bd2f2318f"
+  },
+  "runs/phi_Roman_007/plots/t_weighted.pdf": {
+    "bytes": 14397,
+    "sha256": "aa366bf57d00cda2634253acf09e301843db7bcbf8931ce2f6562d83fa40193b"
+  },
+  "runs/phi_Roman_007/plots/t_weighted.png": {
+    "bytes": 18612,
+    "sha256": "1f3a35e2c23a1df7af57274ea8a1be12c80caf3e07307861bba05745237b8c9d"
+  },
+  "runs/phi_Roman_007/simc.log": {
+    "bytes": 2551,
+    "sha256": "f4f142c90c0a2ed02cc69d061e91494789279a89f3e1b211264d388349f69d9e"
+  },
+  "runs/rho_Roman_007/conversion.log": {
+    "bytes": 21427,
+    "sha256": "6ba9aaf3f7f6139f440283a058672f774b0101d12b138180de68a199f01cbd41"
+  },
+  "runs/rho_Roman_007/exit_code.txt": {
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  "runs/rho_Roman_007/plots/Q2_raw.pdf": {
+    "bytes": 14544,
+    "sha256": "77739179d32faad4c301c831ce6b27f40c7cda407835ec680217f7d6876540d7"
+  },
+  "runs/rho_Roman_007/plots/Q2_raw.png": {
+    "bytes": 16546,
+    "sha256": "5ce22a7b8c632eeaea1012fca1e7b3c9be2e37d3f16713af0ad4eda89d8f79fe"
+  },
+  "runs/rho_Roman_007/plots/Q2_weighted.pdf": {
+    "bytes": 14521,
+    "sha256": "70b24be65037f01cc7ec752338b15cab6d786bd5fc1aa353a03efaf6d434b19d"
+  },
+  "runs/rho_Roman_007/plots/Q2_weighted.png": {
+    "bytes": 17959,
+    "sha256": "8f6c7772b45789a6b9375712798d66c9e54c38489f36770d86a6170ec953fc42"
+  },
+  "runs/rho_Roman_007/plots/W_raw.pdf": {
+    "bytes": 14438,
+    "sha256": "5b003fce6ec7eff75112e2af550f0d63e108cdec029e004158d2a2077135e4a0"
+  },
+  "runs/rho_Roman_007/plots/W_raw.png": {
+    "bytes": 15377,
+    "sha256": "cae0919391afee543efc4aa6635300da39234850db5524272c09cb239ad4c8d0"
+  },
+  "runs/rho_Roman_007/plots/W_weighted.pdf": {
+    "bytes": 14439,
+    "sha256": "ad99b94f64939288b99cb5b05bd71f1e560e4739fef8d5fb4d2c32ff6ddb041e"
+  },
+  "runs/rho_Roman_007/plots/W_weighted.png": {
+    "bytes": 18075,
+    "sha256": "c6374e5321cfea3007183d89a935ad2f337b1d812c7aaa29e164d1b0e3dfcb7b"
+  },
+  "runs/rho_Roman_007/plots/Weight_raw.pdf": {
+    "bytes": 14724,
+    "sha256": "053626b361a26ffb9981641893707a40fad85f78ba90e10a29e1a02b7d156d30"
+  },
+  "runs/rho_Roman_007/plots/Weight_raw.png": {
+    "bytes": 17789,
+    "sha256": "60ca349c51f115a3cb85c5e081095cd6ad4f6d1353afc6c035b6e4dd9ebc0e84"
+  },
+  "runs/rho_Roman_007/plots/histograms.root": {
+    "bytes": 43878,
+    "sha256": "2882abfacef72122bdbbca725e9a3bc46f1e968785db398102fa1f35c33477e6"
+  },
+  "runs/rho_Roman_007/plots/hsdelta_raw.pdf": {
+    "bytes": 14643,
+    "sha256": "8339c98f40ddead8835c383528d7cc9194a6714b4c734c7510edce3d60a97922"
+  },
+  "runs/rho_Roman_007/plots/hsdelta_raw.png": {
+    "bytes": 16628,
+    "sha256": "dad2955d679f24fa2c9ec96ba9c9a9e0159cb3b3042b0dfc9ef6dc3797c1625a"
+  },
+  "runs/rho_Roman_007/plots/hsdelta_weighted.pdf": {
+    "bytes": 14730,
+    "sha256": "6b076f291788e9c925160d328dfc20d5ba44d81ae21c122cdeb412b6a80c7560"
+  },
+  "runs/rho_Roman_007/plots/hsdelta_weighted.png": {
+    "bytes": 17976,
+    "sha256": "669c2b37e77a19b15f27f6c5ccec7c47692fcbddbab4aa8b289fa0702ae74213"
+  },
+  "runs/rho_Roman_007/plots/hsxptar_raw.pdf": {
+    "bytes": 14579,
+    "sha256": "8e5a5aadd31be4ded0f3b960a0c79fdc170bd1a8dc2cc2b9f5f4f304e42794d8"
+  },
+  "runs/rho_Roman_007/plots/hsxptar_raw.png": {
+    "bytes": 16262,
+    "sha256": "9c9eddd5c54c96ae4b916a706c166b1fe3f558449b50b341138198a112cff703"
+  },
+  "runs/rho_Roman_007/plots/hsxptar_weighted.pdf": {
+    "bytes": 14834,
+    "sha256": "5931ae2025e6e9fa37b69ab28c965f93f71edcc1f3b189aa47464d47b3c1da24"
+  },
+  "runs/rho_Roman_007/plots/hsxptar_weighted.png": {
+    "bytes": 18026,
+    "sha256": "c36bdee6c73ca700738ded4c2bf570010eeb48477a1396da3d0c23ac80dd3a9a"
+  },
+  "runs/rho_Roman_007/plots/hsyptar_raw.pdf": {
+    "bytes": 14471,
+    "sha256": "108dd5de03e75b5b85b7174bb802d3948480a7f3207a661c9e968ac57b57e9ef"
+  },
+  "runs/rho_Roman_007/plots/hsyptar_raw.png": {
+    "bytes": 15653,
+    "sha256": "bd3745ae75a433391ba8de4c47f67000df086fd4df5dc3c214d30075cd8ecee6"
+  },
+  "runs/rho_Roman_007/plots/hsyptar_weighted.pdf": {
+    "bytes": 14924,
+    "sha256": "3bfc501ac50c446f5ae2792579c192ee49826fb4f30ae82d10b90bac0d76c844"
+  },
+  "runs/rho_Roman_007/plots/hsyptar_weighted.png": {
+    "bytes": 19142,
+    "sha256": "7e85759baf1d8b70c27737d883dee827e4e016904334e773a5fc26ecf7ca12aa"
+  },
+  "runs/rho_Roman_007/plots/hsytar_raw.pdf": {
+    "bytes": 14567,
+    "sha256": "6cae50caa4c28495948724e035cdc433a141027f76d621df989c23d61e6427ff"
+  },
+  "runs/rho_Roman_007/plots/hsytar_raw.png": {
+    "bytes": 16039,
+    "sha256": "6be315a68022918802c0e3fa8b98bbdda26640d8c486bd14bb30b19b67881b33"
+  },
+  "runs/rho_Roman_007/plots/hsytar_weighted.pdf": {
+    "bytes": 14700,
+    "sha256": "1288f902ba5a622176a8db176d84dbbec6774c861783df5b9f2038732f964de1"
+  },
+  "runs/rho_Roman_007/plots/hsytar_weighted.png": {
+    "bytes": 17829,
+    "sha256": "f98151b84486c567636b96cb3003ba9bb824fad29bae26dc6267227ab2cb5b55"
+  },
+  "runs/rho_Roman_007/plots/missmass_raw.pdf": {
+    "bytes": 14565,
+    "sha256": "bae304baec50763d850ca64324a0f3037341f4bc2038264a5a000f20b6972540"
+  },
+  "runs/rho_Roman_007/plots/missmass_raw.png": {
+    "bytes": 17558,
+    "sha256": "42a3e4149119530fdd427fa1dd1175d36935259215f28500f8a6010e927ebcad"
+  },
+  "runs/rho_Roman_007/plots/missmass_weighted.pdf": {
+    "bytes": 14796,
+    "sha256": "bafedff4a98859371e288d18c4bed1da84dddddb1904436f07c4c41f5fcea072"
+  },
+  "runs/rho_Roman_007/plots/missmass_weighted.png": {
+    "bytes": 19588,
+    "sha256": "e7bd1a2daaba5a542f6feccb948d6f7100b5b1437ce03f7f4dd3bc5b1e5a88b0"
+  },
+  "runs/rho_Roman_007/plots/ssdelta_raw.pdf": {
+    "bytes": 14464,
+    "sha256": "9d0ba45cd772de3abbc0068911a86d3569f82a223193ad9fa9d1777a4ad2fd13"
+  },
+  "runs/rho_Roman_007/plots/ssdelta_raw.png": {
+    "bytes": 15785,
+    "sha256": "88eeb14a524cd628f8e499244d6eecd4769bbdc5296eb39bc33019292d7476d7"
+  },
+  "runs/rho_Roman_007/plots/ssdelta_weighted.pdf": {
+    "bytes": 14572,
+    "sha256": "9871382f5f4be211c54183d153428a5468d6b29d3ce45e215188e0cc5ebbe425"
+  },
+  "runs/rho_Roman_007/plots/ssdelta_weighted.png": {
+    "bytes": 17438,
+    "sha256": "4606fec83be9c65dfe77156c9aff536b54dd2b4be68909923aa57cc49dd90d4a"
+  },
+  "runs/rho_Roman_007/plots/ssxptar_raw.pdf": {
+    "bytes": 14570,
+    "sha256": "b113fa6b0cb467cf4bbdef3e8ce7b05a8e397e294eaeb8526911dd0741029e0d"
+  },
+  "runs/rho_Roman_007/plots/ssxptar_raw.png": {
+    "bytes": 16380,
+    "sha256": "fff7e37cf59adce7e26317abec9393a44814958834dc9153358fc4cd52aca888"
+  },
+  "runs/rho_Roman_007/plots/ssxptar_weighted.pdf": {
+    "bytes": 14722,
+    "sha256": "853d974d6b1eac9dc2cb325ec156ba72c9e75a75cda57f16d2023672f26223ac"
+  },
+  "runs/rho_Roman_007/plots/ssxptar_weighted.png": {
+    "bytes": 17824,
+    "sha256": "545a53d5dff6e7609a73f6d9014b9581cf0ddfd516d34dc05276f59387d18bf7"
+  },
+  "runs/rho_Roman_007/plots/ssyptar_raw.pdf": {
+    "bytes": 14459,
+    "sha256": "7d5273a84d825e1c28bdf71594338799a6cbeb389ff694428554ff8026ff0784"
+  },
+  "runs/rho_Roman_007/plots/ssyptar_raw.png": {
+    "bytes": 15795,
+    "sha256": "3ff45220ea84cf4005f65799f2d555a7a404d8e84d60239244d9175f8cd1f47f"
+  },
+  "runs/rho_Roman_007/plots/ssyptar_weighted.pdf": {
+    "bytes": 14600,
+    "sha256": "f5825f8463aeaa342c0a6bafdafdf840301146f604d24ece526d57281d0bc889"
+  },
+  "runs/rho_Roman_007/plots/ssyptar_weighted.png": {
+    "bytes": 17814,
+    "sha256": "4ccbe5b9e74a3a07269eb25150b4db81821a7093c1256b60393eb6c2e08bdf40"
+  },
+  "runs/rho_Roman_007/plots/ssytar_raw.pdf": {
+    "bytes": 14350,
+    "sha256": "187b4abbec93aa584c429132415f0788a71676ac5d72418858f17f0384692a35"
+  },
+  "runs/rho_Roman_007/plots/ssytar_raw.png": {
+    "bytes": 15874,
+    "sha256": "3663a5b4fe886bdfcec1dde3b2b94a18235756d5ce95fa427045d7db5985bf43"
+  },
+  "runs/rho_Roman_007/plots/ssytar_weighted.pdf": {
+    "bytes": 14428,
+    "sha256": "dcb6fefe9c17be9b7f83693b09651cf104271163deb20e4d4806a448ed078575"
+  },
+  "runs/rho_Roman_007/plots/ssytar_weighted.png": {
+    "bytes": 17565,
+    "sha256": "d886d001a78b22923a2226352e9d77d963ef5b927165aa8bf614cb38c843facb"
+  },
+  "runs/rho_Roman_007/plots/summary.json": {
+    "bytes": 7500,
+    "sha256": "ff77819bd49d3c205109787e1a3d8fe6bcc2271da72b05396e8bf6b3830579da"
+  },
+  "runs/rho_Roman_007/plots/t_raw.pdf": {
+    "bytes": 14351,
+    "sha256": "f759f934d7d57c571e6b853842b2c6edf43a36726eda1927583c10ef2a927d24"
+  },
+  "runs/rho_Roman_007/plots/t_raw.png": {
+    "bytes": 16405,
+    "sha256": "5c53fdebdc70f1db7a78edaad33125f99a19d338ba7b89c82d428108fc5910e9"
+  },
+  "runs/rho_Roman_007/plots/t_weighted.pdf": {
+    "bytes": 14512,
+    "sha256": "f95371b620722590a198ab809e41710c5576f13a6f387211a1fd0f760b2fd65e"
+  },
+  "runs/rho_Roman_007/plots/t_weighted.png": {
+    "bytes": 19203,
+    "sha256": "d3fe7a9e1a2717646af3f4571debaa29cee3bedd751c53a6df92cc9c42228dd7"
+  },
+  "runs/rho_Roman_007/rho_Roman_007.gen": {
+    "bytes": 25690,
+    "sha256": "1e29bafd4fdedb5d19c541d1e54520ff72f25774d0d767f6ac48ddee43505e46"
+  },
+  "runs/rho_Roman_007/rho_Roman_007.geni": {
+    "bytes": 1421,
+    "sha256": "8977a183717e83762994fcd75383afc33ec4c822b7fc5bbe63eadf18e9c5f926"
+  },
+  "runs/rho_Roman_007/rho_Roman_007.hist": {
+    "bytes": 9617,
+    "sha256": "a6ea4068f020a47a730e66c94f48d9d8db3c0aaeeb22f5b192a3759a4b24639e"
+  },
+  "runs/rho_Roman_007/rho_Roman_007.inp": {
+    "bytes": 5395,
+    "sha256": "cfb9d43b3d6a3a26811f7b3e0935e87c0e8b75ad89263d8e718c74c6829291fa"
+  },
+  "runs/rho_Roman_007/rho_Roman_007.root": {
+    "bytes": 257948,
+    "sha256": "9576855a7892eb20c79549f83cb8f112ba8075f8134e4c3ebb9a7dcab6afbb82"
+  },
+  "runs/rho_Roman_007/rho_Roman_007_start_random_state.dat": {
+    "bytes": 325,
+    "sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+  },
+  "runs/rho_Roman_007/simc.log": {
+    "bytes": 104471,
+    "sha256": "456f46c5f814fd25dfa88f18ae896eaad361056d156f62be947f168116106bab"
+  },
+  "runs/xphsp_Roman_007/conversion.log": {
+    "bytes": 21427,
+    "sha256": "5d09e7d1aea371856941d95e247a59d6aa20a831a75c49b09aacae761fe92158"
+  },
+  "runs/xphsp_Roman_007/exit_code.txt": {
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  "runs/xphsp_Roman_007/plots/Q2_raw.pdf": {
+    "bytes": 14444,
+    "sha256": "86a8680d40e424f6a01d853ffc3eee27e90e75520f66d541f290675381029f72"
+  },
+  "runs/xphsp_Roman_007/plots/Q2_raw.png": {
+    "bytes": 16146,
+    "sha256": "be84de4165fd9c40346af05934fe5080c6f754e853cffba3a1237db4ac308346"
+  },
+  "runs/xphsp_Roman_007/plots/Q2_weighted.pdf": {
+    "bytes": 14532,
+    "sha256": "d7d40d02d12c9964f20076934e8031f027193912e0218a5f429bae48334a9a25"
+  },
+  "runs/xphsp_Roman_007/plots/Q2_weighted.png": {
+    "bytes": 18560,
+    "sha256": "e8d65d4dd6f36fb38641b01bea9697d22d1d42fa663bd830dd5b3121c9b89f6a"
+  },
+  "runs/xphsp_Roman_007/plots/W_raw.pdf": {
+    "bytes": 14395,
+    "sha256": "c55cb02922146650275116ecbe1363c28fc932e6ce6c4d10c32b6ed7e7bd7c05"
+  },
+  "runs/xphsp_Roman_007/plots/W_raw.png": {
+    "bytes": 15843,
+    "sha256": "fd4628d9e93e24e507a0af611f566a09a0832340c60feb1f44e2f48f5fdbd1fe"
+  },
+  "runs/xphsp_Roman_007/plots/W_weighted.pdf": {
+    "bytes": 14481,
+    "sha256": "11a41cd6506cfbe52f70fca2a29e7c3263f290304109a753dd89d963efc6553f"
+  },
+  "runs/xphsp_Roman_007/plots/W_weighted.png": {
+    "bytes": 18275,
+    "sha256": "4d71dcf8322ffea859e4543f5686d943bc0d3e44def638277fd7f4b56cd3da28"
+  },
+  "runs/xphsp_Roman_007/plots/Weight_raw.pdf": {
+    "bytes": 14848,
+    "sha256": "e779378d07d0e2010e3116a2309a6b7b4410781c348ad18302f96462d55f527d"
+  },
+  "runs/xphsp_Roman_007/plots/Weight_raw.png": {
+    "bytes": 17684,
+    "sha256": "19b7dc6e4d64e01e69801d3b619550cdcd26c1d2e5095fa00bbc4e10b7844f76"
+  },
+  "runs/xphsp_Roman_007/plots/histograms.root": {
+    "bytes": 44916,
+    "sha256": "ec85040b85267b14953f59d4245e483f837862bf6613298fa5e5e41889764cc9"
+  },
+  "runs/xphsp_Roman_007/plots/hsdelta_raw.pdf": {
+    "bytes": 14591,
+    "sha256": "764260fa373fd00aeeccef71665544994289ec736c7a9bc5dcd321a2eb91dfac"
+  },
+  "runs/xphsp_Roman_007/plots/hsdelta_raw.png": {
+    "bytes": 16506,
+    "sha256": "678f4d3b989106da0dbafe467d3cd51357e4255969fe655b3da7babc900742b7"
+  },
+  "runs/xphsp_Roman_007/plots/hsdelta_weighted.pdf": {
+    "bytes": 14774,
+    "sha256": "02885d17a483569c8a1fae7e37d4bf4338fc849d47d2fc41446f959c91502f08"
+  },
+  "runs/xphsp_Roman_007/plots/hsdelta_weighted.png": {
+    "bytes": 18666,
+    "sha256": "7a04b245dcf56f4746a31c6d07e9dfa3c44cf3ef87216ced3696a8a624e44430"
+  },
+  "runs/xphsp_Roman_007/plots/hsxptar_raw.pdf": {
+    "bytes": 14592,
+    "sha256": "a107c8ac64419ed9c88dd86869a9e44f73ddef27eaabfc45f921086c9c5454df"
+  },
+  "runs/xphsp_Roman_007/plots/hsxptar_raw.png": {
+    "bytes": 16729,
+    "sha256": "2ec9b445559bcc0c5dd13351bcd690c4652038758eb21289407b1a0f2b0de564"
+  },
+  "runs/xphsp_Roman_007/plots/hsxptar_weighted.pdf": {
+    "bytes": 14833,
+    "sha256": "3497598dc9f67d9af55f361f82a44c3905b2bc27cb6b9eef383a9030ee1d17fe"
+  },
+  "runs/xphsp_Roman_007/plots/hsxptar_weighted.png": {
+    "bytes": 18998,
+    "sha256": "d559c91580c65987bae34e9fbb68da956b9f0873086b8cc8f8c37be90cf4440b"
+  },
+  "runs/xphsp_Roman_007/plots/hsyptar_raw.pdf": {
+    "bytes": 14514,
+    "sha256": "51ea275a70e9536f1228cab499a7320b473fc6906a4a8359b4bd4ad6d7f39e47"
+  },
+  "runs/xphsp_Roman_007/plots/hsyptar_raw.png": {
+    "bytes": 16276,
+    "sha256": "654b3339614afbe8e071f0076be37611f0d787413f1d71406757f527845034d4"
+  },
+  "runs/xphsp_Roman_007/plots/hsyptar_weighted.pdf": {
+    "bytes": 14656,
+    "sha256": "368e9f072be28650adeba5276650f6e27af8aaed72eb2f7403582dcf8b6247eb"
+  },
+  "runs/xphsp_Roman_007/plots/hsyptar_weighted.png": {
+    "bytes": 18444,
+    "sha256": "9e5b12ca39f85a8c8b92600e0fcbad25686889c7a8c5020d784e5e574a00b572"
+  },
+  "runs/xphsp_Roman_007/plots/hsytar_raw.pdf": {
+    "bytes": 14486,
+    "sha256": "cae5f0e2446c878c6049929a9e66015ceb51b64f98ea4b2745d361c5f8abe8bf"
+  },
+  "runs/xphsp_Roman_007/plots/hsytar_raw.png": {
+    "bytes": 15789,
+    "sha256": "2fcb32ed2c852bf530e81473c602fde8c774f71a4f663d3f0872f31c59b231a4"
+  },
+  "runs/xphsp_Roman_007/plots/hsytar_weighted.pdf": {
+    "bytes": 14607,
+    "sha256": "70ebfa927ab8e9c4f00f6d46b429c6365ec371527bbc6950511b26991c7034bf"
+  },
+  "runs/xphsp_Roman_007/plots/hsytar_weighted.png": {
+    "bytes": 18153,
+    "sha256": "020147d95caee5be652419b2fd60b387498ea1e56d1ac4a213495320791c238f"
+  },
+  "runs/xphsp_Roman_007/plots/missmass_raw.pdf": {
+    "bytes": 14898,
+    "sha256": "dd7123f5d95b7164628e64893e88c61089a4b72a132124c82c2c543ad46b09e4"
+  },
+  "runs/xphsp_Roman_007/plots/missmass_raw.png": {
+    "bytes": 18428,
+    "sha256": "c8b71eacb4d03f708405a66d9f2dda278134b22a3eec2806e4b963ea1a7ac705"
+  },
+  "runs/xphsp_Roman_007/plots/missmass_weighted.pdf": {
+    "bytes": 15218,
+    "sha256": "30a2b2b5a60ada0946945df9628abbf244b0e78ed74e167e5606809c7926127b"
+  },
+  "runs/xphsp_Roman_007/plots/missmass_weighted.png": {
+    "bytes": 20919,
+    "sha256": "8b7bd04585016fdf6afe655146d30b8256b62bcd97489aa00809b42f1872a9bc"
+  },
+  "runs/xphsp_Roman_007/plots/ssdelta_raw.pdf": {
+    "bytes": 14597,
+    "sha256": "36157ea53796845bc8451cca2cb555eeca184f14eb41c27df0d9125351916f5a"
+  },
+  "runs/xphsp_Roman_007/plots/ssdelta_raw.png": {
+    "bytes": 16993,
+    "sha256": "18ed1a247c9e208a1a9a12fd6ba235716d4f2bd57a291e743bd51e75d0b716f4"
+  },
+  "runs/xphsp_Roman_007/plots/ssdelta_weighted.pdf": {
+    "bytes": 14745,
+    "sha256": "852ab5a1f72c0d9e31e4c382dfe7f110cf0c7ea162381055b751aa5f3a68fbfe"
+  },
+  "runs/xphsp_Roman_007/plots/ssdelta_weighted.png": {
+    "bytes": 18907,
+    "sha256": "933d4096fce36b22ffe5241b56a9f661cea14c124f2fc76063c1aeb75d75d6dd"
+  },
+  "runs/xphsp_Roman_007/plots/ssxptar_raw.pdf": {
+    "bytes": 14592,
+    "sha256": "86bc914cf65ca51ab41a7748db5930f40f539f4346ff71669781babc1c0142cb"
+  },
+  "runs/xphsp_Roman_007/plots/ssxptar_raw.png": {
+    "bytes": 16929,
+    "sha256": "44e51cee9f670a73848fe85a8986b8eb8d6932c88f0eee98cc930b1852a6a335"
+  },
+  "runs/xphsp_Roman_007/plots/ssxptar_weighted.pdf": {
+    "bytes": 14540,
+    "sha256": "c6473ebb502ec607d5e56419bc310fc933b20822096a8b1da0b74a7a49804f25"
+  },
+  "runs/xphsp_Roman_007/plots/ssxptar_weighted.png": {
+    "bytes": 17684,
+    "sha256": "8a4e10b9b7f53910919a5d0233de52448a3f534bef47a61e69eb052ac9b87149"
+  },
+  "runs/xphsp_Roman_007/plots/ssyptar_raw.pdf": {
+    "bytes": 14522,
+    "sha256": "56aa1b919eecfcdc2eded362b0e8f5ef7c5831acf7107dc2a1bd70e8507d44e4"
+  },
+  "runs/xphsp_Roman_007/plots/ssyptar_raw.png": {
+    "bytes": 16528,
+    "sha256": "1394ea8a92d934c27285fd775a2da79a376440e5689fe3689a34da54ebe1a857"
+  },
+  "runs/xphsp_Roman_007/plots/ssyptar_weighted.pdf": {
+    "bytes": 14697,
+    "sha256": "b66fe88650d66c83b3282f7d9b006adf6faeed0f3381fa44ed187a913ae8064f"
+  },
+  "runs/xphsp_Roman_007/plots/ssyptar_weighted.png": {
+    "bytes": 18967,
+    "sha256": "ef43da643c50501468046c403e35bae8432d561503aee73d23454b287293fbeb"
+  },
+  "runs/xphsp_Roman_007/plots/ssytar_raw.pdf": {
+    "bytes": 14325,
+    "sha256": "0c41a82343cee877d9e369424dfbd5ef09b0f4e0342e7566992c60ae6218aa43"
+  },
+  "runs/xphsp_Roman_007/plots/ssytar_raw.png": {
+    "bytes": 15697,
+    "sha256": "2d22af2f5313b6bf9f90120fa177373baae478746dba0016eb79054c6b55d314"
+  },
+  "runs/xphsp_Roman_007/plots/ssytar_weighted.pdf": {
+    "bytes": 14407,
+    "sha256": "904b6a6951c0304c816abc06a41c9fb0eb2cf34720c6feaa90a46b8c69100ba9"
+  },
+  "runs/xphsp_Roman_007/plots/ssytar_weighted.png": {
+    "bytes": 18196,
+    "sha256": "7926c3a073dd2b99c0c48493e751ddb52622f84db1bd6afbbae2bba577332367"
+  },
+  "runs/xphsp_Roman_007/plots/summary.json": {
+    "bytes": 7399,
+    "sha256": "70352e18f992ba39896c94e708b384e36117ae4566ac9b425058fd64c30fca4f"
+  },
+  "runs/xphsp_Roman_007/plots/t_raw.pdf": {
+    "bytes": 14206,
+    "sha256": "4e4779781feb7ef9599a1ca58f3f2ffba347131aa05f5b197ff72e7eda43b00d"
+  },
+  "runs/xphsp_Roman_007/plots/t_raw.png": {
+    "bytes": 16168,
+    "sha256": "56ab6183e4b4e1151ff2bc38245cf66c1ddeb317f60bd52b5fca1c7d504035cd"
+  },
+  "runs/xphsp_Roman_007/plots/t_weighted.pdf": {
+    "bytes": 14274,
+    "sha256": "0c9ede62c8ad5684a9e5e51564015f174158646e38a691df40c3b81fb39d7ee2"
+  },
+  "runs/xphsp_Roman_007/plots/t_weighted.png": {
+    "bytes": 18559,
+    "sha256": "7ccbc355ce539c0e93786833b36383f9f5f929ee567a1ae658e9b9abf24bb54a"
+  },
+  "runs/xphsp_Roman_007/simc.log": {
+    "bytes": 1967,
+    "sha256": "9df40d8f368186c1d2246b57aae13afc5aefd0e22d403a942d90ab74bd2a9105"
+  },
+  "runs/xphsp_Roman_007/xphsp_Roman_007.gen": {
+    "bytes": 25690,
+    "sha256": "7ea4a0fe83ad19e18aec8c0e2e2e513dd376e262dd0a466c58625025bd643c24"
+  },
+  "runs/xphsp_Roman_007/xphsp_Roman_007.geni": {
+    "bytes": 1421,
+    "sha256": "1d222b3e6d41d132902fd533718bbb1e6fbc38cfb836bb229932e3591451236c"
+  },
+  "runs/xphsp_Roman_007/xphsp_Roman_007.hist": {
+    "bytes": 9604,
+    "sha256": "c08a599d295b4a58caa4228c7f1abe7a9bf403234b87fcef818c9243ab56012e"
+  },
+  "runs/xphsp_Roman_007/xphsp_Roman_007.inp": {
+    "bytes": 5542,
+    "sha256": "05c91ed65d733549545840eefb06a0f3698bd5bf9f5df551addfe91c0607286f"
+  },
+  "runs/xphsp_Roman_007/xphsp_Roman_007.root": {
+    "bytes": 257957,
+    "sha256": "cac7a14bda79cfe48273049d9871a336ffaa8875edb1095b4c137e237b38fb57"
+  },
+  "runs/xphsp_Roman_007/xphsp_Roman_007_start_random_state.dat": {
+    "bytes": 325,
+    "sha256": "8df9318d85df6fb7bde69ac292e066a259a6f0f4ba772d06be2bc45adc4ed131"
+  },
+  "weight_audit.json": {
+    "bytes": 3890,
+    "sha256": "baaeb104e2696e8da01ce9baebf191c0b851ae5fb486d035dd2817c4fbd25ce3"
+  }
+}

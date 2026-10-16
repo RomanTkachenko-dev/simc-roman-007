@@ -1,0 +1,391 @@
+{
+  "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/eta_Roman_007.root",
+  "tree": "h10",
+  "before": 1000,
+  "after": 584,
+  "cut": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "branches": [
+    "Em",
+    "MM2",
+    "Mhadron",
+    "PMsigned",
+    "Pm",
+    "Q2",
+    "Q2i",
+    "W",
+    "Weight",
+    "Wi",
+    "decdist",
+    "epsilon",
+    "epsiloni",
+    "factor",
+    "fry",
+    "hsdelta",
+    "hsdeltai",
+    "hsxfp",
+    "hsxpfp",
+    "hsxptar",
+    "hsxptari",
+    "hsyfp",
+    "hsypfp",
+    "hsyptar",
+    "hsyptari",
+    "hsytar",
+    "hsytari",
+    "minus_u",
+    "missmass",
+    "mmnuc",
+    "nu",
+    "pfermi",
+    "phad",
+    "phicmi",
+    "phimq",
+    "phipq",
+    "phipqi",
+    "pmoop",
+    "pmpar",
+    "pmper",
+    "q",
+    "radphot",
+    "sigcm",
+    "siglab",
+    "ssdelta",
+    "ssdeltai",
+    "ssxfp",
+    "ssxpfp",
+    "ssxptar",
+    "ssxptari",
+    "ssyfp",
+    "ssypfp",
+    "ssyptar",
+    "ssyptari",
+    "ssytar",
+    "ssytari",
+    "t",
+    "thetacm",
+    "thetacmi",
+    "thetamq",
+    "thetapq",
+    "thetapqi",
+    "ti",
+    "tprimei",
+    "ui",
+    "wcmi"
+  ],
+  "has_weight": true,
+  "weight_stats": {
+    "negative": 1000,
+    "zero": 0,
+    "nonfinite": 0,
+    "sum": -1.0556143528045459e-07,
+    "min": -2.6058151192387413e-09,
+    "max": -5.342589565193734e-11
+  },
+  "missing_requested_columns": [
+    "hsxtar",
+    "ssxtar"
+  ],
+  "normalization": "None. Signed weights retained verbatim; raw counts are not yields.",
+  "histogram_flows": {
+    "Q2_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "Q2_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "W_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "W_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "t_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "t_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "missmass_raw": [
+      {
+        "underflow": 3.0,
+        "overflow": 0.0,
+        "in_range": 997.0
+      },
+      {
+        "underflow": 1.0,
+        "overflow": 0.0,
+        "in_range": 583.0
+      }
+    ],
+    "missmass_weighted": [
+      {
+        "underflow": -6.1243344839923e-09,
+        "overflow": 0.0,
+        "in_range": -9.943710079646229e-08
+      },
+      {
+        "underflow": -1.7100213467458047e-09,
+        "overflow": 0.0,
+        "in_range": -5.7193199037852693e-08
+      }
+    ],
+    "hsdelta_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "hsdelta_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "ssdelta_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "ssdelta_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "hsxptar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 1.0,
+        "in_range": 999.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "hsxptar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": -2.6058151192387413e-09,
+        "in_range": -1.0295562016121584e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "ssxptar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "ssxptar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "hsyptar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "hsyptar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "ssyptar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "ssyptar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "hsytar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "hsytar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "ssytar_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ],
+    "ssytar_weighted": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -1.0556143528045459e-07
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": -5.89032203845985e-08
+      }
+    ],
+    "Weight_raw": [
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 1000.0
+      },
+      {
+        "underflow": 0.0,
+        "overflow": 0.0,
+        "in_range": 584.0
+      }
+    ]
+  }
+}

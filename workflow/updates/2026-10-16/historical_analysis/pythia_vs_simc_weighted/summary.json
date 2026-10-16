@@ -1,0 +1,119 @@
+{
+  "cuts": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "selection_expression": "Weight*(abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024)",
+  "channel_scales": {
+    "omega": 1.0,
+    "phi": 0.1,
+    "rho": 2.0,
+    "eta": 0.044444444444444446,
+    "etap": 0.06666666666666667,
+    "xphsp": 4.0
+  },
+  "channels": {
+    "omega": {
+      "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.root",
+      "all_events": 1000,
+      "accepted": 595,
+      "negative_all": 0,
+      "negative_accepted": 0,
+      "positive_accepted": 595,
+      "zero_accepted": 0,
+      "sum_weight_after_cuts": 5.12814492630298e-05,
+      "sum_weight_visible": 5.12814492630298e-05,
+      "scale": 1.0
+    },
+    "phi": {
+      "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/phi_Roman_007.root",
+      "all_events": 1000,
+      "accepted": 549,
+      "negative_all": 963,
+      "negative_accepted": 536,
+      "positive_accepted": 13,
+      "zero_accepted": 0,
+      "sum_weight_after_cuts": -6.163256606239731e-06,
+      "sum_weight_visible": -6.163256606239731e-06,
+      "scale": 0.1
+    },
+    "rho": {
+      "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/rho_Roman_007/rho_Roman_007.root",
+      "all_events": 1000,
+      "accepted": 573,
+      "negative_all": 993,
+      "negative_accepted": 569,
+      "positive_accepted": 4,
+      "zero_accepted": 0,
+      "sum_weight_after_cuts": -0.00019575558161477602,
+      "sum_weight_visible": -0.00019575558161477602,
+      "scale": 2.0
+    },
+    "eta": {
+      "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/eta_Roman_007.root",
+      "all_events": 1000,
+      "accepted": 584,
+      "negative_all": 1000,
+      "negative_accepted": 584,
+      "positive_accepted": 0,
+      "zero_accepted": 0,
+      "sum_weight_after_cuts": -5.89032203845985e-08,
+      "sum_weight_visible": -5.7193199037852693e-08,
+      "scale": 0.044444444444444446
+    },
+    "etap": {
+      "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/etap_Roman_007/etap_Roman_007.root",
+      "all_events": 1000,
+      "accepted": 591,
+      "negative_all": 973,
+      "negative_accepted": 583,
+      "positive_accepted": 8,
+      "zero_accepted": 0,
+      "sum_weight_after_cuts": -1.547921927164131e-07,
+      "sum_weight_visible": -1.547921927164131e-07,
+      "scale": 0.06666666666666667
+    },
+    "xphsp": {
+      "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp_Roman_007/xphsp_Roman_007.root",
+      "all_events": 1000,
+      "accepted": 523,
+      "negative_all": 0,
+      "negative_accepted": 0,
+      "positive_accepted": 523,
+      "zero_accepted": 0,
+      "sum_weight_after_cuts": 4.863024453071428e-10,
+      "sum_weight_visible": 4.863024453071428e-10,
+      "scale": 4.0
+    }
+  },
+  "weight_handling": "Signed Weight for every accepted SIMC event; no abs, clipping, or removal of negative weights.",
+  "pythia": {
+    "original_file": "/mnt/c/Users/roman/Downloads/Pythia_557ab.root",
+    "tree": "Background",
+    "histogram": "mx_raw_after",
+    "event_weight": "Not available; raw counts retained."
+  },
+  "warning": "Diagnostic signed-weight comparison, not validated physical yields. Negative weights need interpretation/validation. Channel factors are user-selected, not luminosity factors.",
+  "variable_assumption": "Pythia mx is provisionally treated as reconstructed missing mass in GeV; physical equivalence to SIMC missmass is unverified.",
+  "error_handling": "Sumw2; independent-channel variances added. Peak-normalization-factor uncertainty not propagated.",
+  "weighted_sum_omega_region_peak": {
+    "bin": 40,
+    "low_GeV": 0.78,
+    "high_GeV": 0.8,
+    "height": -1.0852161959095583e-05
+  },
+  "pythia_omega_region_peak": {
+    "bin": 40,
+    "low_GeV": 0.78,
+    "high_GeV": 0.8,
+    "height": 745404.0
+  },
+  "normalization": "Not applied: no positive weighted total peak in omega window; a sign-flipping normalization would be misleading.",
+  "source_sha256": {
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.root": "c475d81da2fc5f02077afbb9e67184360866966fc60474d83f1af87d81fa107d",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/phi_Roman_007.root": "26db9183a2c04f55727c3b111bb0c118f1dd8b671cb97f9eb56ee9f2902eb141",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/rho_Roman_007/rho_Roman_007.root": "9576855a7892eb20c79549f83cb8f112ba8075f8134e4c3ebb9a7dcab6afbb82",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/eta_Roman_007.root": "a1aaf4ce5fe8759ea01f011213ccbb9b161bde15a7c0339f4af9d58e29c28ce7",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/etap_Roman_007/etap_Roman_007.root": "9855a186f64a702c2fdde8c348bde925e1908546e774f43171cc354b93056818",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp_Roman_007/xphsp_Roman_007.root": "cac7a14bda79cfe48273049d9871a336ffaa8875edb1095b4c137e237b38fb57",
+    "/mnt/d/EIC/SIMC_RUNS/BACKGROUND_ROOT_ANALYSIS/Pythia_Background/histograms.root": "d559b912c65eb3a235b00b5f36d09e0ea3e96ab958f19d1808c1f8dcc800d073"
+  },
+  "verification": "Rebuilt from event trees; cut counts, signed sums, Sumw2 and every bin agree with saved weighted histograms; channel sums checked; source hashes unchanged."
+}

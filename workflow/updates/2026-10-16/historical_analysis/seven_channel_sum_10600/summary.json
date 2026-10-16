@@ -1,0 +1,232 @@
+{
+  "cuts_for_missing_mass": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "weight_distribution_selection": "All 1000 stored events per channel, no additional analysis cuts.",
+  "kinematics": {
+    "Ebeam_GeV": 10.6,
+    "electron_arm": "SHMS",
+    "electron_p_GeV": 6.7,
+    "electron_theta_deg": 13.0,
+    "proton_arm": "HMS",
+    "proton_p_GeV": 1.1,
+    "proton_theta_deg": 32.0,
+    "radiation": false,
+    "energy_loss": false,
+    "smearing": false
+  },
+  "input_verification": "All seven files identical from kinematics_main through end of file; new mode is doing_Xphasespace=3.",
+  "sum_method": "Sum of raw missing-mass counts with the previously requested channel factors. No event Weight and no Pythia scaling. Produced before and after analysis cuts.",
+  "scales": {
+    "omega": 1.0,
+    "phi": 0.1,
+    "rho": 2.0,
+    "eta": 0.044444444444444446,
+    "etap": 0.06666666666666667,
+    "xphsp": 4.0,
+    "xphsp3": 1.0
+  },
+  "three_pion_scale_status": "Provisional display choice, not a physical normalization or supervisor-approved yield.",
+  "physics_warning": "Weights of several original channels remain under review. The raw-count sum is diagnostic only; it does NOT include the new three-body phase-space factor carried by Weight. The standalone new-channel weighted histograms retain that factor. Relative channel yields and possible background double counting are not established.",
+  "sources": {
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.root": "c475d81da2fc5f02077afbb9e67184360866966fc60474d83f1af87d81fa107d",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/plots/histograms.root": "977246ad1a05e9ad77612965c60d1d132a1bcb8bf252d3838166d07b52153d6a",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/phi_Roman_007.root": "26db9183a2c04f55727c3b111bb0c118f1dd8b671cb97f9eb56ee9f2902eb141",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/plots/histograms.root": "b6207cb7170d2731bb1f305958885a6046a9fed1ca8df3c9ca77b4bc266c6331",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/rho_Roman_007/rho_Roman_007.root": "9576855a7892eb20c79549f83cb8f112ba8075f8134e4c3ebb9a7dcab6afbb82",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/rho_Roman_007/plots/histograms.root": "2882abfacef72122bdbbca725e9a3bc46f1e968785db398102fa1f35c33477e6",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/eta_Roman_007.root": "a1aaf4ce5fe8759ea01f011213ccbb9b161bde15a7c0339f4af9d58e29c28ce7",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/plots/histograms.root": "e18d3aca26e6fd356b84e219bd3c61cb33e7403637f4444f14628e5b25ceddbd",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/etap_Roman_007/etap_Roman_007.root": "9855a186f64a702c2fdde8c348bde925e1908546e774f43171cc354b93056818",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/etap_Roman_007/plots/histograms.root": "3d3947bf0acdd443a1edf757a62f1cfa52278a22c2c01bb8b8c8ef6e0e9d7252",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp_Roman_007/xphsp_Roman_007.root": "cac7a14bda79cfe48273049d9871a336ffaa8875edb1095b4c137e237b38fb57",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp_Roman_007/plots/histograms.root": "ec85040b85267b14953f59d4245e483f837862bf6613298fa5e5e41889764cc9",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp3_Roman_007/xphsp3_Roman_007.root": "ded61326b57708244d899b05edffbec8b8a5d9d184f45878d42404ef9dbcf39d",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp3_Roman_007/plots/histograms.root": "f393ccf29f78ee63000bc49f5f3dd87ddd4988bbcc97624a22d0f4f3f22a374b"
+  },
+  "channels": {
+    "omega": {
+      "before": {
+        "entries": 1000,
+        "negative": 0,
+        "positive": 1000,
+        "zero": 0,
+        "min": 4.129046971002026e-08,
+        "max": 3.1209290227707243e-06,
+        "mean": 1.0068771906546204e-07,
+        "sum_weights": 0.00010068771906546203
+      },
+      "after": {
+        "entries": 595,
+        "negative": 0,
+        "positive": 595,
+        "zero": 0,
+        "min": 4.696342159604683e-08,
+        "max": 1.553040647195303e-07,
+        "mean": 8.618730968576437e-08,
+        "sum_weights": 5.12814492630298e-05
+      },
+      "min_reconstructed_missing_mass_GeV": -0.8142563700675964,
+      "max_reconstructed_missing_mass_GeV": 1.3343861103057861
+    },
+    "phi": {
+      "before": {
+        "entries": 1000,
+        "negative": 963,
+        "positive": 37,
+        "zero": 0,
+        "min": -2.0993867977381342e-08,
+        "max": 1.4063671338604422e-09,
+        "mean": -1.113753663140038e-08,
+        "sum_weights": -1.113753663140038e-05
+      },
+      "after": {
+        "entries": 549,
+        "negative": 536,
+        "positive": 13,
+        "zero": 0,
+        "min": -1.914791525337023e-08,
+        "max": 1.2980726493694306e-09,
+        "mean": -1.1226332616101513e-08,
+        "sum_weights": -6.163256606239731e-06
+      },
+      "min_reconstructed_missing_mass_GeV": -0.4515753984451294,
+      "max_reconstructed_missing_mass_GeV": 1.1560139656066895
+    },
+    "rho": {
+      "before": {
+        "entries": 1000,
+        "negative": 993,
+        "positive": 7,
+        "zero": 0,
+        "min": -1.4632659031121875e-06,
+        "max": 2.8351325909170555e-06,
+        "mean": -3.567322655797511e-07,
+        "sum_weights": -0.00035673226557975113
+      },
+      "after": {
+        "entries": 573,
+        "negative": 569,
+        "positive": 4,
+        "zero": 0,
+        "min": -1.1213484185645939e-06,
+        "max": 2.8351325909170555e-06,
+        "mean": -3.416327776872182e-07,
+        "sum_weights": -0.00019575558161477602
+      },
+      "min_reconstructed_missing_mass_GeV": -0.14098748564720154,
+      "max_reconstructed_missing_mass_GeV": 1.1976220607757568
+    },
+    "eta": {
+      "before": {
+        "entries": 1000,
+        "negative": 1000,
+        "positive": 0,
+        "zero": 0,
+        "min": -2.6058151192387413e-09,
+        "max": -5.342589565193734e-11,
+        "mean": -1.0556143528045458e-10,
+        "sum_weights": -1.0556143528045459e-07
+      },
+      "after": {
+        "entries": 584,
+        "negative": 584,
+        "positive": 0,
+        "zero": 0,
+        "min": -1.7100213467458047e-09,
+        "max": -6.090584980800173e-11,
+        "mean": -1.0086167874075085e-10,
+        "sum_weights": -5.89032203845985e-08
+      },
+      "min_reconstructed_missing_mass_GeV": -0.6517637372016907,
+      "max_reconstructed_missing_mass_GeV": 0.5562168955802917
+    },
+    "etap": {
+      "before": {
+        "entries": 1000,
+        "negative": 973,
+        "positive": 27,
+        "zero": 0,
+        "min": -7.999036433226081e-10,
+        "max": 2.99427793670759e-09,
+        "mean": -2.3511917268681517e-10,
+        "sum_weights": -2.3511917268681515e-07
+      },
+      "after": {
+        "entries": 591,
+        "negative": 583,
+        "positive": 8,
+        "zero": 0,
+        "min": -6.193204282745057e-10,
+        "max": 2.7849393902101838e-09,
+        "mean": -2.61915723716435e-10,
+        "sum_weights": -1.547921927164131e-07
+      },
+      "min_reconstructed_missing_mass_GeV": 0.6083422899246216,
+      "max_reconstructed_missing_mass_GeV": 0.9643498659133911
+    },
+    "xphsp": {
+      "before": {
+        "entries": 1000,
+        "negative": 0,
+        "positive": 1000,
+        "zero": 0,
+        "min": 5.009175040905645e-13,
+        "max": 1.7266341351476755e-12,
+        "mean": 9.459670869977483e-13,
+        "sum_weights": 9.459670869977482e-10
+      },
+      "after": {
+        "entries": 523,
+        "negative": 0,
+        "positive": 523,
+        "zero": 0,
+        "min": 5.235504954917425e-13,
+        "max": 1.586333928799144e-12,
+        "mean": 9.298325914094508e-13,
+        "sum_weights": 4.863024453071428e-10
+      },
+      "min_reconstructed_missing_mass_GeV": 0.13689714670181274,
+      "max_reconstructed_missing_mass_GeV": 1.4744526147842407
+    },
+    "xphsp3": {
+      "before": {
+        "entries": 1000,
+        "negative": 0,
+        "positive": 1000,
+        "zero": 0,
+        "min": 5.466198084930069e-18,
+        "max": 4.118392692847861e-12,
+        "mean": 9.882330494556706e-13,
+        "sum_weights": 9.882330494556706e-10
+      },
+      "after": {
+        "entries": 531,
+        "negative": 0,
+        "positive": 531,
+        "zero": 0,
+        "min": 5.466198084930069e-18,
+        "max": 3.0597267341309076e-12,
+        "mean": 8.730455757693887e-13,
+        "sum_weights": 4.635872007335454e-10
+      },
+      "min_reconstructed_missing_mass_GeV": 0.41926485300064087,
+      "max_reconstructed_missing_mass_GeV": 1.4744526147842407
+    }
+  },
+  "sum": {
+    "before": {
+      "six_integral": 7205.877777777778,
+      "new_3pi_integral": 1000.0,
+      "seven_integral": 8205.877777777778,
+      "underflow": 5.233333333333333,
+      "overflow": 0.0
+    },
+    "after": {
+      "six_integral": 3953.2111111111103,
+      "new_3pi_integral": 531.0,
+      "seven_integral": 4484.21111111111,
+      "underflow": 0.044444444444444446,
+      "overflow": 0.0
+    }
+  },
+  "verification": "All seven inputs matched; each tree has 1000 entries; saved raw histograms match event refills bin by bin; scale factors, sums and variances checked; no source ROOT files changed."
+}

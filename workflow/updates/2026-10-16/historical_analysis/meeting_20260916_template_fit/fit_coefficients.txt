@@ -1,0 +1,8 @@
+channel	fill	fitted_count_equivalent	scale_to_original_histogram	multiplier_vs_previous_curve	boundary
+omega	Weight	1173838.817	2.289012565e+10	15332678.3	False
+phi	1 (unweighted provisional template)	109625.4897	199.6821306	1.337546992	False
+rho	1 (unweighted provisional template)	1024908.14	1788.670401	0.5990597927	False
+eta	1 (unweighted provisional template)	10827.43878	18.57193616	0.2799042852	False
+etap	1 (unweighted provisional template)	0	0	0	True
+xphsp	Weight	885335.9353	1.820545925e+15	3.048677565e+11	False
+xphsp3	Weight	4767039.002	1.028293921e+16	6.887904472e+12	False

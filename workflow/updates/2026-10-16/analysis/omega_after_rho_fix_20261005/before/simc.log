@@ -1,0 +1,38 @@
+(daVar) Replacing definition of variable "parm.doing_rho" in table
+ RANLUX DEFAULT INITIALIZATION:    314159265
+ RANLUX DEFAULT LUXURY LEVEL =   3      p = 223
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ Illegal initialization by RLUXGO, negative input seed
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ sim: calling min_max_init
+ Enter the input filename (assumed to be in infiles directory)
+ filename=infiles/omega_Roman_007.inp                                          
+ Use random seed =            0
+ E_bind =   0.0000000000000000      MeV in limits_init (QF only)
+  ****--------  H(e,e'p)omega  --------****
+    SHMS is detecting electrons
+    HMS  is detecting hadrons
+ Welcome to Hall C++ at JLab12 - Get to work!
+ NOTE: Will NOT be applying radiative corrections
+ NOTE: Will NOT be calculating energy loss in the target
+ NOTE: Will NOT be calculating Coulomb correction (default for Hydrogen target)
+ NOTE: Will NOT correct reconstructed data for energy loss
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ Initial random vector save to file: outfiles/omega_Roman_007_start_random_state.dat                                                                                     
+  
+ Generating Event        1 ...        0  successes so far - Monitor: 0.0000E+00
+ Generating Event     1001 ...        9  successes so far - Monitor: 0.1685E+01
+ Generating Event     2001 ...       16  successes so far - Monitor: 0.1221E+01
+ Generating Event     3001 ...       26  successes so far - Monitor: 0.1512E+01
+ Generating Event     4001 ...       33  successes so far - Monitor: 0.1549E+01
+ Generating Event     5001 ...       39  successes so far - Monitor: 0.1378E+01
+ Generating Event    20001 ...      137  successes so far - Monitor: 0.1158E+01
+ Generating Event    40001 ...      310  successes so far - Monitor: 0.1387E+01
+ Generating Event    60001 ...      450  successes so far - Monitor: 0.1359E+01
+ Generating Event    80001 ...      578  successes so far - Monitor: 0.1308E+01
+ Generating Event   100001 ...      719  successes so far - Monitor: 0.1319E+01
+ Generating Event   120001 ...      868  successes so far - Monitor: 0.1325E+01
+ ---> Last Event    136898 ...     1000  successes
+ ... writing outfiles/omega_Roman_007.gen                                                    
+ Come back soon!

@@ -1,0 +1,143 @@
+( cat target.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|target.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > target.d
+( cat brem.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|brem.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > brem.d
+( cat gauss1.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|gauss1.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > gauss1.d
+( cat NtupleInit.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|NtupleInit.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > NtupleInit.d
+( cat NtupleClose.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|NtupleClose.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > NtupleClose.d
+( cat enerloss_new.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|enerloss_new.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > enerloss_new.d
+( cat radc.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|radc.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > radc.d
+( cat init.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|init.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > init.d
+( cat dbase.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|dbase.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > dbase.d
+( cat physics_kaon.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_kaon.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_kaon.d
+( cat physics_pion.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_pion.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_pion.d
+( cat physics_delta.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_delta.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_delta.d
+( cat physics_proton.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_proton.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_proton.d
+( cat loren.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|loren.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > loren.d
+( cat sf_lookup.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|sf_lookup.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > sf_lookup.d
+( cat semi_physics.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|semi_physics.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > semi_physics.d
+( cat rho_physics.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|rho_physics.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > rho_physics.d
+( cat rho_decay.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|rho_decay.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > rho_decay.d
+( cat generate_rho.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|generate_rho.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > generate_rho.d
+( cat trg_track.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|trg_track.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > trg_track.d
+( cat semi_dilution.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|semi_dilution.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > semi_dilution.d
+( cat pizero_decay.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|pizero_decay.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > pizero_decay.d
+( cat physics_omega.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_omega.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_omega.d
+( cat physics_Xphasespace.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_Xphasespace.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_Xphasespace.d
+( cat physics_rho_recoil.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_rho_recoil.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_rho_recoil.d
+( cat physics_phi.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_phi.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_phi.d
+( cat physics_eta.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_eta.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_eta.d
+( cat physics_eta_prime.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_eta_prime.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_eta_prime.d
+( cat physics_pizero.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_pizero.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_pizero.d
+( cat physics_dvcs.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|physics_dvcs.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > physics_dvcs.d
+( cat results_write.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|results_write.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > results_write.d
+( cat event.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|event.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > event.d
+( cat call_ranlux.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|call_ranlux.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > call_ranlux.d
+( cat jacobians.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|jacobians.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > jacobians.d
+( cat get_file_event.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|get_file_event.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > get_file_event.d
+( cat F1F2IN21_v1.0.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|F1F2IN21_v1.0.d: ./|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > F1F2IN21_v1.0.d
+( cat shared/musc.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shared/musc.d: shared/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shared/musc.d
+( cat shared/musc_ext.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shared/musc_ext.d: shared/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shared/musc_ext.d
+( cat shared/project.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shared/project.d: shared/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shared/project.d
+( cat shared/transp.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shared/transp.d: shared/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shared/transp.d
+( cat shared/rotate_haxis.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shared/rotate_haxis.d: shared/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shared/rotate_haxis.d
+( cat shared/rotate_vaxis.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shared/rotate_vaxis.d: shared/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shared/rotate_vaxis.d
+( cat shared/locforunt.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shared/locforunt.d: shared/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shared/locforunt.d
+( cat hms/mc_hms.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hms/mc_hms.d: hms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hms/mc_hms.d
+( cat hms/mc_hms_hut.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hms/mc_hms_hut.d: hms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hms/mc_hms_hut.d
+( cat hms/mc_hms_recon.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hms/mc_hms_recon.d: hms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hms/mc_hms_recon.d
+( cat hms/pion_coll_absorb.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hms/pion_coll_absorb.d: hms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hms/pion_coll_absorb.d
+( cat hms/mc_hms_coll.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hms/mc_hms_coll.d: hms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hms/mc_hms_coll.d
+( cat sos/mc_sos.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|sos/mc_sos.d: sos/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > sos/mc_sos.d
+( cat sos/mc_sos_hut.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|sos/mc_sos_hut.d: sos/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > sos/mc_sos_hut.d
+( cat sos/mc_sos_recon.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|sos/mc_sos_recon.d: sos/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > sos/mc_sos_recon.d
+( cat hrsr/mc_hrsr.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hrsr/mc_hrsr.d: hrsr/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hrsr/mc_hrsr.d
+( cat hrsr/mc_hrsr_hut.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hrsr/mc_hrsr_hut.d: hrsr/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hrsr/mc_hrsr_hut.d
+( cat hrsr/mc_hrsr_recon.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hrsr/mc_hrsr_recon.d: hrsr/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hrsr/mc_hrsr_recon.d
+( cat hrsl/mc_hrsl.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hrsl/mc_hrsl.d: hrsl/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hrsl/mc_hrsl.d
+( cat hrsl/mc_hrsl_hut.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hrsl/mc_hrsl_hut.d: hrsl/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hrsl/mc_hrsl_hut.d
+( cat hrsl/mc_hrsl_recon.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|hrsl/mc_hrsl_recon.d: hrsl/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > hrsl/mc_hrsl_recon.d
+( cat shms/mc_shms.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shms/mc_shms.d: shms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shms/mc_shms.d
+( cat shms/mc_shms_hut.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shms/mc_shms_hut.d: shms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shms/mc_shms_hut.d
+( cat shms/mc_shms_recon.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shms/mc_shms_recon.d: shms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shms/mc_shms_recon.d
+( cat shms/mc_shms_coll.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|shms/mc_shms_coll.d: shms/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > shms/mc_shms_coll.d
+( cat cteq5/Ctq5Pdf.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|cteq5/Ctq5Pdf.d: cteq5/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > cteq5/Ctq5Pdf.d
+( cat calo/mc_calo.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|calo/mc_calo.d: calo/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > calo/mc_calo.d
+( cat calo/mc_calo_recon.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|calo/mc_calo_recon.d: calo/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > calo/mc_calo_recon.d
+( cat cern/lfit.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|cern/lfit.d: cern/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > cern/lfit.d
+( cat cern/ranlux.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|cern/ranlux.d: cern/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > cern/ranlux.d
+( cat cern/fint.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|cern/fint.d: cern/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > cern/fint.d
+( cat cern/kerset.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|cern/kerset.d: cern/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > cern/kerset.d
+( cat cern/abend.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|cern/abend.d: cern/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > cern/abend.d
+( cat fdss/fdss.f |  sed -n -e "s|^[ 	]*[Ii][Nn][Cc][Ll][Uu][Dd][Ee][ 	]*['\"]|fdss/fdss.d: fdss/|p" | sed -e "s|['\"].*$||" | sed -e 's|.d:|.o:|') > fdss/fdss.d
+gfortran -c -ffixed-line-length-132 modules.f histograms_module.f
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c simc.f -o simc.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c target.f -o target.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c brem.f -o brem.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c gauss1.f -o gauss1.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c NtupleInit.f -o NtupleInit.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c NtupleClose.f -o NtupleClose.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c enerloss_new.f -o enerloss_new.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c radc.f -o radc.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c init.f -o init.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c dbase.f -o dbase.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_kaon.f -o physics_kaon.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_pion.f -o physics_pion.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_delta.f -o physics_delta.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_proton.f -o physics_proton.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c loren.f -o loren.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c sf_lookup.f -o sf_lookup.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c semi_physics.f -o semi_physics.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c rho_physics.f -o rho_physics.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c rho_decay.f -o rho_decay.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c generate_rho.f -o generate_rho.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c trg_track.f -o trg_track.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c semi_dilution.f -o semi_dilution.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c pizero_decay.f -o pizero_decay.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_omega.f -o physics_omega.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_Xphasespace.f -o physics_Xphasespace.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_rho_recoil.f -o physics_rho_recoil.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_phi.f -o physics_phi.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_eta.f -o physics_eta.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_eta_prime.f -o physics_eta_prime.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_pizero.f -o physics_pizero.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c physics_dvcs.f -o physics_dvcs.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c results_write.f -o results_write.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c event.f -o event.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c call_ranlux.f -o call_ranlux.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c jacobians.f -o jacobians.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c get_file_event.f -o get_file_event.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c F1F2IN21_v1.0.f -o F1F2IN21_v1.0.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shared/musc.f -o shared/musc.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shared/musc_ext.f -o shared/musc_ext.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shared/project.f -o shared/project.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shared/transp.f -o shared/transp.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shared/rotate_haxis.f -o shared/rotate_haxis.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shared/rotate_vaxis.f -o shared/rotate_vaxis.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shared/locforunt.f -o shared/locforunt.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hms/mc_hms.f -o hms/mc_hms.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hms/mc_hms_hut.f -o hms/mc_hms_hut.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hms/mc_hms_recon.f -o hms/mc_hms_recon.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hms/pion_coll_absorb.f -o hms/pion_coll_absorb.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hms/mc_hms_coll.f -o hms/mc_hms_coll.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c sos/mc_sos.f -o sos/mc_sos.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c sos/mc_sos_hut.f -o sos/mc_sos_hut.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c sos/mc_sos_recon.f -o sos/mc_sos_recon.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hrsr/mc_hrsr.f -o hrsr/mc_hrsr.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hrsr/mc_hrsr_hut.f -o hrsr/mc_hrsr_hut.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hrsr/mc_hrsr_recon.f -o hrsr/mc_hrsr_recon.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hrsl/mc_hrsl.f -o hrsl/mc_hrsl.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hrsl/mc_hrsl_hut.f -o hrsl/mc_hrsl_hut.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c hrsl/mc_hrsl_recon.f -o hrsl/mc_hrsl_recon.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shms/mc_shms.f -o shms/mc_shms.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shms/mc_shms_hut.f -o shms/mc_shms_hut.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shms/mc_shms_recon.f -o shms/mc_shms_recon.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c shms/mc_shms_coll.f -o shms/mc_shms_coll.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c cteq5/Ctq5Pdf.f -o cteq5/Ctq5Pdf.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c calo/mc_calo.f -o calo/mc_calo.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c calo/mc_calo_recon.f -o calo/mc_calo_recon.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c cern/lfit.f -o cern/lfit.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c cern/ranlux.f -o cern/ranlux.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c cern/fint.f -o cern/fint.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c cern/kerset.f -o cern/kerset.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c cern/abend.f -o cern/abend.o
+gfortran -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch -c fdss/fdss.f -o fdss/fdss.o
+gfortran  -o simc -I. -O -w -ffixed-line-length-132 -ff2c -fno-automatic -fdefault-real-8 -fallow-argument-mismatch target.o brem.o gauss1.o NtupleInit.o NtupleClose.o enerloss_new.o radc.o init.o dbase.o physics_kaon.o physics_pion.o physics_delta.o physics_proton.o loren.o sf_lookup.o semi_physics.o rho_physics.o rho_decay.o generate_rho.o trg_track.o semi_dilution.o pizero_decay.o physics_omega.o physics_Xphasespace.o physics_rho_recoil.o physics_phi.o physics_eta.o physics_eta_prime.o physics_pizero.o physics_dvcs.o results_write.o event.o call_ranlux.o jacobians.o get_file_event.o F1F2IN21_v1.0.o ./shared/musc.o ./shared/musc_ext.o ./shared/project.o ./shared/transp.o ./shared/rotate_haxis.o ./shared/rotate_vaxis.o ./shared/locforunt.o ./hms/mc_hms.o ./hms/mc_hms_hut.o ./hms/mc_hms_recon.o ./hms/pion_coll_absorb.o ./hms/mc_hms_coll.o ./sos/mc_sos.o ./sos/mc_sos_hut.o ./sos/mc_sos_recon.o ./hrsr/mc_hrsr.o ./hrsr/mc_hrsr_hut.o ./hrsr/mc_hrsr_recon.o ./hrsl/mc_hrsl.o ./hrsl/mc_hrsl_hut.o ./hrsl/mc_hrsl_recon.o ./shms/mc_shms.o ./shms/mc_shms_hut.o ./shms/mc_shms_recon.o ./shms/mc_shms_coll.o ./cteq5/Ctq5Pdf.o ./calo/mc_calo.o ./calo/mc_calo_recon.o ./cern/lfit.o ./cern/ranlux.o ./cern/fint.o ./cern/kerset.o ./cern/abend.o ./fdss/fdss.o simc.o -LCTP/O.Linux/Linux/lib -lctp -L/usr/lib64 

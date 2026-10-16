@@ -1,0 +1,154 @@
+make: Entering directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP'
+mkdir O.Linux
+(cd O.Linux ; ln -f -s ../Makefile.Unix Makefile)
+make -C O.Linux
+make[1]: Entering directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+rm -f ../daVarRpc.h
+(cd .. ; rpcgen -b -o daVarRpc.h -h daVarRpc.x)
+echo remaking daVarRpc_xdr.d
+remaking daVarRpc_xdr.d
+echo "daVarRpc_xdr.o: ../daVarRpc_xdr.c ../daVarRpc.h" >daVarRpc_xdr.d
+echo remaking daVarRpc_clnt.d
+remaking daVarRpc_clnt.d
+echo "daVarRpc_clnt.o: ../daVarRpc_clnt.c ../daVarRpc.h" >daVarRpc_clnt.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thClient.c | sed -e 's|thClient.o|& thClient.d|g' -e 's|:|: .osLinux Makefile |' > thClient.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thTest.c | sed -e 's|thTest.o|& thTest.d|g' -e 's|:|: .osLinux Makefile |' > thTest.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thTestParse.c | sed -e 's|thTestParse.o|& thTestParse.d|g' -e 's|:|: .osLinux Makefile |' > thTestParse.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thTestExecute.c | sed -e 's|thTestExecute.o|& thTestExecute.d|g' -e 's|:|: .osLinux Makefile |' > thTestExecute.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thHandlers.c | sed -e 's|thHandlers.o|& thHandlers.d|g' -e 's|:|: .osLinux Makefile |' > thHandlers.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thParm.c | sed -e 's|thParm.o|& thParm.d|g' -e 's|:|: .osLinux Makefile |' > thParm.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thUtils.c | sed -e 's|thUtils.o|& thUtils.d|g' -e 's|:|: .osLinux Makefile |' > thUtils.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thLoad.c | sed -e 's|thLoad.o|& thLoad.d|g' -e 's|:|: .osLinux Makefile |' > thLoad.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thGroup.c | sed -e 's|thGroup.o|& thGroup.d|g' -e 's|:|: .osLinux Makefile |' > thGroup.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thReport.c | sed -e 's|thReport.o|& thReport.d|g' -e 's|:|: .osLinux Makefile |' > thReport.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarRegister.c | sed -e 's|daVarRegister.o|& daVarRegister.d|g' -e 's|:|: .osLinux Makefile |' > daVarRegister.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarRpcProc.c | sed -e 's|daVarRpcProc.o|& daVarRpcProc.d|g' -e 's|:|: .osLinux Makefile |' > daVarRpcProc.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarHandlers.c | sed -e 's|daVarHandlers.o|& daVarHandlers.d|g' -e 's|:|: .osLinux Makefile |' > daVarHandlers.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarServ.c | sed -e 's|daVarServ.o|& daVarServ.d|g' -e 's|:|: .osLinux Makefile |' > daVarServ.d
+echo remaking daVarRpc_svc.d
+remaking daVarRpc_svc.d
+echo "daVarRpc_svc.o: ../daVarRpc_svc.c ../daVarRpc.h" >daVarRpc_svc.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarHashLib.c | sed -e 's|daVarHashLib.o|& daVarHashLib.d|g' -e 's|:|: .osLinux Makefile |' > daVarHashLib.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thTree.c | sed -e 's|thTree.o|& thTree.d|g' -e 's|:|: .osLinux Makefile |' > thTree.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../makereg.c | sed -e 's|makereg.o|& makereg.d|g' -e 's|:|: .osLinux Makefile |' > makereg.d
+rm -f *.d .os*
+remade marker .osLinux
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thClient.c | sed -e 's|thClient.o|& thClient.d|g' -e 's|:|: .osLinux Makefile |' > thClient.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thTest.c | sed -e 's|thTest.o|& thTest.d|g' -e 's|:|: .osLinux Makefile |' > thTest.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thTestParse.c | sed -e 's|thTestParse.o|& thTestParse.d|g' -e 's|:|: .osLinux Makefile |' > thTestParse.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thTestExecute.c | sed -e 's|thTestExecute.o|& thTestExecute.d|g' -e 's|:|: .osLinux Makefile |' > thTestExecute.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thHandlers.c | sed -e 's|thHandlers.o|& thHandlers.d|g' -e 's|:|: .osLinux Makefile |' > thHandlers.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thParm.c | sed -e 's|thParm.o|& thParm.d|g' -e 's|:|: .osLinux Makefile |' > thParm.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thUtils.c | sed -e 's|thUtils.o|& thUtils.d|g' -e 's|:|: .osLinux Makefile |' > thUtils.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thLoad.c | sed -e 's|thLoad.o|& thLoad.d|g' -e 's|:|: .osLinux Makefile |' > thLoad.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thGroup.c | sed -e 's|thGroup.o|& thGroup.d|g' -e 's|:|: .osLinux Makefile |' > thGroup.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thReport.c | sed -e 's|thReport.o|& thReport.d|g' -e 's|:|: .osLinux Makefile |' > thReport.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarRegister.c | sed -e 's|daVarRegister.o|& daVarRegister.d|g' -e 's|:|: .osLinux Makefile |' > daVarRegister.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarRpcProc.c | sed -e 's|daVarRpcProc.o|& daVarRpcProc.d|g' -e 's|:|: .osLinux Makefile |' > daVarRpcProc.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarHandlers.c | sed -e 's|daVarHandlers.o|& daVarHandlers.d|g' -e 's|:|: .osLinux Makefile |' > daVarHandlers.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarServ.c | sed -e 's|daVarServ.o|& daVarServ.d|g' -e 's|:|: .osLinux Makefile |' > daVarServ.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../daVarHashLib.c | sed -e 's|daVarHashLib.o|& daVarHashLib.d|g' -e 's|:|: .osLinux Makefile |' > daVarHashLib.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../thTree.c | sed -e 's|thTree.o|& thTree.d|g' -e 's|:|: .osLinux Makefile |' > thTree.d
+gcc -MM -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon ../makereg.c | sed -e 's|makereg.o|& makereg.d|g' -e 's|:|: .osLinux Makefile |' > makereg.d
+echo remaking daVarRpc_xdr.d
+remaking daVarRpc_xdr.d
+echo "daVarRpc_xdr.o: ../daVarRpc_xdr.c ../daVarRpc.h" >daVarRpc_xdr.d
+echo remaking daVarRpc_clnt.d
+remaking daVarRpc_clnt.d
+echo "daVarRpc_clnt.o: ../daVarRpc_clnt.c ../daVarRpc.h" >daVarRpc_clnt.d
+echo remaking daVarRpc_svc.d
+remaking daVarRpc_svc.d
+echo "daVarRpc_svc.o: ../daVarRpc_svc.c ../daVarRpc.h" >daVarRpc_svc.d
+Considering /opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux ... 
+make SUBDIR=lib OSPREFIX=Linux/ directory
+make[2]: Entering directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+Doing directory SUBDIR=lib OSPREFIX=Linux/
+mkdir -p Linux/lib/
+make SUBDIR=lib OSPREFIX=Linux/ "Linux/lib/libctp.a(thTest.o)" "Linux/lib/libctp.a(thTestParse.o)" "Linux/lib/libctp.a(thTestExecute.o)" "Linux/lib/libctp.a(thHandlers.o)" "Linux/lib/libctp.a(thParm.o)" "Linux/lib/libctp.a(thUtils.o)" "Linux/lib/libctp.a(thLoad.o)" "Linux/lib/libctp.a(thGroup.o)" "Linux/lib/libctp.a(thReport.o)" "Linux/lib/libctp.a(daVarRegister.o)" "Linux/lib/libctp.a(daVarRpcProc.o)" "Linux/lib/libctp.a(daVarHandlers.o)" "Linux/lib/libctp.a(daVarServ.o)" "Linux/lib/libctp.a(daVarRpc_svc.o)" "Linux/lib/libctp.a(daVarRpc_xdr.o)" "Linux/lib/libctp.a(daVarHashLib.o)" "Linux/lib/libctp.a(thTree.o)" "Linux/lib/libctpclient.a(daVarRpc_xdr.o)" "Linux/lib/libctpclient.a(daVarRpc_clnt.o)" "Linux/lib/libctpclient.a(thClient.o)"
+make[3]: Entering directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thTest.c -o thTest.o
+ar -rv Linux/lib/libctp.a thTest.o
+ar: creating Linux/lib/libctp.a
+a - thTest.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thTestParse.c -o thTestParse.o
+ar -rv Linux/lib/libctp.a thTestParse.o
+a - thTestParse.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thTestExecute.c -o thTestExecute.o
+ar -rv Linux/lib/libctp.a thTestExecute.o
+a - thTestExecute.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thHandlers.c -o thHandlers.o
+ar -rv Linux/lib/libctp.a thHandlers.o
+a - thHandlers.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thParm.c -o thParm.o
+ar -rv Linux/lib/libctp.a thParm.o
+a - thParm.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thUtils.c -o thUtils.o
+ar -rv Linux/lib/libctp.a thUtils.o
+a - thUtils.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thLoad.c -o thLoad.o
+ar -rv Linux/lib/libctp.a thLoad.o
+a - thLoad.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thGroup.c -o thGroup.o
+ar -rv Linux/lib/libctp.a thGroup.o
+a - thGroup.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thReport.c -o thReport.o
+ar -rv Linux/lib/libctp.a thReport.o
+a - thReport.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../daVarRegister.c -o daVarRegister.o
+ar -rv Linux/lib/libctp.a daVarRegister.o
+a - daVarRegister.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../daVarRpcProc.c -o daVarRpcProc.o
+ar -rv Linux/lib/libctp.a daVarRpcProc.o
+a - daVarRpcProc.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../daVarHandlers.c -o daVarHandlers.o
+ar -rv Linux/lib/libctp.a daVarHandlers.o
+a - daVarHandlers.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../daVarServ.c -o daVarServ.o
+ar -rv Linux/lib/libctp.a daVarServ.o
+a - daVarServ.o
+rm -f ../daVarRpc_svc.c
+(cd .. ; rpcgen -b -o temp_svc.c -m daVarRpc.x; sed -e 's/extern/static/g' temp_svc.c > daVarRpc_svc.c; rm -f temp_svc.c)
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../daVarRpc_svc.c -o daVarRpc_svc.o
+ar -rv Linux/lib/libctp.a daVarRpc_svc.o
+a - daVarRpc_svc.o
+rm -f ../daVarRpc_xdr.c
+(cd .. ; rpcgen -b -o daVarRpc_xdr.c -c daVarRpc.x)
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../daVarRpc_xdr.c -o daVarRpc_xdr.o
+ar -rv Linux/lib/libctp.a daVarRpc_xdr.o
+a - daVarRpc_xdr.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../daVarHashLib.c -o daVarHashLib.o
+ar -rv Linux/lib/libctp.a daVarHashLib.o
+a - daVarHashLib.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thTree.c -o thTree.o
+ar -rv Linux/lib/libctp.a thTree.o
+a - thTree.o
+ar -rv Linux/lib/libctpclient.a daVarRpc_xdr.o
+ar: creating Linux/lib/libctpclient.a
+a - daVarRpc_xdr.o
+rm -f ../daVarRpc_clnt.c
+(cd .. ; rpcgen -b -o daVarRpc_clnt.c -l daVarRpc.x)
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../daVarRpc_clnt.c -o daVarRpc_clnt.o
+ar -rv Linux/lib/libctpclient.a daVarRpc_clnt.o
+a - daVarRpc_clnt.o
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../thClient.c -o thClient.o
+ar -rv Linux/lib/libctpclient.a thClient.o
+a - thClient.o
+make[3]: Leaving directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+make[2]: Leaving directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+make SUBDIR=bin OSPREFIX=Linux/ directory
+make[2]: Entering directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+Doing directory SUBDIR=bin OSPREFIX=Linux/
+mkdir -p Linux/bin/
+make SUBDIR=bin OSPREFIX=Linux/ "Linux/bin/makereg"
+make[3]: Entering directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+gcc -O -std=gnu89 -w -I/usr/include/tirpc -Df2cFortran -fcommon -c ../makereg.c -o makereg.o
+gcc   makereg.o   -o makereg
+Making Linux/bin/makereg from makereg 
+rm -f -r Linux/bin/makereg
+cp -f makereg Linux/bin/makereg
+rm -f makereg
+make[3]: Leaving directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+make[2]: Leaving directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+Done /opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux
+make[1]: Leaving directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP/O.Linux'
+make: Leaving directory '/opt/simc/roman007-rho-jacobian-fix-20261005/CTP'

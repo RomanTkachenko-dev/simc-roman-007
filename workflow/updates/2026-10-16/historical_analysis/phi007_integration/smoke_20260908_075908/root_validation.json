@@ -1,0 +1,9 @@
+{
+  "file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/phi007_integration/smoke_20260908_075908/xphase_threebody_smoke.root",
+  "entries": 91,
+  "negative_weight": 0,
+  "nonfinite_weight": 0,
+  "sum_weight": 5.19507676796516e-11,
+  "min_weight": 1.3054653762818038e-17,
+  "max_weight": 1.9652302788580878e-12
+}

@@ -1,0 +1,170 @@
+{
+  "omega": {
+    "Weight": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 4.129046971002026e-08,
+      "max": 3.1209290227707243e-06
+    },
+    "siglab": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 4.138768971984064e-08,
+      "max": 3.125375997115043e-06
+    },
+    "sigcm": {
+      "negative": 992,
+      "nonfinite": 0,
+      "min": -1.1529690979728002e-08,
+      "max": 1.6590597340382374e-08
+    },
+    "missmass": {
+      "negative": 3,
+      "nonfinite": 0,
+      "min": -0.8142563700675964,
+      "max": 1.3343861103057861
+    },
+    "weight_sign_matches_siglab": true,
+    "siglab_sign_matches_sigcm": false
+  },
+  "phi": {
+    "Weight": {
+      "negative": 963,
+      "nonfinite": 0,
+      "min": -2.0993867977381342e-08,
+      "max": 1.4063671338604422e-09
+    },
+    "siglab": {
+      "negative": 963,
+      "nonfinite": 0,
+      "min": -2.102370366685591e-08,
+      "max": 1.4121604996475412e-09
+    },
+    "sigcm": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 5.497176498725498e-12,
+      "max": 1.4543792836718694e-09
+    },
+    "missmass": {
+      "negative": 1,
+      "nonfinite": 0,
+      "min": -0.4515753984451294,
+      "max": 1.1560139656066895
+    },
+    "weight_sign_matches_siglab": true,
+    "siglab_sign_matches_sigcm": false
+  },
+  "rho": {
+    "Weight": {
+      "negative": 993,
+      "nonfinite": 0,
+      "min": -1.4632659031121875e-06,
+      "max": 2.8351325909170555e-06
+    },
+    "siglab": {
+      "negative": 993,
+      "nonfinite": 0,
+      "min": -1.4708307389810216e-06,
+      "max": 2.8392478270689026e-06
+    },
+    "sigcm": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 8.397622597300369e-10,
+      "max": 5.8447518824777944e-08
+    },
+    "missmass": {
+      "negative": 1,
+      "nonfinite": 0,
+      "min": -0.14098748564720154,
+      "max": 1.1976220607757568
+    },
+    "weight_sign_matches_siglab": true,
+    "siglab_sign_matches_sigcm": false
+  },
+  "eta": {
+    "Weight": {
+      "negative": 1000,
+      "nonfinite": 0,
+      "min": -2.6058151192387413e-09,
+      "max": -5.342589565193734e-11
+    },
+    "siglab": {
+      "negative": 1000,
+      "nonfinite": 0,
+      "min": -2.6085802407038727e-09,
+      "max": -5.3700106861231944e-11
+    },
+    "sigcm": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 1.0999961358448829e-11,
+      "max": 1.10510775877537e-11
+    },
+    "missmass": {
+      "negative": 3,
+      "nonfinite": 0,
+      "min": -0.6517637372016907,
+      "max": 0.5562168955802917
+    },
+    "weight_sign_matches_siglab": true,
+    "siglab_sign_matches_sigcm": false
+  },
+  "etap": {
+    "Weight": {
+      "negative": 973,
+      "nonfinite": 0,
+      "min": -7.999036433226081e-10,
+      "max": 2.99427793670759e-09
+    },
+    "siglab": {
+      "negative": 973,
+      "nonfinite": 0,
+      "min": -8.046137089934291e-10,
+      "max": 2.9978091120597128e-09
+    },
+    "sigcm": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 2.1999983432219317e-11,
+      "max": 2.232084135578294e-11
+    },
+    "missmass": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 0.6083422899246216,
+      "max": 0.9643498659133911
+    },
+    "weight_sign_matches_siglab": true,
+    "siglab_sign_matches_sigcm": false
+  },
+  "xphsp": {
+    "Weight": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 5.009175040905645e-13,
+      "max": 1.7266341351476755e-12
+    },
+    "siglab": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 5.025098718212939e-13,
+      "max": 1.735404788621997e-12
+    },
+    "sigcm": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 3.980888152455009e-08,
+      "max": 2.2064824634071556e-07
+    },
+    "missmass": {
+      "negative": 0,
+      "nonfinite": 0,
+      "min": 0.13689714670181274,
+      "max": 1.4744526147842407
+    },
+    "weight_sign_matches_siglab": true,
+    "siglab_sign_matches_sigcm": true
+  }
+}

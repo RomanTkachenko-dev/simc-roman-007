@@ -1,0 +1,40 @@
+(daVar) Replacing definition of variable "parm.doing_rho" in table
+ RANLUX DEFAULT INITIALIZATION:    314159265
+ RANLUX DEFAULT LUXURY LEVEL =   3      p = 223
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ Illegal initialization by RLUXGO, negative input seed
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ sim: calling min_max_init
+ Enter the input filename (assumed to be in infiles directory)
+ filename=infiles/phi_Roman_007.inp                                            
+ Use random seed =            0
+ E_bind =   0.0000000000000000      MeV in limits_init (QF only)
+  ****--------  H(e,e'p)phi  --------****
+    SHMS is detecting electrons
+    HMS  is detecting hadrons
+ Welcome to Hall C++ at JLab12 - Get to work!
+ NOTE: Will NOT be applying radiative corrections
+ NOTE: Will NOT be calculating energy loss in the target
+ NOTE: Will NOT be calculating Coulomb correction (default for Hydrogen target)
+ NOTE: Will NOT correct reconstructed data for energy loss
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+  unphysical -t<-t_min   -952409.57525243843       -996388.90287432307        43979.327621884644     
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ Initial random vector save to file: outfiles/phi_Roman_007_start_random_state.dat                                                                                       
+  
+ Generating Event        1 ...        0  successes so far - Monitor: 0.0000E+00
+ Generating Event     1001 ...        7  successes so far - Monitor:-0.1476E+00
+ Generating Event     2001 ...       18  successes so far - Monitor:-0.2170E+00
+ Generating Event     3001 ...       27  successes so far - Monitor:-0.2317E+00
+ Generating Event     4001 ...       36  successes so far - Monitor:-0.2377E+00
+ Generating Event     5001 ...       45  successes so far - Monitor:-0.2281E+00
+ Generating Event    20001 ...      134  successes so far - Monitor:-0.1683E+00
+ Generating Event    40001 ...      275  successes so far - Monitor:-0.1678E+00
+ Generating Event    60001 ...      418  successes so far - Monitor:-0.1707E+00
+ Generating Event    80001 ...      556  successes so far - Monitor:-0.1706E+00
+ Generating Event   100001 ...      697  successes so far - Monitor:-0.1714E+00
+ Generating Event   120001 ...      835  successes so far - Monitor:-0.1698E+00
+ Generating Event   140001 ...      971  successes so far - Monitor:-0.1674E+00
+ ---> Last Event    144429 ...     1000  successes
+ ... writing outfiles/phi_Roman_007.gen                                                      
+ Come back soon!

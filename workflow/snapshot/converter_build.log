@@ -1,0 +1,4 @@
+froot.c: In function ‘void initrootnt_(const char*, const char*, int, int)’:
+froot.c:115:17: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  115 |   char *appName="FROOT.C";
+      |                 ^~~~~~~~~

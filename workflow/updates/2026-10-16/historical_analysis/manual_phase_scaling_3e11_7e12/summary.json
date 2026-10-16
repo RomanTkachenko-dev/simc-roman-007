@@ -1,0 +1,27 @@
+{
+  "fit_performed": false,
+  "logarithmic_axis": false,
+  "new_normalization": false,
+  "additional_multipliers_relative_to_previous_weight_applied_plot": {
+    "xphsp": 300000000000.0,
+    "xphsp3": 7000000000000.0
+  },
+  "meaning": "Replace the trial 1e10 with 3e11 (2pi) and 7e12 (3pi); do not multiply on top of 1e10.",
+  "previous_2pi_times_4_retained": true,
+  "cuts": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "weighted_channels": [
+    "omega",
+    "xphsp",
+    "xphsp3"
+  ],
+  "all_other_channels_and_Pythia_unchanged": true,
+  "warning": "PARTIALLY weighted numerical diagnostic only. Four channels remain counts; three use original Weight. Mixed sum has no physical cross-section/yield interpretation. Small weighted magnitudes are retained literally, not rescaled to the old counts or omega peak.",
+  "variable_caveat": "Pythia mx treated provisionally as reconstructed missing mass in GeV. Equivalence to SIMC missmass and correspondence to Henry analyzed/thin file remain unverified.",
+  "sources_sha256": {
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_weight_applied/weight_applied_overlay.root": "ff9fb2c43016753dce6afb3a3c788b5f34627fc3a18e8370505c3b7c27c5f539",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_weight_applied/summary.json": "9753dd956c62aa8aad2f40b57c18fd8c7f5f305cf3c71150ad11dcaa29acdc3e",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/plot_manual_phase_scales.py": "28585570e76dd40319a632c279107ebd4ba5121286ebf5d04d308ef6446d38ca",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/apply_requested_weights.py": "5883b1fd3979c0ac78aedc6315c37b4159776f3444177e1756fc56f496ca32ec"
+  },
+  "verification": "Contents and errors scaled bin-by-bin; sum and variance checked including flows; ROOT reopened; sources unchanged."
+}

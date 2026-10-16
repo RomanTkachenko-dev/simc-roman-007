@@ -1,0 +1,50 @@
+{
+  "stage": "After SIMC / supplied ROOT, after matching acceptance cuts",
+  "cuts": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "sources": {
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/scaled_missing_mass/scaled_missing_mass.root": "1671346429718ab6343aef4be299017428845b47682382f609bf0f5640072a0e",
+    "/mnt/d/EIC/SIMC_RUNS/BACKGROUND_ROOT_ANALYSIS/Pythia_Background/histograms.root": "d559b912c65eb3a235b00b5f36d09e0ea3e96ab958f19d1808c1f8dcc800d073"
+  },
+  "pythia_input": {
+    "original_file": "/mnt/c/Users/roman/Downloads/Pythia_557ab.root",
+    "tree": "Background",
+    "branch": "mx"
+  },
+  "simc_input": {
+    "branch": "missmass",
+    "channel_factors": {
+      "omega": 1.0,
+      "phi": 0.1,
+      "rho": 2.0,
+      "eta": 0.06666666666666667,
+      "etap": 0.06666666666666667,
+      "xphsp": 4.0
+    }
+  },
+  "variable_assumption": "For this provisional visual comparison, supplied Pythia mx is treated as a reconstructed missing mass in GeV. The writer/definition was not provided; physical equivalence is not independently verified.",
+  "normalization": "Each total separately has integral(density dM)=1 over [0,2) GeV. Underflow and overflow excluded from denominators. All six SIMC components share the SAME SIMC normalization factor; their relative scale factors are preserved.",
+  "physics_warning": "Shape comparison only, not physical signal/background yields; no fits or cross-section normalization. Pythia is not added to the six-channel SIMC sum.",
+  "binning": {
+    "bins": 100,
+    "range_GeV": [
+      0,
+      2
+    ],
+    "width_GeV": 0.02
+  },
+  "simc": {
+    "raw_in_range": 3966.1666666666656,
+    "raw_underflow": 0.06666666666666667,
+    "raw_overflow": 0.0,
+    "density_multiplier": 0.012606631087952262,
+    "normalized_area": 1.0000000000000002
+  },
+  "pythia": {
+    "raw_in_range": 8846001.0,
+    "raw_underflow": 68149.0,
+    "raw_overflow": 0.0,
+    "density_multiplier": 5.652271574466248e-06,
+    "normalized_area": 1.0
+  },
+  "verification": "Matching cuts and bins; both total areas=1; sum of normalized components matches normalized SIMC total in every bin; statistical errors scaled; sources unchanged."
+}

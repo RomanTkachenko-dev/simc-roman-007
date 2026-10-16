@@ -1,0 +1,96 @@
+{
+  "source_file": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.root",
+  "source_sha256": "c475d81da2fc5f02077afbb9e67184360866966fc60474d83f1af87d81fa107d",
+  "input_sha256": "def61cb007eddd4bd7b86583596b25d8bcf9d53af9a99d8e2f30587d43d52759",
+  "sample_source_commit": "b6025c462ef33eeb620bdf4b399cd602c92e89bf",
+  "sample_note": "Existing 10.60 GeV omega run, not the new 4.70897 GeV three-pion smoke sample. Bill phi-007 does not modify the omega production source.",
+  "x_definition": "x_B=Q2/(W^2-mp^2+Q2), mp=0.938272 GeV for a stationary proton; derived event by event from reconstructed Q2 and W, not a stored x branch.",
+  "cuts": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "comparison": "Same accepted events with fill weight 1 versus original signed Weight. No channel factors or Pythia normalization.",
+  "shape_normalization": "For shape overlays only: each raw/weighted histogram separately has integral(density dX)=1 over its displayed range. The absolute comparison also preserves counts and sum Weight.",
+  "stage_statistics": {
+    "before_cuts": {
+      "entries": 1000,
+      "negative_weights": 0,
+      "sum_weight": 0.00010068771906546203,
+      "sum_weight_squared": 4.616294019876937e-11,
+      "variables": {
+        "Q2": {
+          "unweighted_mean": 3.76297282743454,
+          "weighted_mean": 3.733917754408992,
+          "min": 2.8375227451324463,
+          "max": 4.346447467803955,
+          "bins": 60,
+          "range": [
+            2.5,
+            4.5
+          ]
+        },
+        "W": {
+          "unweighted_mean": 2.0523070769309997,
+          "weighted_mean": 2.0068628786150455,
+          "min": 1.8001693487167358,
+          "max": 2.5716638565063477,
+          "bins": 60,
+          "range": [
+            1.7,
+            2.7
+          ]
+        },
+        "xB": {
+          "unweighted_mean": 0.5303778759886921,
+          "weighted_mean": 0.5430719711791824,
+          "min": 0.3310754207727806,
+          "max": 0.6321430129788443,
+          "bins": 60,
+          "range": [
+            0.25,
+            0.7
+          ]
+        }
+      }
+    },
+    "after_cuts": {
+      "entries": 595,
+      "negative_weights": 0,
+      "sum_weight": 5.12814492630298e-05,
+      "sum_weight_squared": 4.7058373281614125e-12,
+      "variables": {
+        "Q2": {
+          "unweighted_mean": 3.751624195916312,
+          "weighted_mean": 3.6877831679768547,
+          "min": 2.8375227451324463,
+          "max": 4.2734551429748535,
+          "bins": 60,
+          "range": [
+            2.5,
+            4.5
+          ]
+        },
+        "W": {
+          "unweighted_mean": 2.0542159142614413,
+          "weighted_mean": 2.042598701622107,
+          "min": 1.8818892240524292,
+          "max": 2.5716638565063477,
+          "bins": 60,
+          "range": [
+            1.7,
+            2.7
+          ]
+        },
+        "xB": {
+          "unweighted_mean": 0.5289663549502814,
+          "weighted_mean": 0.5282675696564053,
+          "min": 0.3310754207727806,
+          "max": 0.5719140121378286,
+          "bins": 60,
+          "range": [
+            0.25,
+            0.7
+          ]
+        }
+      }
+    }
+  },
+  "verification": "595 identical accepted events; positive original omega weights; zero histogram flows; exact count/sumw/Sumw2 checks; normalized areas one; source unchanged."
+}

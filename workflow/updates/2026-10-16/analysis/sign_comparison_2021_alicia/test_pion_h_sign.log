@@ -1,0 +1,45 @@
+(daVar) Replacing definition of variable "parm.doing_rho" in table
+ RANLUX DEFAULT INITIALIZATION:    314159265
+ RANLUX DEFAULT LUXURY LEVEL =   3      p = 223
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ Illegal initialization by RLUXGO, negative input seed
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ sim: calling min_max_init
+ Enter the input filename (assumed to be in infiles directory)
+ filename=infiles/test_pion_h_sign.inp                                         
+ filename=infiles/extra_nucpi_sign.inp                                         
+ Use random seed =            0
+ E_bind =   0.0000000000000000      MeV in limits_init (QF only)
+  ****--------  H(e,e'pi)  --------****
+  ****-------  pi+ production  -------****
+  ****---- Quasifree Production ----****
+    HMS  is detecting electrons
+    SOS  is detecting hadrons
+ Welcome time traveler to Hall C at 6 GeV - Get to work!
+ NOTE: Will NOT be calculating Coulomb correction (default for Hydrogen target)
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ Initial random vector save to file: outfiles/test_pion_h_sign_start_random_state.dat                                                                                    
+  
+ Generating Event        1 ...        0  successes so far - Monitor: 0.0000E+00
+ Generating Event     1001 ...        2  successes so far - Monitor: 0.0000E+00
+ Generating Event     2001 ...        7  successes so far - Monitor: 0.7280E+02
+ Generating Event     3001 ...        9  successes so far - Monitor: 0.8490E+02
+ Generating Event     4001 ...       11  successes so far - Monitor: 0.7372E+02
+ Generating Event     5001 ...       13  successes so far - Monitor: 0.6003E+02
+ Generating Event    20001 ...       59  successes so far - Monitor: 0.4001E+02
+ Generating Event    40001 ...      126  successes so far - Monitor: 0.4427E+02
+ Generating Event    60001 ...      201  successes so far - Monitor: 0.4588E+02
+ Generating Event    80001 ...      280  successes so far - Monitor: 0.4739E+02
+ Generating Event   100001 ...      351  successes so far - Monitor: 0.4642E+02
+ Generating Event   120001 ...      423  successes so far - Monitor: 0.4916E+02
+ Generating Event   140001 ...      506  successes so far - Monitor: 0.5176E+02
+ Generating Event   160001 ...      582  successes so far - Monitor: 0.5100E+02
+ Generating Event   180001 ...      670  successes so far - Monitor: 0.5249E+02
+ Generating Event   200001 ...      747  successes so far - Monitor: 0.5321E+02
+ Generating Event   220001 ...      803  successes so far - Monitor: 0.5174E+02
+ Generating Event   240001 ...      867  successes so far - Monitor: 0.5137E+02
+ Generating Event   260001 ...      944  successes so far - Monitor: 0.5173E+02
+ ---> Last Event    278806 ...     1000  successes
+ ... writing outfiles/test_pion_h_sign.gen                                                   
+ Come back soon!

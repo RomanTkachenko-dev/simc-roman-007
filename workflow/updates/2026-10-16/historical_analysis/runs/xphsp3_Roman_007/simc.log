@@ -1,0 +1,33 @@
+(daVar) Replacing definition of variable "parm.doing_rho" in table
+ RANLUX DEFAULT INITIALIZATION:    314159265
+ RANLUX DEFAULT LUXURY LEVEL =   3      p = 223
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ Illegal initialization by RLUXGO, negative input seed
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ sim: calling min_max_init
+ Enter the input filename (assumed to be in infiles directory)
+ filename=infiles/xphsp3_Roman_007.inp                                         
+ Use random seed =            0
+ E_bind =   0.0000000000000000      MeV in limits_init (QF only)
+  ****--------  H(e,e'p)X  --------****
+    SHMS is detecting electrons
+    HMS  is detecting hadrons
+ Welcome to Hall C++ at JLab12 - Get to work!
+ NOTE: Will NOT be applying radiative corrections
+ NOTE: Will NOT be calculating energy loss in the target
+ NOTE: Will NOT be calculating Coulomb correction (default for Hydrogen target)
+ NOTE: Will NOT correct reconstructed data for energy loss
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ Initial random vector save to file: outfiles/xphsp3_Roman_007_start_random_state.dat                                                                                    
+  
+ Generating Event        1 ...        0  successes so far - Monitor: 0.0000E+00
+ Generating Event     1001 ...       30  successes so far - Monitor: 0.5520E-04
+ Generating Event     2001 ...       60  successes so far - Monitor: 0.6100E-04
+ Generating Event     3001 ...      102  successes so far - Monitor: 0.6103E-04
+ Generating Event     4001 ...      134  successes so far - Monitor: 0.5892E-04
+ Generating Event     5001 ...      168  successes so far - Monitor: 0.5927E-04
+ Generating Event    20001 ...      764  successes so far - Monitor: 0.7442E-04
+ ---> Last Event     26617 ...     1000  successes
+ ... writing outfiles/xphsp3_Roman_007.gen                                                   
+ Come back soon!

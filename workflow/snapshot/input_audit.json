@@ -1,0 +1,51 @@
+{
+  "status": "PROVISIONAL technical test, not production physics",
+  "commit": "b6025c462ef33eeb620bdf4b399cd602c92e89bf",
+  "henry_input": "/mnt/d/EIC/SIMC_RUNS/HENRY_SIMC_FILE_INPUT/phi_baseline_10p60.inp",
+  "henry_sha256": "a3518caf532b2fb7f60d9c8757ed57c5287d1c316ca1d99a99e00e727a2088f9",
+  "apparatus_change": "Only corrected beamandtergetinfo closing-label typo.",
+  "channels": {
+    "omega": {
+      "template": "omega_245_54_-3.inp",
+      "template_sha256": "bf5c0065f126ef3334958e0fd3bc9c43596780140f2e1e24dea8473f3bdc21e3",
+      "input": "omega_Roman_007.inp",
+      "sha256": "def61cb007eddd4bd7b86583596b25d8bcf9d53af9a99d8e2f30587d43d52759",
+      "ngen_requested_successes": 1000
+    },
+    "phi": {
+      "template": "phi_600_320_17_+0590.inp",
+      "template_sha256": "2cccb68829e21be92033a2bd08b2625a71b8ccf845ad1078d43fd2b60f9270dc",
+      "input": "phi_Roman_007.inp",
+      "sha256": "ea0bb93b614ebdd7940b94dd8fd92e49b2fb19ef7f6d3780106751ede5cbb8b6",
+      "ngen_requested_successes": 1000
+    },
+    "rho": {
+      "template": "rho_600_320_17_+0590.inp",
+      "template_sha256": "06eaf61b88e0f7738f9544b8bdfa44b6b2f0ad3d0182e4650a60c48f3aa20b03",
+      "input": "rho_Roman_007.inp",
+      "sha256": "cfb9d43b3d6a3a26811f7b3e0935e87c0e8b75ad89263d8e718c74c6829291fa",
+      "ngen_requested_successes": 1000
+    },
+    "eta": {
+      "template": "eta_600_320_17_+0590.inp",
+      "template_sha256": "85bcda3de56a4a4a3df74cfc77ec7db6ec3cd6eec289043a445ad7c7d2fe0050",
+      "input": "eta_Roman_007.inp",
+      "sha256": "76c69104e6c6720a097a49cb4355f8ac976224ce27aebb7120a482cc820f398d",
+      "ngen_requested_successes": 1000
+    },
+    "etap": {
+      "template": "etap_600_320_17_+0590.inp",
+      "template_sha256": "0f2233860248ad5e8362d5ee9b983dfb842664b64f6e3b0bd665d27e80c9077a",
+      "input": "etap_Roman_007.inp",
+      "sha256": "9cd9455be3360f4398ed81fed6da32868b6936e8053a1b6dd4c0eabf489981e0",
+      "ngen_requested_successes": 1000
+    },
+    "xphsp": {
+      "template": "xphsp_245_54_00.inp",
+      "template_sha256": "38e6f6cc91ac63a1aae9ff352d9915f011481e1f8f2b915b8db0a78a8d979ad5",
+      "input": "xphsp_Roman_007.inp",
+      "sha256": "05c91ed65d733549545840eefb06a0f3698bd5bf9f5df551addfe91c0607286f",
+      "ngen_requested_successes": 1000
+    }
+  }
+}

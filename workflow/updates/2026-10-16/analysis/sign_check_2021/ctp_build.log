@@ -1,0 +1,68 @@
+make: Entering directory '/opt/simc/bill-master-8b43f9d/CTP'
+make -C O.Linux
+make[1]: Entering directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+Considering /opt/simc/bill-master-8b43f9d/CTP/O.Linux ... 
+make SUBDIR=lib OSPREFIX=Linux/ directory
+make[2]: Entering directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+Doing directory SUBDIR=lib OSPREFIX=Linux/
+mkdir -p Linux/lib/
+make SUBDIR=lib OSPREFIX=Linux/ "Linux/lib/libctp.a(thTest.o)" "Linux/lib/libctp.a(thTestParse.o)" "Linux/lib/libctp.a(thTestExecute.o)" "Linux/lib/libctp.a(thHandlers.o)" "Linux/lib/libctp.a(thParm.o)" "Linux/lib/libctp.a(thUtils.o)" "Linux/lib/libctp.a(thLoad.o)" "Linux/lib/libctp.a(thGroup.o)" "Linux/lib/libctp.a(thReport.o)" "Linux/lib/libctp.a(daVarRegister.o)" "Linux/lib/libctp.a(daVarRpcProc.o)" "Linux/lib/libctp.a(daVarHandlers.o)" "Linux/lib/libctp.a(daVarServ.o)" "Linux/lib/libctp.a(daVarRpc_svc.o)" "Linux/lib/libctp.a(daVarRpc_xdr.o)" "Linux/lib/libctp.a(daVarHashLib.o)" "Linux/lib/libctp.a(thTree.o)" "Linux/lib/libctpclient.a(daVarRpc_xdr.o)" "Linux/lib/libctpclient.a(daVarRpc_clnt.o)" "Linux/lib/libctpclient.a(thClient.o)"
+make[3]: Entering directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+ar -rv Linux/lib/libctp.a thTest.o
+r - thTest.o
+ar -rv Linux/lib/libctp.a thTestParse.o
+r - thTestParse.o
+ar -rv Linux/lib/libctp.a thTestExecute.o
+r - thTestExecute.o
+ar -rv Linux/lib/libctp.a thHandlers.o
+r - thHandlers.o
+ar -rv Linux/lib/libctp.a thParm.o
+r - thParm.o
+ar -rv Linux/lib/libctp.a thUtils.o
+r - thUtils.o
+ar -rv Linux/lib/libctp.a thLoad.o
+r - thLoad.o
+ar -rv Linux/lib/libctp.a thGroup.o
+r - thGroup.o
+ar -rv Linux/lib/libctp.a thReport.o
+r - thReport.o
+ar -rv Linux/lib/libctp.a daVarRegister.o
+r - daVarRegister.o
+ar -rv Linux/lib/libctp.a daVarRpcProc.o
+r - daVarRpcProc.o
+ar -rv Linux/lib/libctp.a daVarHandlers.o
+r - daVarHandlers.o
+ar -rv Linux/lib/libctp.a daVarServ.o
+r - daVarServ.o
+ar -rv Linux/lib/libctp.a daVarRpc_svc.o
+r - daVarRpc_svc.o
+ar -rv Linux/lib/libctp.a daVarRpc_xdr.o
+r - daVarRpc_xdr.o
+ar -rv Linux/lib/libctp.a daVarHashLib.o
+r - daVarHashLib.o
+ar -rv Linux/lib/libctp.a thTree.o
+r - thTree.o
+ar -rv Linux/lib/libctpclient.a daVarRpc_xdr.o
+r - daVarRpc_xdr.o
+ar -rv Linux/lib/libctpclient.a daVarRpc_clnt.o
+r - daVarRpc_clnt.o
+ar -rv Linux/lib/libctpclient.a thClient.o
+r - thClient.o
+make[3]: Leaving directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+make[2]: Leaving directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+make SUBDIR=bin OSPREFIX=Linux/ directory
+make[2]: Entering directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+Doing directory SUBDIR=bin OSPREFIX=Linux/
+mkdir -p Linux/bin/
+make SUBDIR=bin OSPREFIX=Linux/ "Linux/bin/makereg"
+make[3]: Entering directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+gcc   makereg.o   -o makereg
+Making Linux/bin/makereg from makereg 
+rm -f -r Linux/bin/makereg
+cp -f makereg Linux/bin/makereg
+rm -f makereg
+make[3]: Leaving directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+make[2]: Leaving directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+Done /opt/simc/bill-master-8b43f9d/CTP/O.Linux
+make[1]: Leaving directory '/opt/simc/bill-master-8b43f9d/CTP/O.Linux'
+make: Leaving directory '/opt/simc/bill-master-8b43f9d/CTP'

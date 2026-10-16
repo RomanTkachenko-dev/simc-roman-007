@@ -1,0 +1,89 @@
+{
+  "normalization": "Scale=1 for each test sample. No cross-section/luminosity normalization; not a physical combined yield.",
+  "weight_policy": "Signed Weight preserved; no abs(Weight), clipping or unit-area renormalization.",
+  "binning": {
+    "bins": 100,
+    "min_GeV": 0,
+    "max_GeV": 2,
+    "width_GeV": 0.02
+  },
+  "sources": {
+    "omega": {
+      "histograms": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/plots/histograms.root",
+      "sha256": "977246ad1a05e9ad77612965c60d1d132a1bcb8bf252d3838166d07b52153d6a",
+      "scale": 1.0,
+      "entries_before": 1000,
+      "entries_after": 595
+    },
+    "phi": {
+      "histograms": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/plots/histograms.root",
+      "sha256": "b6207cb7170d2731bb1f305958885a6046a9fed1ca8df3c9ca77b4bc266c6331",
+      "scale": 1.0,
+      "entries_before": 1000,
+      "entries_after": 549
+    },
+    "rho": {
+      "histograms": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/rho_Roman_007/plots/histograms.root",
+      "sha256": "2882abfacef72122bdbbca725e9a3bc46f1e968785db398102fa1f35c33477e6",
+      "scale": 1.0,
+      "entries_before": 1000,
+      "entries_after": 573
+    },
+    "eta": {
+      "histograms": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/plots/histograms.root",
+      "sha256": "e18d3aca26e6fd356b84e219bd3c61cb33e7403637f4444f14628e5b25ceddbd",
+      "scale": 1.0,
+      "entries_before": 1000,
+      "entries_after": 584
+    },
+    "etap": {
+      "histograms": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/etap_Roman_007/plots/histograms.root",
+      "sha256": "3d3947bf0acdd443a1edf757a62f1cfa52278a22c2c01bb8b8c8ef6e0e9d7252",
+      "scale": 1.0,
+      "entries_before": 1000,
+      "entries_after": 591
+    },
+    "xphsp": {
+      "histograms": "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp_Roman_007/plots/histograms.root",
+      "sha256": "ec85040b85267b14953f59d4245e483f837862bf6613298fa5e5e41889764cc9",
+      "scale": 1.0,
+      "entries_before": 1000,
+      "entries_after": 523
+    }
+  },
+  "results": {
+    "raw_before": {
+      "entries": 6000,
+      "in_range": 5992.0,
+      "underflow": 8.0,
+      "overflow": 0.0,
+      "including_flow": 6000.0,
+      "sum_bins_and_variances_verified": true
+    },
+    "weighted_before": {
+      "entries": 6000,
+      "in_range": -0.00027618366821964796,
+      "underflow": 8.661850433078211e-06,
+      "overflow": 0.0,
+      "including_flow": -0.00026752181778656975,
+      "sum_bins_and_variances_verified": true
+    },
+    "raw_after": {
+      "entries": 3415,
+      "in_range": 3414.0,
+      "underflow": 1.0,
+      "overflow": 0.0,
+      "including_flow": 3415.0,
+      "sum_bins_and_variances_verified": true
+    },
+    "weighted_after": {
+      "entries": 3415,
+      "in_range": -0.0001508488880472949,
+      "underflow": -1.7100213467458047e-09,
+      "overflow": 0.0,
+      "including_flow": -0.00015085059806864166,
+      "sum_bins_and_variances_verified": true
+    }
+  },
+  "cut": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024"
+}

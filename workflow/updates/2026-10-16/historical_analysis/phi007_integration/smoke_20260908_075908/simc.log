@@ -1,0 +1,29 @@
+(daVar) Replacing definition of variable "parm.doing_rho" in table
+ RANLUX DEFAULT INITIALIZATION:    314159265
+ RANLUX DEFAULT LUXURY LEVEL =   3      p = 223
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ Illegal initialization by RLUXGO, negative input seed
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ sim: calling min_max_init
+ Enter the input filename (assumed to be in infiles directory)
+ filename=infiles/xphase_threebody_smoke.inp                                   
+ Use random seed =            0
+ E_bind =   0.0000000000000000      MeV in limits_init (QF only)
+  ****--------  H(e,e'p)X  --------****
+    SOS  is detecting electrons
+    HMS  is detecting hadrons
+ Welcome time traveler to Hall C at 6 GeV - Get to work!
+ NOTE: Will NOT be calculating Coulomb correction (default for Hydrogen target)
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ Initial random vector save to file: outfiles/xphase_threebody_smoke_start_random_state.dat                                                                              
+  
+ Generating Event        1 ...        0  successes so far - Monitor: 0.0000E+00
+ Generating Event     1001 ...     1000  successes so far - Monitor: 0.5629E-05
+ Generating Event     2001 ...     2000  successes so far - Monitor: 0.7330E-05
+ Generating Event     3001 ...     3000  successes so far - Monitor: 0.7278E-05
+ Generating Event     4001 ...     4000  successes so far - Monitor: 0.6840E-05
+ Generating Event     5001 ...     5000  successes so far - Monitor: 0.5751E-05
+ ---> Last Event     10000 ...    10000  successes
+ ... writing outfiles/xphase_threebody_smoke.gen                                             
+ Come back soon!

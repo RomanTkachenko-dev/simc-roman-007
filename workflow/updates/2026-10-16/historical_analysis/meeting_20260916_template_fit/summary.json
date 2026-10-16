@@ -1,0 +1,354 @@
+{
+  "cuts": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "root_version": "6.40.02",
+  "step1": {
+    "additional_phase_factors": {
+      "xphsp": 10000000000.0,
+      "xphsp3": 10000000000.0
+    },
+    "other_channels_and_Pythia_unchanged": true,
+    "old_scales_retained": {
+      "omega": {
+        "fill_weight": "original Weight",
+        "accepted_events": 595,
+        "channel_scale": 1.0,
+        "unscaled_integral_all_bins": 5.12814492630298e-05,
+        "visible_integral_prior": 5.020767825380725,
+        "visible_integral_now": 4.327264714264103e-07,
+        "visible_integral_ratio_to_prior": 8.618730968576438e-08
+      },
+      "phi": {
+        "fill_weight": "1 (unchanged)",
+        "accepted_events": 549,
+        "channel_scale": 0.1,
+        "unscaled_integral_all_bins": 549.0,
+        "visible_integral_prior": 0.4632607623754654,
+        "visible_integral_now": 0.4632607623754653,
+        "visible_integral_ratio_to_prior": 0.9999999999999999
+      },
+      "rho": {
+        "fill_weight": "1 (unchanged)",
+        "accepted_events": 573,
+        "channel_scale": 2.0,
+        "unscaled_integral_all_bins": 573.0,
+        "visible_integral_prior": 9.670251979640856,
+        "visible_integral_now": 9.670251979640856,
+        "visible_integral_ratio_to_prior": 1.0
+      },
+      "eta": {
+        "fill_weight": "1 (unchanged)",
+        "accepted_events": 584,
+        "channel_scale": 0.044444444444444446,
+        "unscaled_integral_all_bins": 584.0,
+        "visible_integral_prior": 0.21864482854879277,
+        "visible_integral_now": 0.21864482854879275,
+        "visible_integral_ratio_to_prior": 0.9999999999999999
+      },
+      "etap": {
+        "fill_weight": "1 (unchanged)",
+        "accepted_events": 591,
+        "channel_scale": 0.06666666666666667,
+        "unscaled_integral_all_bins": 591.0,
+        "visible_integral_prior": 0.3324676509579842,
+        "visible_integral_now": 0.3324676509579842,
+        "visible_integral_ratio_to_prior": 1.0
+      },
+      "xphsp": {
+        "fill_weight": "original Weight",
+        "accepted_events": 523,
+        "channel_scale": 4.0,
+        "unscaled_integral_all_bins": 4.863024453071428e-10,
+        "visible_integral_prior": 17.65285090873357,
+        "visible_integral_now": 1.6414196106232422e-11,
+        "visible_integral_ratio_to_prior": 9.298325914094512e-13
+      },
+      "xphsp3": {
+        "fill_weight": "original Weight",
+        "accepted_events": 531,
+        "channel_scale": 1.0,
+        "unscaled_integral_all_bins": 4.635872007335454e-10,
+        "visible_integral_prior": 4.48071884920532,
+        "visible_integral_now": 3.9118717675652116e-12,
+        "visible_integral_ratio_to_prior": 8.730455757693888e-13
+      }
+    }
+  },
+  "step2": {
+    "model": "sum of seven fixed histogram shapes with nonnegative free amplitudes",
+    "source_example": "https://github.com/billlee77/omega_analysis/blob/master/fitting_functions.C",
+    "method": "observed-count-variance least squares; scipy NNLS independently checked by ROOT Minuit2",
+    "fit_range_GeV": [
+      0,
+      2
+    ],
+    "bins": 100,
+    "bin_width_GeV": 0.02,
+    "variance": "Pythia raw count per bin; 1 for empty Pythia bins",
+    "old_scales_used_in_fit": false,
+    "shape_smoothing_or_interpolation": false,
+    "chi2_Pythia_variance_only": 874426.1773223808,
+    "ndf_nominal_100_minus_7": 93,
+    "chi2_over_nominal_ndf": 9402.432014219148,
+    "active_parameters": 6,
+    "ROOT_status": 0,
+    "ROOT_covariance_status": 3,
+    "ROOT_chi2": 874426.1773266142,
+    "matrix_rank": 7,
+    "matrix_condition_number": 20.195154931326478,
+    "Pythia_in_range_counts": 8846001.0,
+    "Pythia_underflow": 68149.0,
+    "Pythia_overflow": 0.0,
+    "uncovered_bins": [
+      {
+        "bin": 1,
+        "center_GeV": 0.01,
+        "Pythia_count": 334.0
+      },
+      {
+        "bin": 2,
+        "center_GeV": 0.03,
+        "Pythia_count": 1029.0
+      },
+      {
+        "bin": 3,
+        "center_GeV": 0.05,
+        "Pythia_count": 1907.0
+      },
+      {
+        "bin": 4,
+        "center_GeV": 0.07,
+        "Pythia_count": 3203.0
+      },
+      {
+        "bin": 5,
+        "center_GeV": 0.09,
+        "Pythia_count": 4926.0
+      },
+      {
+        "bin": 6,
+        "center_GeV": 0.11,
+        "Pythia_count": 6677.0
+      },
+      {
+        "bin": 7,
+        "center_GeV": 0.13,
+        "Pythia_count": 8022.0
+      },
+      {
+        "bin": 9,
+        "center_GeV": 0.17,
+        "Pythia_count": 6507.0
+      },
+      {
+        "bin": 11,
+        "center_GeV": 0.21,
+        "Pythia_count": 2943.0
+      },
+      {
+        "bin": 71,
+        "center_GeV": 1.41,
+        "Pythia_count": 5977.0
+      },
+      {
+        "bin": 72,
+        "center_GeV": 1.43,
+        "Pythia_count": 1048.0
+      },
+      {
+        "bin": 73,
+        "center_GeV": 1.45,
+        "Pythia_count": 37.0
+      }
+    ],
+    "uncovered_counts": 42610.0,
+    "coefficients": {
+      "omega": {
+        "fill_weight": "Weight",
+        "template_integral": 5.12814492630298e-05,
+        "fraction_of_Pythia_count_total": 0.13269711560299566,
+        "fitted_count_equivalent": 1173838.8173212153,
+        "scale_per_original_histogram_to_Pythia_counts": 22890125653.439125,
+        "multiplier_relative_to_previous_display_curve": 15332678.304331819,
+        "at_nonnegative_boundary": false,
+        "conditional_count_error_fixed_templates": 1406.6502429302982,
+        "root_fraction": 0.13269711395909448
+      },
+      "phi": {
+        "fill_weight": "1 (unweighted provisional template)",
+        "template_integral": 549.0,
+        "fraction_of_Pythia_count_total": 0.012392660782373133,
+        "fitted_count_equivalent": 109625.48967353352,
+        "scale_per_original_histogram_to_Pythia_counts": 199.68213055288436,
+        "multiplier_relative_to_previous_display_curve": 1.3375469917662792,
+        "at_nonnegative_boundary": false,
+        "conditional_count_error_fixed_templates": 778.2662967635633,
+        "root_fraction": 0.012392721204072987
+      },
+      "rho": {
+        "fill_weight": "1 (unweighted provisional template)",
+        "template_integral": 573.0,
+        "fraction_of_Pythia_count_total": 0.11586118292871846,
+        "fitted_count_equivalent": 1024908.1400486263,
+        "scale_per_original_histogram_to_Pythia_counts": 1788.6704014810232,
+        "multiplier_relative_to_previous_display_curve": 0.5990597927160808,
+        "at_nonnegative_boundary": false,
+        "conditional_count_error_fixed_templates": 2351.7975465387253,
+        "root_fraction": 0.11586139382868103
+      },
+      "eta": {
+        "fill_weight": "1 (unweighted provisional template)",
+        "template_integral": 583.0,
+        "fraction_of_Pythia_count_total": 0.0012239924889490147,
+        "fitted_count_equivalent": 10827.438781235473,
+        "scale_per_original_histogram_to_Pythia_counts": 18.571936159923624,
+        "multiplier_relative_to_previous_display_curve": 0.27990428519919663,
+        "at_nonnegative_boundary": false,
+        "conditional_count_error_fixed_templates": 233.28114602274016,
+        "root_fraction": 0.0012239776028905437
+      },
+      "etap": {
+        "fill_weight": "1 (unweighted provisional template)",
+        "template_integral": 591.0,
+        "fraction_of_Pythia_count_total": 0.0,
+        "fitted_count_equivalent": 0.0,
+        "scale_per_original_histogram_to_Pythia_counts": 0.0,
+        "multiplier_relative_to_previous_display_curve": 0.0,
+        "at_nonnegative_boundary": true,
+        "conditional_count_error_fixed_templates": null,
+        "root_fraction": 2.238183596792176e-13
+      },
+      "xphsp": {
+        "fill_weight": "Weight",
+        "template_integral": 4.863024453071428e-10,
+        "fraction_of_Pythia_count_total": 0.10008318282223727,
+        "fitted_count_equivalent": 885335.9353286937,
+        "scale_per_original_histogram_to_Pythia_counts": 1820545925426153.5,
+        "multiplier_relative_to_previous_display_curve": 304867756466.7209,
+        "at_nonnegative_boundary": false,
+        "conditional_count_error_fixed_templates": 3582.7763998564474,
+        "root_fraction": 0.1000833670024796
+      },
+      "xphsp3": {
+        "fill_weight": "Weight",
+        "template_integral": 4.635872007335454e-10,
+        "fraction_of_Pythia_count_total": 0.5388919808537569,
+        "fitted_count_equivalent": 4767039.001524314,
+        "scale_per_original_histogram_to_Pythia_counts": 1.0282939205356212e+16,
+        "multiplier_relative_to_previous_display_curve": 6887904472251.768,
+        "at_nonnegative_boundary": false,
+        "conditional_count_error_fixed_templates": 3274.7868082969894,
+        "root_fraction": 0.5388914345073684
+      }
+    },
+    "conditional_fraction_covariance": [
+      [
+        2.5285892242642138e-08,
+        -1.3199776204802848e-10,
+        -1.5326727675668178e-08,
+        -5.98027938741043e-12,
+        0.0,
+        9.0498504982488e-09,
+        -3.870234333057841e-09
+      ],
+      [
+        -1.3199776204802866e-10,
+        7.740383504627531e-09,
+        1.9233291501150848e-09,
+        7.842823931794714e-11,
+        0.0,
+        -4.344211233281728e-09,
+        -3.864998213286602e-09
+      ],
+      [
+        -1.5326727675668174e-08,
+        1.9233291501150843e-09,
+        7.068152281041347e-08,
+        5.317628062061886e-10,
+        0.0,
+        -6.477600590559249e-08,
+        2.0063696231566515e-08
+      ],
+      [
+        -5.980279387410384e-12,
+        7.84282393179471e-11,
+        5.31762806206188e-10,
+        6.954490401948232e-10,
+        0.0,
+        -2.6791761791615083e-09,
+        1.517883131882895e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        9.049850498248798e-09,
+        -4.344211233281727e-09,
+        -6.477600590559248e-08,
+        -2.6791761791615095e-09,
+        0.0,
+        1.64038368554133e-07,
+        -8.997487914738125e-08
+      ],
+      [
+        -3.870234333057841e-09,
+        -3.864998213286603e-09,
+        2.0063696231566512e-08,
+        1.5178831318828951e-09,
+        0.0,
+        -8.997487914738125e-08,
+        1.370478088320263e-07
+      ]
+    ]
+  },
+  "caveats": [
+    "Only omega, legacy 2pi and 3pi are Weight-filled. phi/rho/eta/etap are count templates pending weight correction.",
+    "Pythia is supplied Background tree after the same cuts, with no Weight branch.",
+    "Pythia mx treated provisionally as reconstructed missing mass in GeV. Equivalence to SIMC missmass and correspondence to Henry analyzed/thin file remain unverified.",
+    "1000 stored SIMC events per channel: fixed-template fit ignores finite MC shape uncertainty. Conditional errors are not total uncertainties.",
+    "A converged optimizer does not mean the template model describes Pythia. Inspect residuals and chi2.",
+    "Amplitudes are diagnostic count equivalents, not physical yields, branching fractions or cross sections.",
+    "Flows excluded from fit; all 100 visible bins retained, including uncovered bins. No hidden smoothing or added background.",
+    "Parameters at zero boundary have no symmetric error reported; Gaussian covariance is conditional on active set.",
+    "Old absolute display multiplier retained only to show the same black curve; not used to determine fit amplitudes."
+  ],
+  "sources_sha256": {
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_overlay/summary.json": "436c55e3a3644560b7634460a20707088c5fd145e0d314d1a948ed6a6b93d360",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_overlay/overlay_results.root": "76c505b7c737c75ca270e78ce438e2b80bae02ed45ae1a2e9671a95ec08f358e",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/seven_channel_sum_10600/seven_channel_sum.root": "3ccb1f63c48ddb8067250f398245ca9e35bc37ad91f0d294890595c53b9022da",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/seven_channel_sum_10600/summary.json": "35f47b70e32013cad95cd275c56e6c8b84234c9257b39d802ef9ff0f989ccd18",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/pythia_vs_simc_omega_peak_eta_reduced/omega_peak_matched.root": "70c85a8861ef24599a893f214261a05651244029654b50b1d00cf72d23d9407b",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/pythia_vs_simc_omega_peak_eta_reduced/summary.json": "ccddbb84c818b43c442a8840e965561830330c246044151921af3ace4969a484",
+    "/mnt/d/EIC/SIMC_RUNS/BACKGROUND_ROOT_ANALYSIS/Pythia_Background/histograms.root": "d559b912c65eb3a235b00b5f36d09e0ea3e96ab958f19d1808c1f8dcc800d073",
+    "/mnt/d/EIC/SIMC_RUNS/BACKGROUND_ROOT_ANALYSIS/Pythia_Background/summary.json": "118ed08fb926b01184f3765f49c3806eae3ea7d33d5fbe84ddafc5671f246b39",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.root": "c475d81da2fc5f02077afbb9e67184360866966fc60474d83f1af87d81fa107d",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/phi_Roman_007.root": "26db9183a2c04f55727c3b111bb0c118f1dd8b671cb97f9eb56ee9f2902eb141",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/rho_Roman_007/rho_Roman_007.root": "9576855a7892eb20c79549f83cb8f112ba8075f8134e4c3ebb9a7dcab6afbb82",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/eta_Roman_007.root": "a1aaf4ce5fe8759ea01f011213ccbb9b161bde15a7c0339f4af9d58e29c28ce7",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/etap_Roman_007/etap_Roman_007.root": "9855a186f64a702c2fdde8c348bde925e1908546e774f43171cc354b93056818",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp_Roman_007/xphsp_Roman_007.root": "cac7a14bda79cfe48273049d9871a336ffaa8875edb1095b4c137e237b38fb57",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp3_Roman_007/xphsp3_Roman_007.root": "ded61326b57708244d899b05edffbec8b8a5d9d184f45878d42404ef9dbcf39d",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/plots/histograms.root": "977246ad1a05e9ad77612965c60d1d132a1bcb8bf252d3838166d07b52153d6a",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/plots/histograms.root": "b6207cb7170d2731bb1f305958885a6046a9fed1ca8df3c9ca77b4bc266c6331",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/rho_Roman_007/plots/histograms.root": "2882abfacef72122bdbbca725e9a3bc46f1e968785db398102fa1f35c33477e6",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/plots/histograms.root": "e18d3aca26e6fd356b84e219bd3c61cb33e7403637f4444f14628e5b25ceddbd",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/etap_Roman_007/plots/histograms.root": "3d3947bf0acdd443a1edf757a62f1cfa52278a22c2c01bb8b8c8ef6e0e9d7252",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp_Roman_007/plots/histograms.root": "ec85040b85267b14953f59d4245e483f837862bf6613298fa5e5e41889764cc9",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp3_Roman_007/plots/histograms.root": "f393ccf29f78ee63000bc49f5f3dd87ddd4988bbcc97624a22d0f4f3f22a374b",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_weight_applied/summary.json": "9753dd956c62aa8aad2f40b57c18fd8c7f5f305cf3c71150ad11dcaa29acdc3e",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_weight_applied/weight_applied_overlay.root": "ff9fb2c43016753dce6afb3a3c788b5f34627fc3a18e8370505c3b7c27c5f539",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/fit_seven_templates.py": "75c5af3eea29e454654c21377505a515277c7ba48b8ea633d0b5ed3d870759ec",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/fit_seven_templates.C": "ba361122af4f8d8a514a4c6ac5b8d502fc85842a71072eef891bdde90cf6ae7c"
+  },
+  "verification": [
+    "All seven templates independently refilled from source events with cuts and appropriate fill weight.",
+    "Step1: only phase spaces multiplied by 1e10; black curve unchanged.",
+    "NNLS synthetic seven-component closure passed; independent ROOT minimization agrees.",
+    "Histogram sums checked bin by bin; inputs hash-verified before/after; previous outputs preserved."
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "status": "Conditional model prediction within the existing generated domain, NOT validated recorded-event rate",
+  "beam_current_uA": 70,
+  "beam_time_s": 3600,
+  "requested_charge_mC": 252.0,
+  "source_commit": "b6025c462ef33eeb620bdf4b399cd602c92e89bf",
+  "source_references": {
+    "simc.f": [
+      {
+        "line": 103,
+        "text": "targetfac=targ%mass_amu/3.75914e+6/(targ%abundancy/100.)"
+      },
+      {
+        "line": 110,
+        "text": "luminosity = EXPER%charge/targetfac"
+      },
+      {
+        "line": 379,
+        "text": "normfac = luminosity/ntried*nevent"
+      },
+      {
+        "line": 408,
+        "text": "normfac = normfac * genvol"
+      },
+      {
+        "line": 1008,
+        "text": "write(iun,'(1x,''              MeV: wtcontr= '',e16.8)') wtcontribute/nevent"
+      }
+    ],
+    "event.f": [
+      {
+        "line": 1714,
+        "text": "main%sigcc = peep_omega(vertex,main)"
+      },
+      {
+        "line": 1779,
+        "text": "main%weight = main%SF_weight*main%jacobian*main%gen_weight*main%sigcc"
+      }
+    ],
+    "results_write.f": [
+      {
+        "line": 148,
+        "text": "ntu(47) = main%weight"
+      }
+    ],
+    "physics_omega.f": [
+      {
+        "line": 196,
+        "text": "sig4 = sig_LT_extrapolation(thetacm,phicm,uu/1.e6,tt/1.e6,"
+      },
+      {
+        "line": 264,
+        "text": "peep_omega = Jttheta_fx*gamma_T*ntup%sigcm"
+      }
+    ]
+  },
+  "normalization": {
+    "run_charge_mC": 1.0,
+    "normfac_printed": 7860620.0,
+    "Ntried": 136898,
+    "Nsuccess_normalization_denominator": 1000,
+    "luminosity_per_run_ub_inverse": 2736290000.0,
+    "genvol_printed": 0.393271,
+    "event_factor_per_1mC": 7860.62,
+    "event_factor_for_requested_charge": 1980876.24,
+    "formula": "N_model = sum(Weight of stored omega events passing cuts) * normfac/Nsuccess * Q_requested/Q_input",
+    "fit_or_Pythia_factors_used": false,
+    "additional_acceptance_factor_used": false,
+    "external_efficiency_or_live_time_applied": false
+  },
+  "cuts": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "mass_window_added": false,
+  "events": {
+    "stored_before_analysis_cuts": 1000,
+    "after_cuts": 595,
+    "sum_weight_before": 0.00010068771906546203,
+    "sum_weight_after": 5.12814492630298e-05,
+    "sum_weight_squared_after": 4.7058373281614125e-12,
+    "effective_weighted_sample_size_after": 558.8350924880284,
+    "negative_weights": 0
+  },
+  "prediction": {
+    "omega_per_mC_after_cuts": 0.4031039857059573,
+    "omega_per_1h_at_70uA_after_cuts": 101.58220439790124,
+    "omega_per_second": 0.02821727899941701,
+    "omega_per_1h_at_70uA_before_analysis_cuts": 199.44991035656875
+  },
+  "setup": {
+    "Ebeam_GeV": 10.6,
+    "SHMS_electron_p_GeV": 6.7,
+    "SHMS_angle_deg": 13,
+    "HMS_proton_p_GeV": 1.1,
+    "HMS_angle_deg": 32,
+    "target": "hydrogen, A=Z=1",
+    "density_g_cm3": 0.07332,
+    "areal_density_g_cm2": 0.7332,
+    "target_length_cm": 10,
+    "using_rad": false,
+    "using_Eloss": false,
+    "mc_smear": false,
+    "doing_decay": false
+  },
+  "coverage": {
+    "generated_electron_delta_percent": [
+      -10.5,
+      10.5
+    ],
+    "requested_SHMS_analysis_delta_percent": [
+      -10,
+      22
+    ],
+    "accepted_ssdelta_range": [
+      -9.95875072479248,
+      10.288269996643066
+    ],
+    "accepted_ssdeltai_range": [
+      -9.909123420715332,
+      10.313895225524902
+    ],
+    "note": "No prediction for ungenerated region above +10.5%; check whether relevant omega kinematics populate it before claiming complete analysis-acceptance coverage."
+  },
+  "normalization_closure": {
+    "hist_internal_wtcontr": 0.53698485,
+    "recomputed_same_legacy_internal_cut": 0.5369848542511694,
+    "stored_events_in_legacy_cut": 805,
+    "note": "Internal simc.f pass_cuts are different from requested cuts. The archived code uses electron upper delta edge in the proton upper-edge comparison. hard_cuts=0: this does not discard stored events; do not use hist wtcontr as the requested-cut yield."
+  },
+  "remaining_inputs_or_checks": [
+    "Bill confirmation of active omega sig_LT_extrapolation model and its absolute normalization in these kinematics.",
+    "Confirmation of actual target thickness/density, beam energy and spectrometer settings (existing input says provisional).",
+    "Check generation-domain coverage, especially SHMS +10.5 to +22 percent.",
+    "Measured tracking/PID/trigger efficiencies and DAQ live time, target-density change at 70 uA if applicable.",
+    "Radiation, energy loss and smearing are disabled; quantify before production-rate claim.",
+    "Specify whether an omega mass window or additional kinematic cuts should define the counted yield.",
+    "No decay branching factor inserted: simulated channel is e p -> e p omega detected via missing mass, not a selected omega decay. Confirm intended observable."
+  ],
+  "sources_sha256": {
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.root": "c475d81da2fc5f02077afbb9e67184360866966fc60474d83f1af87d81fa107d",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.hist": "83ce8adff0388937f15f39f12c1173f6d6bfdcb1a07226bd1c0f6832f100056b",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.inp": "def61cb007eddd4bd7b86583596b25d8bcf9d53af9a99d8e2f30587d43d52759",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/simc.log": "ad7eddfd77816533a7d54418ea021eaeb073f74c2e6c3d4eb6886cb589661fe4",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_overlay/summary.json": "436c55e3a3644560b7634460a20707088c5fd145e0d314d1a948ed6a6b93d360",
+    "/mnt/d/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/source_b6025c4.tar.gz": "98898bfba245098246d6e8a35c2297d2a8da24d30c8dba04830751018119b215"
+  },
+  "verification": "Original ROOT event sum matched earlier audit; normfac checked against L*genvol*Nsuccess/Ntried; reproduced hist integrated yield using its exact legacy cuts; source hashes unchanged."
+}
