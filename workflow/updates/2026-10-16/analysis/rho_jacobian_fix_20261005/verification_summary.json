@@ -1,0 +1,159 @@
+{
+  "base_commit": "b6025c462ef33eeb620bdf4b399cd602c92e89bf",
+  "fixed_source_directory": "\\\\wsl.localhost\\Ubuntu\\opt\\simc\\roman007-rho-jacobian-fix-20261005",
+  "source_files_checked": 179,
+  "changed_source_files": [
+    "NtupleInit.f",
+    "physics_rho_recoil.f"
+  ],
+  "executable_sha256": "f5d612ae143c2957c4ae332b314e237b903dedf37f0ca6f2a40c68dbb3ff7526",
+  "input_sha256": "cfb9d43b3d6a3a26811f7b3e0935e87c0e8b75ad89263d8e718c74c6829291fa",
+  "input_identical": true,
+  "analysis_cuts": "abs(hsdelta)<8, abs(hsxptar)<0.080, abs(hsyptar)<0.035, -10<ssdelta<22, abs(ssxptar)<0.040, abs(ssyptar)<0.024",
+  "runs": {
+    "before": {
+      "stored_events": 1000,
+      "after_cuts": 573,
+      "generation_attempts": 138115,
+      "columns": 66,
+      "all_stored": {
+        "sigcm": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 8.39762255625674e-10,
+          "max": 5.8447518407801194e-08,
+          "mean": 2.9811932551926034e-08
+        },
+        "siglab": {
+          "negative": 993,
+          "zero": 0,
+          "positive": 7,
+          "nonfinite": 0,
+          "min": -1.4708306862361379e-06,
+          "max": 2.8392478745648194e-06,
+          "mean": -3.5780783296377274e-07
+        },
+        "Weight": {
+          "negative": 993,
+          "zero": 0,
+          "positive": 7,
+          "nonfinite": 0,
+          "min": -1.463265938830049e-06,
+          "max": 2.8351324893335376e-06,
+          "mean": -3.567322659188629e-07
+        }
+      },
+      "after_cuts_stats": {
+        "sigcm": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 573,
+          "nonfinite": 0,
+          "min": 1.1423145359883884e-09,
+          "max": 5.1572091889013554e-08,
+          "mean": 2.975927171810857e-08
+        },
+        "siglab": {
+          "negative": 569,
+          "zero": 0,
+          "positive": 4,
+          "nonfinite": 0,
+          "min": -1.12499545622654e-06,
+          "max": 2.8392478745648194e-06,
+          "mean": -3.42591833993453e-07
+        },
+        "Weight": {
+          "negative": 569,
+          "zero": 0,
+          "positive": 4,
+          "nonfinite": 0,
+          "min": -1.1213484593271577e-06,
+          "max": 2.8351324893335376e-06,
+          "mean": -3.4163277729532263e-07
+        }
+      }
+    },
+    "after": {
+      "stored_events": 1000,
+      "after_cuts": 573,
+      "generation_attempts": 138115,
+      "columns": 65,
+      "all_stored": {
+        "sigcm": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 8.39762255625674e-10,
+          "max": 5.8447518407801194e-08,
+          "mean": 2.9811932551926034e-08
+        },
+        "siglab": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 1.7332196671440217e-08,
+          "max": 7.48732085957134e-07,
+          "mean": 3.4847924429386677e-07
+        },
+        "Weight": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 1.730474678723079e-08,
+          "max": 7.479573175838013e-07,
+          "mean": 3.474508000939449e-07
+        }
+      },
+      "after_cuts_stats": {
+        "sigcm": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 573,
+          "nonfinite": 0,
+          "min": 1.1423145359883884e-09,
+          "max": 5.1572091889013554e-08,
+          "mean": 2.975927171810857e-08
+        },
+        "siglab": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 573,
+          "nonfinite": 0,
+          "min": 2.3465730871620117e-08,
+          "max": 7.016454110040769e-07,
+          "mean": 3.4921635550459416e-07
+        },
+        "Weight": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 573,
+          "nonfinite": 0,
+          "min": 2.343928998000094e-08,
+          "max": 7.0014917100245e-07,
+          "mean": 3.482547113502735e-07
+        }
+      }
+    }
+  },
+  "verification": {
+    "same_initial_random_state": true,
+    "same_events_and_sigcm": true,
+    "tail_column_mapping_verified": {
+      "thetamq": "thetamq",
+      "phimq": "factor",
+      "minus_u": "phimq",
+      "phicmi": "minus_u",
+      "tprimei": "phicmi",
+      "wcmi": "tprimei",
+      "epsiloni": "wcmi",
+      "ui": "epsiloni"
+    },
+    "jacobian_ratio_max_absolute_difference": 3.108624468950438e-14,
+    "weight_ratio_matches_cross_section_ratio": true
+  }
+}

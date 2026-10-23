@@ -1,0 +1,73 @@
+{
+  "commit": "8b43f9d0dd3be977df93b35abc528a389ca70d5c",
+  "commit_date": "2021-06-24",
+  "branch": "master",
+  "source": "billlee77/simc_gfortran",
+  "tests": {
+    "test_eep_h_root": {
+      "reaction": "H(e,e'p) elastic",
+      "stored_events": 1000,
+      "generation_attempts": 3874,
+      "selection": "All stored events; no additional analysis cuts",
+      "signs": {
+        "sigcc": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 3.163961411498508e-05,
+          "max": 0.00010893848977630884,
+          "mean": 4.016161217466076e-05
+        },
+        "Weight": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 2.496122642707434e-05,
+          "max": 0.00010385029971236337,
+          "mean": 3.525242284264847e-05
+        }
+      }
+    },
+    "test_pion_h_sign": {
+      "reaction": "H(e,e'pi+)n",
+      "stored_events": 1000,
+      "generation_attempts": 278783,
+      "selection": "All stored events; no additional analysis cuts",
+      "signs": {
+        "sigcm": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 3.496224619310706e-06,
+          "max": 0.00011268570342321018,
+          "mean": 3.490898842293695e-05
+        },
+        "siglab": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 2.5278086301993784e-06,
+          "max": 0.00016834850787464346,
+          "mean": 3.9208183801511325e-05
+        },
+        "Weight": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 2.0387989542961842e-06,
+          "max": 0.00015371625692368228,
+          "mean": 3.095099939073204e-05
+        }
+      }
+    }
+  },
+  "unchanged_fortran_source_files_verified": 120,
+  "build_compatibility": "Modern compiler flags; trgDeriv compiled separately with byte-identical source; canonical trg_track.f unchanged.",
+  "input_changes": "eep: existing test input with field spelling converted. pion: upstream test_pion_h; . field spelling converted to %, closing label typo corrected, ngen reduced from 10000 to 1000; physical settings retained. See .diff files.",
+  "scope": "master has no exclusive-omega model. These are elastic and pion sign checks, not an omega model comparison. Positive signs do not by themselves identify or confirm the specific reported bug."
+}

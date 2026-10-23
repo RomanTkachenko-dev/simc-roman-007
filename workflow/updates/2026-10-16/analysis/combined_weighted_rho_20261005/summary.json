@@ -1,0 +1,116 @@
+{
+  "status": "Provisional seven-channel template fit; not an absolute yield or cross-section extraction.",
+  "changed_input": "rho count template replaced by corrected rho event-Weight template; remaining six raw templates unchanged.",
+  "rho_source": "/path/to/simc-workspace/work/rho_jacobian_fix_20261005/after/rho_Roman_007.root",
+  "rho_accepted_events": 573,
+  "rho_sum_weight_after_cuts": 0.00019954994960370674,
+  "cuts": "abs(hsdelta)<8.0 && abs(hsxptar)<0.080 && abs(hsyptar)<0.035 && ssdelta>-10.0 && ssdelta<22.0 && abs(ssxptar)<0.040 && abs(ssyptar)<0.024",
+  "range_GeV": [
+    0,
+    2
+  ],
+  "bins": 100,
+  "fit": "Nonnegative seven free amplitudes, fixed histogram shapes, observed-count variance max(n,1).",
+  "solver": "Exhaustive 128 active-set least-squares enumeration; original NNLS/ROOT result reproduced; KKT and synthetic closure checked.",
+  "Pythia_visible_counts": 8846001.0,
+  "Pythia_underflow": 68149.0,
+  "Pythia_overflow": 0.0,
+  "display_scale_unchanged": 5.652271574466248e-06,
+  "previous_chi2": 874426.1773223807,
+  "updated_chi2": 870380.6033666172,
+  "nominal_ndf": 93,
+  "updated_chi2_over_nominal_ndf": 9358.931218995884,
+  "coefficients": {
+    "omega": {
+      "fill": "Weight",
+      "template_visible_integral": 5.12814492630298e-05,
+      "fraction_of_Pythia_total": 0.131486602787356,
+      "Pythia_count_equivalent": 1163130.619743554,
+      "previous_Pythia_count_equivalent": 1173838.8173212153,
+      "scale_raw_to_Pythia_counts": 22681313349.349636,
+      "at_zero_boundary": false,
+      "conditional_count_error_fixed_templates": 1413.6373084656882
+    },
+    "phi": {
+      "fill": "counts",
+      "template_visible_integral": 549.0,
+      "fraction_of_Pythia_total": 0.012619898963718151,
+      "Pythia_count_equivalent": 111635.63885294973,
+      "previous_Pythia_count_equivalent": 109625.48967353406,
+      "scale_raw_to_Pythia_counts": 203.3436044680323,
+      "at_zero_boundary": false,
+      "conditional_count_error_fixed_templates": 778.5961048032655
+    },
+    "rho": {
+      "fill": "Weight",
+      "template_visible_integral": 0.0001995499496037067,
+      "fraction_of_Pythia_total": 0.1222878272162652,
+      "Pythia_count_equivalent": 1081758.2418429093,
+      "previous_Pythia_count_equivalent": 1024908.1400486256,
+      "scale_raw_to_Pythia_counts": 5420989802.258588,
+      "at_zero_boundary": false,
+      "conditional_count_error_fixed_templates": 2456.2254052387216
+    },
+    "eta": {
+      "fill": "counts",
+      "template_visible_integral": 583.0,
+      "fraction_of_Pythia_total": 0.0015516685572992545,
+      "Pythia_count_equivalent": 13726.061609537763,
+      "previous_Pythia_count_equivalent": 10827.438781235338,
+      "scale_raw_to_Pythia_counts": 23.543844956325493,
+      "at_zero_boundary": false,
+      "conditional_count_error_fixed_templates": 233.85324510656102
+    },
+    "etap": {
+      "fill": "counts",
+      "template_visible_integral": 591.0,
+      "fraction_of_Pythia_total": 0.0,
+      "Pythia_count_equivalent": 0.0,
+      "previous_Pythia_count_equivalent": 0.0,
+      "scale_raw_to_Pythia_counts": 0.0,
+      "at_zero_boundary": true,
+      "conditional_count_error_fixed_templates": null
+    },
+    "xphsp": {
+      "fill": "Weight",
+      "template_visible_integral": 4.863024453071428e-10,
+      "fraction_of_Pythia_total": 0.09272518933518177,
+      "Pythia_count_equivalent": 820247.1175842073,
+      "previous_Pythia_count_equivalent": 885335.935328694,
+      "scale_raw_to_Pythia_counts": 1686701610283183.0,
+      "at_zero_boundary": false,
+      "conditional_count_error_fixed_templates": 3659.4568704069766
+    },
+    "xphsp3": {
+      "fill": "Weight",
+      "template_visible_integral": 4.635872007335454e-10,
+      "fraction_of_Pythia_total": 0.540936262272662,
+      "Pythia_count_equivalent": 4785122.71700023,
+      "previous_Pythia_count_equivalent": 4767039.001524315,
+      "scale_raw_to_Pythia_counts": 1.0321947433899412e+16,
+      "at_zero_boundary": false,
+      "conditional_count_error_fixed_templates": 3281.8999450161027
+    }
+  },
+  "caveats": [
+    "omega retains its previous Weight-filled shape, but its underlying sigcm is negative after cuts; omega component remains provisional.",
+    "phi, eta and eta-prime remain count-filled templates.",
+    "Fixed-template fit ignores finite Monte Carlo template uncertainties; the fit is not a validated background subtraction.",
+    "Pythia mx treated provisionally as reconstructed missing mass in GeV. Equivalence to SIMC missmass and correspondence to Henry analyzed/thin file remain unverified.",
+    "Fitted amplitudes are Pythia count equivalents, not luminosity-normalized physical yields or cross sections.",
+    "No updated omega model has been specified yet."
+  ],
+  "sources_sha256": {
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_template_fit/results.root": "3fe15d56433bc0ac805df8a20cebf69b2c2f2aaa391e3042d4f0fb5fd8460c2f",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_template_fit/summary.json": "e74707bf1308824d1db5a6f9796992ed6bf3bf122bd076b453cdd3c8a94ecc3a",
+    "/path/to/simc-workspace/work/rho_jacobian_fix_20261005/after/rho_Roman_007.root": "bd35dde8afb8bec251c04cd5e16ddad02bab3f621a6694d2057152a58b609f98",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/meeting_20260916_weight_applied/summary.json": "9753dd956c62aa8aad2f40b57c18fd8c7f5f305cf3c71150ad11dcaa29acdc3e",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.root": "c475d81da2fc5f02077afbb9e67184360866966fc60474d83f1af87d81fa107d",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/phi_Roman_007/phi_Roman_007.root": "26db9183a2c04f55727c3b111bb0c118f1dd8b671cb97f9eb56ee9f2902eb141",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/rho_Roman_007/rho_Roman_007.root": "9576855a7892eb20c79549f83cb8f112ba8075f8134e4c3ebb9a7dcab6afbb82",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/eta_Roman_007/eta_Roman_007.root": "a1aaf4ce5fe8759ea01f011213ccbb9b161bde15a7c0339f4af9d58e29c28ce7",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/etap_Roman_007/etap_Roman_007.root": "9855a186f64a702c2fdde8c348bde925e1908546e774f43171cc354b93056818",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp_Roman_007/xphsp_Roman_007.root": "cac7a14bda79cfe48273049d9871a336ffaa8875edb1095b4c137e237b38fb57",
+    "/path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/xphsp3_Roman_007/xphsp3_Roman_007.root": "ded61326b57708244d899b05edffbec8b8a5d9d184f45878d42404ef9dbcf39d"
+  }
+}

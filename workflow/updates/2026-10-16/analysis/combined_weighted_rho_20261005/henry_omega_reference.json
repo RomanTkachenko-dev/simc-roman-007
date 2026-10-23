@@ -1,0 +1,153 @@
+{
+  "status": "Assumed reference model reproduced verbatim from Henry supplied plotting script; not a new measurement or updated SIMC model.",
+  "source": "/path/to/EIC/Reference/plot_exp_1over35.py",
+  "source_sha256": "eb6240d348a0a1349bfcff9b774a85f78525aed90d2017fcd59d9aab490a9e7b",
+  "formula": "dsigma/dabs(t) = A * exp(-B*abs(t))",
+  "B_GeV_minus2": 5.0,
+  "rows": [
+    {
+      "W_GeV": [
+        1.8,
+        2.0
+      ],
+      "A_ub_per_GeV2": 10,
+      "at_abs_t_0p95_ub_per_GeV2": 0.08651695203120634,
+      "t_bin_centers_GeV2": [
+        0.83,
+        0.85,
+        0.87,
+        0.89,
+        0.9125000000000001,
+        0.9375,
+        0.9624999999999999,
+        0.9875,
+        1.0125,
+        1.0375,
+        1.0750000000000002
+      ],
+      "assumed_dsigma_dabs_t_ub_per_GeV2": [
+        0.157644164848545,
+        0.14264233908999255,
+        0.12906812580479873,
+        0.11678566970395443,
+        0.10435936462774505,
+        0.0920968160396814,
+        0.08127515489292211,
+        0.071725072450087,
+        0.06329715427485746,
+        0.05585954258998099,
+        0.04630918733533242
+      ]
+    },
+    {
+      "W_GeV": [
+        2.0,
+        2.05
+      ],
+      "A_ub_per_GeV2": 20,
+      "at_abs_t_0p95_ub_per_GeV2": 0.17303390406241267,
+      "t_bin_centers_GeV2": [
+        0.83,
+        0.85,
+        0.87,
+        0.89,
+        0.9125000000000001,
+        0.9375,
+        0.9624999999999999,
+        0.9875,
+        1.0125,
+        1.0375,
+        1.0750000000000002
+      ],
+      "assumed_dsigma_dabs_t_ub_per_GeV2": [
+        0.31528832969709,
+        0.2852846781799851,
+        0.25813625160959747,
+        0.23357133940790886,
+        0.2087187292554901,
+        0.1841936320793628,
+        0.16255030978584423,
+        0.143450144900174,
+        0.12659430854971493,
+        0.11171908517996199,
+        0.09261837467066485
+      ]
+    },
+    {
+      "W_GeV": [
+        2.05,
+        2.1
+      ],
+      "A_ub_per_GeV2": 30,
+      "at_abs_t_0p95_ub_per_GeV2": 0.259550856093619,
+      "t_bin_centers_GeV2": [
+        0.83,
+        0.85,
+        0.87,
+        0.89,
+        0.9125000000000001,
+        0.9375,
+        0.9624999999999999,
+        0.9875,
+        1.0125,
+        1.0375,
+        1.0750000000000002
+      ],
+      "assumed_dsigma_dabs_t_ub_per_GeV2": [
+        0.472932494545635,
+        0.42792701726997767,
+        0.3872043774143962,
+        0.3503570091118633,
+        0.31307809388323515,
+        0.2762904481190442,
+        0.24382546467876634,
+        0.21517521735026096,
+        0.18989146282457242,
+        0.16757862776994298,
+        0.13892756200599726
+      ]
+    },
+    {
+      "W_GeV": [
+        2.1,
+        2.4
+      ],
+      "A_ub_per_GeV2": 40,
+      "at_abs_t_0p95_ub_per_GeV2": 0.34606780812482535,
+      "t_bin_centers_GeV2": [
+        0.83,
+        0.85,
+        0.87,
+        0.89,
+        0.9125000000000001,
+        0.9375,
+        0.9624999999999999,
+        0.9875,
+        1.0125,
+        1.0375,
+        1.0750000000000002
+      ],
+      "assumed_dsigma_dabs_t_ub_per_GeV2": [
+        0.63057665939418,
+        0.5705693563599702,
+        0.5162725032191949,
+        0.4671426788158177,
+        0.4174374585109802,
+        0.3683872641587256,
+        0.32510061957168845,
+        0.286900289800348,
+        0.25318861709942986,
+        0.22343817035992397,
+        0.1852367493413297
+      ]
+    }
+  ],
+  "limitations": [
+    "The script assigns cross-section central values with y_theory; fitted omega counts set relative statistical errors only.",
+    "No new error bars: the referenced Analyzed_Pythia_557p034_thin.root is not available in the checked reference/run locations.",
+    "The formula does not specify Q2 or epsilon dependence. Its applicability to our accepted omega events is not established.",
+    "The combined-template-fit amplitudes are not used to normalize these reference curves.",
+    "No cross-section function or omega event weights in SIMC have been replaced."
+  ],
+  "needed_for_physical_SIMC_estimate": "A specified omega model valid at the actual W,Q2,t/u,epsilon and the appropriate generation Jacobian, confirmed by Bill; then rerun and normalize the generated sample."
+}

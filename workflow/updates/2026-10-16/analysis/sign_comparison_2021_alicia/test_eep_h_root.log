@@ -1,0 +1,28 @@
+(daVar) Replacing definition of variable "parm.doing_rho" in table
+ RANLUX DEFAULT INITIALIZATION:    314159265
+ RANLUX DEFAULT LUXURY LEVEL =   3      p = 223
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ Illegal initialization by RLUXGO, negative input seed
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ sim: calling min_max_init
+ Enter the input filename (assumed to be in infiles directory)
+ filename=infiles/test_eep_h_root.inp                                          
+ filename=infiles/extra_hydrogen_root.inp                                      
+ Use random seed =            0
+ E_bind =   0.0000000000000000      MeV in limits_init (QF only)
+  ****--------  H(e,e'p)  --------****
+    HMS  is detecting electrons
+    SOS  is detecting hadrons
+ Welcome time traveler to Hall C at 6 GeV - Get to work!
+ NOTE: Will NOT be calculating Coulomb correction (default for Hydrogen target)
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ Initial random vector save to file: outfiles/test_eep_h_root_start_random_state.dat                                                                                     
+  
+ Generating Event        1 ...        0  successes so far - Monitor: 0.0000E+00
+ Generating Event     1001 ...      244  successes so far - Monitor: 0.9446E+04
+ Generating Event     2001 ...      520  successes so far - Monitor: 0.1003E+05
+ Generating Event     3001 ...      766  successes so far - Monitor: 0.9810E+04
+ ---> Last Event      3892 ...     1000  successes
+ ... writing outfiles/test_eep_h_root.gen                                                    
+ Come back soon!

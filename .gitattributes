@@ -1,0 +1,12 @@
+# Original upstream binary attributes.
+cosy/cosy binary
+cosy/JLAB.bin binary
+cosy/COSY.bin binary
+cosy/cosyman.pdf binary
+
+# Freeze the exact bytes of published run evidence and inputs.
+/workflow/snapshot/** -text -diff
+/infiles/*_Roman_007.inp -text
+
+# Preserve historical research evidence without Windows line-ending conversion.
+/workflow/updates/2026-10-16/** -text

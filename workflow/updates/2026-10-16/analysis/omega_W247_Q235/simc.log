@@ -1,0 +1,42 @@
+(daVar) Replacing definition of variable "parm.doing_rho" in table
+ RANLUX DEFAULT INITIALIZATION:    314159265
+ RANLUX DEFAULT LUXURY LEVEL =   3      p = 223
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ Illegal initialization by RLUXGO, negative input seed
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ sim: calling min_max_init
+ Enter the input filename (assumed to be in infiles directory)
+ filename=infiles/omega_W247_Q235.inp                                          
+ Use random seed =            0
+ E_bind =   0.0000000000000000      MeV in limits_init (QF only)
+  ****--------  H(e,e'p)omega  --------****
+    SHMS is detecting electrons
+    HMS  is detecting hadrons
+ Welcome to Hall C++ at JLab12 - Get to work!
+ NOTE: Will NOT be applying radiative corrections
+ NOTE: Will NOT be calculating energy loss in the target
+ NOTE: Will NOT be calculating Coulomb correction (default for Hydrogen target)
+ NOTE: Will NOT correct reconstructed data for energy loss
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ RANLUX INITIALIZED BY RLUXGO FROM DEFAULT SEED
+ Initial random vector save to file: outfiles/omega_W247_Q235_start_random_state.dat                                                                                     
+  
+ Generating Event        1 ...        0  successes so far - Monitor: 0.0000E+00
+ Generating Event     1001 ...        4  successes so far - Monitor:-0.1617E+02
+ Generating Event     2001 ...       11  successes so far - Monitor:-0.8208E+01
+ Generating Event     3001 ...       17  successes so far - Monitor:-0.1272E+02
+ Generating Event     4001 ...       23  successes so far - Monitor:-0.1830E+02
+ Generating Event     5001 ...       26  successes so far - Monitor:-0.1697E+02
+ Generating Event    20001 ...       96  successes so far - Monitor:-0.7551E+01
+ Generating Event    40001 ...      207  successes so far - Monitor:-0.1215E+02
+ Generating Event    60001 ...      307  successes so far - Monitor:-0.1582E+02
+ Generating Event    80001 ...      412  successes so far - Monitor:-0.1513E+02
+ Generating Event   100001 ...      519  successes so far - Monitor:-0.1807E+02
+ Generating Event   120001 ...      633  successes so far - Monitor:-0.1892E+02
+ Generating Event   140001 ...      724  successes so far - Monitor:-0.1890E+02
+ Generating Event   160001 ...      830  successes so far - Monitor:-0.1942E+02
+ Generating Event   180001 ...      935  successes so far - Monitor:-0.1931E+02
+ Eloss>Total KE; forcing Eloss=KE
+ ---> Last Event    191856 ...     1000  successes
+ ... writing outfiles/omega_W247_Q235.gen                                                    
+ Come back soon!

@@ -1,0 +1,80 @@
+OMEGA CROSS-SECTION CHECK AFTER ACCEPTANCE CUTS
+Date: 2026-09-30
+
+Source: /path/to/EIC/SIMC_RUNS/ACPOSTUMA_SIMC_GFORTRAN/runs/omega_Roman_007/omega_Roman_007.root
+SHA256: c475d81da2fc5f02077afbb9e67184360866966fc60474d83f1af87d81fa107d
+Frozen SIMC source: b6025c462ef33eeb620bdf4b399cd602c92e89bf
+
+Result
+The same 595/1000 events pass the established acceptance cuts. All 595 sigcm
+values are negative. Their phi-integrated cross sections span -0.062255 to
+-0.027354 microbarn/GeV^2, with arithmetic mean -0.045865. These are signed
+model evaluations at accepted event kinematics, not an experimental extraction
+or an acceptance-corrected cross-section measurement.
+
+Definition and conversion
+physics_omega.f defines sigcm=d^2sigma/(dt dphi), microbarn/MeV^2/radian.
+The active sig_LT_extrapolation sets LT=TT=0, so it is phi independent.
+Hence d sigma/dt [microbarn/GeV^2] = 2*pi*10^6*sigcm in this specific model.
+The stored branch t already means -t [GeV^2]. No abs(sigcm) is applied.
+
+After-cut reconstructed kinematics (arithmetic means and full ranges)
+Q2: mean 3.7516; range 2.8375 to 4.2735 GeV^2.
+W: mean 2.0542; range 1.8819 to 2.5717 GeV.
+-t: mean 0.94866; range 0.82915 to 1.07828 GeV^2.
+epsilon: mean 0.88690; range 0.84187 to 0.91893.
+Model |u|: range 3.54895 to 5.76631 GeV^2.
+CM omega angle inferred opposite to the outgoing CM proton: 15.38 to 30.18 deg.
+This is forward omega kinematics.
+
+Model reproduction
+For nominal Q2>2, set z=Q2, v=abs(u), D=(W^2-mp^2)^2, mp=0.93827231 GeV.
+sigma_T=(20.16527-4.2124*v)/(z^2*D)
+sigma_L=(12.2546-29.8629*v)/(z^4*D)
+d sigma/dt=sigma_T+epsilon*sigma_L.
+This reproduces stored sigcm after unit conversion to maximum relative
+difference 6.11e-7. All 595 longitudinal components are negative; 231 transverse
+components are negative. The active backward-angle extrapolation is therefore
+not a physical forward-region cross section for this sample.
+
+Positive weights do not cure this
+physics_omega.f:234,249,264 multiplies sigcm by a signed fixed-mass Jacobian
+and virtual-photon flux. siglab/sigcm is negative for every accepted event.
+event.f:1753-1779 subsequently includes Coulomb focusing and generation factors.
+The positive event weights are compatible with negative sigcm and a negative
+conversion factor. They do not independently validate the photon cross section.
+The earlier 101.582 events/h arithmetic is reproducible, but should not be
+presented as a validated physical rate until the model and Jacobian are resolved.
+
+Comparison to arXiv:1910.00464 Figure 6
+https://arxiv.org/pdf/1910.00464
+Left: Q2=1.75 GeV^2, W=2.48 GeV; right: Q2=2.35 GeV^2, W=2.47 GeV.
+The axis is photon d sigma/dt in microbarn/GeV^2. Black CLAS points occupy
+the forward -t region and are positive, of order 10^-1 near our -t range
+(only an approximate visual scale; no points were digitized).
+Red Fpi-2 points are the backward region, -t>5, scaled to CLAS kinematics.
+Our accepted Q2 does not reach either Figure-6 central Q2 value. A numerical
+agreement ratio is not justified because both kinematics and model validity
+are unresolved. The principal failure is the negative cross section, not a
+small normalization discrepancy.
+
+Original CLAS paper: https://arxiv.org/pdf/hep-ex/0504057
+Table 3 lists closer settings Q2=3.35,W=2.09,epsilon=0.58 and
+Q2=3.85,W=2.01,epsilon=0.55. These are useful future differential-data
+comparisons but still have different epsilon from this run. Their integrated
+cross sections must not be treated as differential d sigma/dt points.
+
+Additional ROOT schema issue (does not change sigcm, Weight, Q2, W, t)
+NtupleInit.f:178-179 inserts a factor tag with no matching stored value in
+results_write.f:183-190. Some final columns are shifted. In this frozen file:
+actual model W is stored under label tprimei;
+actual model epsilon is under wcmi;
+actual model -u is under epsiloni;
+ui is zero. The analysis reconstructs this mapping only in derived output.
+The source files and original ROOT file are unchanged.
+
+Recommended scientific next step
+Ask Bill to confirm a positive, applicable omega model in this forward region
+and the absolute Jacobian convention. Once resolved, regenerate the sample
+and recompute the rate and cross-section comparison at matched Q2,W,epsilon.
+Do not fix the problem by taking abs(sigcm), abs(Weight), or a fitted scale.

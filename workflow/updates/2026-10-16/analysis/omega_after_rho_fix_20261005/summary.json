@@ -1,0 +1,139 @@
+{
+  "scope": "Original omega input rerun before and after the rho Jacobian and shared NtupleInit fixes. physics_omega.f unchanged; it still uses Jttheta_fx.",
+  "runs": {
+    "before": {
+      "stored": 1000,
+      "after_cuts": 595,
+      "attempts": 136898,
+      "columns": 66,
+      "input_sha256": "def61cb007eddd4bd7b86583596b25d8bcf9d53af9a99d8e2f30587d43d52759",
+      "all_stored": {
+        "sigcm": {
+          "negative": 992,
+          "zero": 0,
+          "positive": 8,
+          "nonfinite": 0,
+          "min": -1.1529690771978901e-08,
+          "max": 1.6590597144105404e-08,
+          "mean": -7.046447891820245e-09
+        },
+        "siglab": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 4.138768850244144e-08,
+          "max": 3.125375940449071e-06,
+          "mean": 1.0096532954617584e-07
+        },
+        "Weight": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 4.129047025491053e-08,
+          "max": 3.1209290865007103e-06,
+          "mean": 1.0068771896839771e-07
+        }
+      },
+      "after_cuts_stats": {
+        "sigcm": {
+          "negative": 595,
+          "zero": 0,
+          "positive": 0,
+          "nonfinite": 0,
+          "min": -9.908137756479544e-09,
+          "max": -4.353589654856274e-09,
+          "mean": -7.299680506615455e-09
+        },
+        "siglab": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 595,
+          "nonfinite": 0,
+          "min": 4.707239600032871e-08,
+          "max": 1.5585693912011714e-07,
+          "mean": 8.642667175097874e-08
+        },
+        "Weight": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 595,
+          "nonfinite": 0,
+          "min": 4.696342079307816e-08,
+          "max": 1.5530407062730584e-07,
+          "mean": 8.61873095815355e-08
+        }
+      }
+    },
+    "after": {
+      "stored": 1000,
+      "after_cuts": 595,
+      "attempts": 136898,
+      "columns": 65,
+      "input_sha256": "def61cb007eddd4bd7b86583596b25d8bcf9d53af9a99d8e2f30587d43d52759",
+      "all_stored": {
+        "sigcm": {
+          "negative": 992,
+          "zero": 0,
+          "positive": 8,
+          "nonfinite": 0,
+          "min": -1.1529690771978901e-08,
+          "max": 1.6590597144105404e-08,
+          "mean": -7.046447891820245e-09
+        },
+        "siglab": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 4.138768850244144e-08,
+          "max": 3.125375940449071e-06,
+          "mean": 1.0096532954617584e-07
+        },
+        "Weight": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 1000,
+          "nonfinite": 0,
+          "min": 4.129047025491053e-08,
+          "max": 3.1209290865007103e-06,
+          "mean": 1.0068771896839771e-07
+        }
+      },
+      "after_cuts_stats": {
+        "sigcm": {
+          "negative": 595,
+          "zero": 0,
+          "positive": 0,
+          "nonfinite": 0,
+          "min": -9.908137756479544e-09,
+          "max": -4.353589654856274e-09,
+          "mean": -7.299680506615455e-09
+        },
+        "siglab": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 595,
+          "nonfinite": 0,
+          "min": 4.707239600032871e-08,
+          "max": 1.5585693912011714e-07,
+          "mean": 8.642667175097874e-08
+        },
+        "Weight": {
+          "negative": 0,
+          "zero": 0,
+          "positive": 595,
+          "nonfinite": 0,
+          "min": 4.696342079307816e-08,
+          "max": 1.5530407062730584e-07,
+          "mean": 8.61873095815355e-08
+        }
+      }
+    }
+  },
+  "verification": {
+    "cross_sections_weights_and_kinematics_exactly_unchanged": true,
+    "corrected_tail_labels_verified": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-07",
+  "upstream_commit": "b6025c462ef33eeb620bdf4b399cd602c92e89bf",
+  "build": "CTP on WSL host; SIMC and official ROOT converter in eic-shell",
+  "portable_launcher": "Full build and six new simulations plus ROOT plots completed successfully.",
+  "frozen_files_verified": 387,
+  "physics_sources_changed": false,
+  "channels": {
+    "omega": {
+      "entries": 1000,
+      "after_cuts": 595,
+      "weight_statistics_match_frozen_run": true
+    },
+    "phi": {
+      "entries": 1000,
+      "after_cuts": 549,
+      "weight_statistics_match_frozen_run": true
+    },
+    "rho": {
+      "entries": 1000,
+      "after_cuts": 573,
+      "weight_statistics_match_frozen_run": true
+    },
+    "eta": {
+      "entries": 1000,
+      "after_cuts": 584,
+      "weight_statistics_match_frozen_run": true
+    },
+    "etap": {
+      "entries": 1000,
+      "after_cuts": 591,
+      "weight_statistics_match_frozen_run": true
+    },
+    "xphsp": {
+      "entries": 1000,
+      "after_cuts": 523,
+      "weight_statistics_match_frozen_run": true
+    }
+  },
+  "limitations": "Technical reproducibility only; signed weights and provisional apparatus are not physics-validated."
+}
