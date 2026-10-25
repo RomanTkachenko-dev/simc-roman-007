@@ -55,7 +55,7 @@ c      common /pawel_crosssection/mass_vtx
       real*8 etarcm,ptarcm,ptarcmx,ptarcmy,ptarcmz !p_fermi in C.M.
       real*8 thetacm,phicm,phiqn,jacobian,jac_old
 
-      real*8 sig_joos,sig_gmh,sig_wli,sig_LT_extrapolation
+      real*8 sig_joos,sig_gmh,sig_wli,sig_omega_model
       real*8 sig1,sig2,sig3,sig4
 
       real*8 nu_nominal, q_nominal_2, q2_nominal
@@ -192,9 +192,9 @@ c     *     uprime/1.e6,vertex%q2/1.e6,invm/1.e3,mass/1.e3,epsilon)
 c      sig3 = sig_wli(thetacm,phicm,uu/1.e6,vertex%q2/1.e6,
 c    *     invm/1.e3,epsilon,q2_nominal)
 
-* Wenliang Li's extrapolation to higher Q2
-      sig4 = sig_LT_extrapolation(thetacm,phicm,uu/1.e6,tt/1.e6,
-     *    vertex%q2/1.e6,invm/1.e3,epsilon,q2_nominal)
+* Forward CLAS6 parameterization for -t <= 1.5 GeV^2; Li above it.
+      sig4 = sig_omega_model(thetacm,phicm,uu/1.e6,tt/1.e6,
+     *    tprime/1.e6,vertex%q2/1.e6,invm/1.e3,epsilon,q2_nominal)
 
 c      print*, " kin ",thetacm,phicm,tt/1.e6,tprime/1.e6,vertex%q2/1.e6,
 c     *     invm/1.e3,epsilon
@@ -262,6 +262,11 @@ C DJG Note to me: If we ever want to extend to deuterium, need to get rid of num
 C DJG hard-wired proton masses above...
 
       peep_omega = Jttheta_fx*gamma_T*ntup%sigcm
+* Forward proton kinematics can have either sign of the lab Jacobian.
+* The differential cross section uses its magnitude on both branches.
+      if (-tt/1.e6.le.1.5d0) then
+         peep_omega = abs(Jttheta_fx)*gamma_T*ntup%sigcm
+      endif
 
       if (debug(2)) write(6,*)' peep_omega: end ',peep_omega
       return 
@@ -906,4 +911,105 @@ c      wfactor=(2.47**2-m_p**2)**2/(w_gev**2-m_p**2)**2
       sig_LT_extrapolation = sig
 
       return
+      end
+
+
+      real*8 function sig_omega_model(theta,phi,u,t,tp,q2,w,eps,qnom)
+* All invariants in GeV units. Return microbarn/MeV^2/rad.
+* The switch is in -t, NOT -t' or the detected proton CM angle.
+* No blending: the forward and backward fits are independent models.
+      implicit none
+      real*8 theta,phi,u,t,tp,q2,w,eps,qnom
+      real*8 sig_omega_lowt,sig_LT_extrapolation
+
+      if (-t.le.1.5d0) then
+         sig_omega_model = sig_omega_lowt(q2,w,tp)
+      else
+         sig_omega_model = sig_LT_extrapolation(theta,phi,u,t,
+     *        q2,w,eps,qnom)
+      endif
+      end
+
+
+      real*8 function sig_omega_lowt(q2,w,tp)
+* Empirical forward omega model anchored to CLAS6, NOT a Regge amplitude.
+* L. Morand et al., Eur.Phys.J.A 24 (2005) 445-458, Table 3,
+* https://arxiv.org/abs/hep-ex/0504057 (v1, Table 3).
+* Columns: Q^2 [GeV^2], xB, t0 [GeV^2], sigma_U [nb], b [GeV^-2].
+* Only the 29 rows with measured b are included (five rows have no b).
+* Approximate d sigma_U/dt = A exp(-b*t'), t'=t_min-t >= 0.
+* A = sigma_U*b/(1-exp(-b*(2.7+t0))) normalizes the exponential to
+* the published integration window -2.7 < t < t0 at each anchor.
+* This extends the LOW-t slope over that window to infer A; the measured
+* high-t tail need not be exponential. It is a normalization assumption.
+* Interpolate log(A) and b with inverse squared distance in
+* (Q^2/0.5 GeV^2, xB/0.06), using all anchors (Shepard interpolation).
+* Outside coverage this is a bounded continuation, not a measured fit.
+* sigma_U is held independent of epsilon (no L/T separation available).
+* Flat phi is assumed; measured t-INTEGRATED TT/TL are not used as
+* differential responses. No omega decay branching ratio is applied.
+* Return microbarn/MeV^2/rad; 1 nb/GeV^2 = 1e-9 ub/MeV^2.
+      implicit none
+      include 'constants.inc'
+      integer n,i
+      parameter (n=29)
+      real*8 q2,w,tp,xb,mpg,dist,weight,wsum,loga,bsum,amp,b
+      real*8 tab(5,n)
+      save tab
+      data tab /
+     * 1.725d0,.203d0,-.09d0, 536d0,2.44d0,
+     * 1.752d0,.250d0,-.15d0, 661d0,1.93d0,
+     * 2.042d0,.252d0,-.14d0, 421d0,2.28d0,
+     * 2.320d0,.265d0,-.14d0, 344d0,1.88d0,
+     * 1.785d0,.308d0,-.25d0,1139d0,1.23d0,
+     * 2.050d0,.310d0,-.23d0, 551d0,1.90d0,
+     * 2.350d0,.310d0,-.21d0, 395d0,2.03d0,
+     * 2.639d0,.313d0,-.20d0, 287d0,1.90d0,
+     * 2.914d0,.327d0,-.22d0, 226d0,1.87d0,
+     * 2.050d0,.370d0,-.37d0,1002d0, .97d0,
+     * 2.350d0,.370d0,-.34d0, 581d0,1.35d0,
+     * 2.650d0,.370d0,-.31d0, 380d0,1.62d0,
+     * 2.950d0,.370d0,-.30d0, 273d0,1.93d0,
+     * 3.295d0,.378d0,-.30d0, 230d0,1.46d0,
+     * 2.055d0,.429d0,-.59d0,2203d0,1.03d0,
+     * 2.350d0,.430d0,-.53d0,1013d0, .78d0,
+     * 2.650d0,.430d0,-.49d0, 626d0, .81d0,
+     * 2.950d0,.430d0,-.46d0, 427d0, .92d0,
+     * 3.350d0,.430d0,-.43d0, 265d0,1.34d0,
+     * 3.807d0,.436d0,-.42d0, 191d0,1.47d0,
+     * 2.371d0,.481d0,-.79d0,1660d0, .92d0,
+     * 2.651d0,.490d0,-.75d0,1113d0, .68d0,
+     * 2.950d0,.490d0,-.69d0, 644d0, .23d0,
+     * 3.350d0,.490d0,-.64d0, 397d0,1.39d0,
+     * 3.850d0,.490d0,-.60d0, 272d0,1.41d0,
+     * 4.307d0,.494d0,-.58d0, 187d0, .78d0,
+     * 3.850d0,.550d0,-.88d0, 327d0, .65d0,
+     * 4.350d0,.550d0,-.83d0, 258d0, .90d0,
+     * 4.765d0,.557d0,-.83d0, 222d0,1.36d0 /
+
+      sig_omega_lowt=0.d0
+      mpg=Mp/1.d3
+      if (q2.le.0.d0.or.w.le.mpg.or.tp.lt.-1.d-9) return
+      xb=q2/(w*w-mpg*mpg+q2)
+      wsum=0.d0
+      loga=0.d0
+      bsum=0.d0
+      do i=1,n
+         b=tab(5,i)
+         amp=tab(4,i)*b/(1.d0-exp(-b*(2.7d0+tab(3,i))))
+         dist=((q2-tab(1,i))/.5d0)**2
+     *        +((xb-tab(2,i))/.06d0)**2
+         if (dist.lt.1.d-20) then
+            sig_omega_lowt=amp*exp(-b*max(0.d0,tp))
+     *           *1.d-9/(2.d0*pi)
+            return
+         endif
+         weight=1.d0/dist
+         wsum=wsum+weight
+         loga=loga+weight*log(amp)
+         bsum=bsum+weight*b
+      enddo
+      amp=exp(loga/wsum)
+      b=bsum/wsum
+      sig_omega_lowt=amp*exp(-b*max(0.d0,tp))*1.d-9/(2.d0*pi)
       end
