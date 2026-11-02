@@ -1,0 +1,69 @@
+SIMC 2021 versus Alicia/Acpostuma: identical-input sign comparison
+
+Versions
+2021 master: 8b43f9d0dd3be977df93b35abc528a389ca70d5c
+Alicia/Acpostuma: b6025c462ef33eeb620bdf4b399cd602c92e89bf
+The Alicia build is the same local build used for the negative omega plot.
+
+Method
+Ran test_eep_h_root.inp and test_pion_h_sign.inp in the Alicia build.
+The main inputs and their extra parameter files are byte-identical to the
+inputs used in the completed 2021 runs. All four SHA-256 hashes are in
+comparison_summary.json. Saved initial random states are also byte-identical.
+Checked the input settings echoed in the run reports. Beam, spectrometers,
+target and shared simulation switches agree. Radiative effects, energy loss
+and smearing are enabled in these test inputs. Hydrogen Coulomb correction is
+disabled by both programs at runtime, despite the input switch being enabled.
+Verified all 179 Fortran/include files in the Alicia source archive against
+the built source tree: no differences. No physics code was edited for this test.
+
+Analysed all 1000 stored events from each run, with no additional analysis
+cuts. Used signed native values without absolute values or extra scaling.
+Converted native binary ntuples to ROOT and verified the compared values.
+
+Branch mapping
+Elastic 2021: NtupleInit.f names slot 43 sigcc;
+results_write.f fills it with main%sigcc.
+Elastic Alicia: NtupleInit.f names slot 45 siglab;
+results_write.f fills it with main%sigcc because doing_eep now uses the
+meson-style ntuple layout. The comparison maps these columns explicitly.
+The Alicia elastic sigcm column is not used as the elastic cross section.
+ROOT files preserve native column names; sigcc in the comparison JSON is the
+comparison label for the same internal quantity, not a renamed ROOT branch.
+Pion: sigcm, siglab and Weight retain their names in both versions.
+
+Results: all compared cross sections and weights are strictly positive in
+all 1000 stored events of both reactions and both versions. No zeros or
+nonfinite values occur in these compared columns.
+
+Elastic, mean values in native output units:
+                         2021                  Alicia
+cross section      4.016161217466076e-5   4.023788164235929e-5
+Weight             3.525242284264847e-5   3.532002398345907e-5
+Alicia/2021 mean cross section = 1.0018990638963108 (+0.189906%).
+Alicia/2021 mean Weight = 1.0019176310551008 (+0.191763%).
+Generation attempts: 3874 versus 3892. The stored samples are not identical.
+These mean differences alone do not establish a change in the elastic model.
+The cause of the small sample difference was not isolated by this comparison.
+
+Pion, mean values in native output units, identical in both versions:
+sigcm   3.490898842293695e-5
+siglab  3.9208183801511325e-5
+Weight  3.095099939073204e-5
+All 1000 sigcm, siglab and Weight values are exactly equal event by event.
+Generation attempts: 278783 versus 278806. Other output columns are not all
+identical, so this is not a claim that the complete simulations are identical.
+
+Interpretation
+The negative-cross-section issue was not reproduced in these elastic and
+pion tests with the same inputs. This does not validate the omega model or
+identify the cause of its negative values. The 2021 master lacks the omega
+model needed for an identical omega comparison.
+
+Artifacts
+elastic_comparison.png / .svg
+pion_comparison.png / .svg
+comparison_summary.json: full statistics, hashes, provenance, branch mapping
+test_eep_h_root.root, test_pion_h_sign.root: Alicia outputs
+Matching .inp, .bin, .log, .hist, .gen, .geni and random-state files
+2021 reference outputs remain in ../sign_check_2021/.

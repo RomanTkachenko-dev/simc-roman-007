@@ -1,0 +1,22 @@
+--- a/NtupleInit.f
++++ b/NtupleInit.f
+@@ -175,8 +175,6 @@
+ 	  else if (doing _eepx.or.doing_Xphasespace) then
+ 	    m = m+1
+ 	    NtupleTag(m) = 'thetamq'    ! 58 or 66
+-	    m = m+1
+-	    NtupleTag(m) = 'factor'	! 55
+             m = m+1
+             NtupleTag(m) = 'phimq'      ! 59 or 67
+ 	    m=m+1
+--- a/physics_rho_recoil.f
++++ b/physics_rho_recoil.f
+@@ -238,7 +238,7 @@
+ CDJG BW in event generation - also want Jacobian at fixed Mx ...
+ CDJG May want (Mrho/Mass)**5.2 as an extra weight here. Need to check with Garth.
+ 
+-      peep_rho=Jttheta_fx*gamma_T*Soding*ntup%sigcm
++      peep_rho=Jttheta*gamma_T*Soding*ntup%sigcm
+ 
+       return 
+       end
